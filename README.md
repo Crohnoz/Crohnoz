@@ -27,6 +27,7 @@ I design and build operational products for businesses that have outgrown spread
 | [Crohnoz Trace](https://github.com/Crohnoz/Crohnoz_Trace) | Traceability, immutable operational evidence, file hashing, and audit trails | Python · Django |
 | [Sweet Ops](https://github.com/Crohnoz/sweetops) | Daily operations for pastry and food-service teams: production, inventory, waste, and orders | Python · Django |
 | [Sistema Administrativo de Arriendos](https://github.com/Crohnoz/sistema_gestion_de_arriendos) | Billing, payments, vouchers, contracts, and move-out settlements for small buildings | React · Supabase |
+| [IncluMe](https://inclume-chile.netlify.app/) · [Code](https://github.com/Crohnoz/IncluMe) | Accessible parking discovery, community reporting, and municipal review tools | JavaScript · Django · Supabase |
 | [Crohnoz Labs](https://github.com/Crohnoz/Crohnoz-Labs) | Product studio and home for the Crohnoz ecosystem | Web · Product Design |
 
 I am also developing **FDR**, a private clinical operations platform for podology practices, with scheduling, patient records, professional roles, and organization-level data isolation.
