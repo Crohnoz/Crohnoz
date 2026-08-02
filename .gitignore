@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Databases and runtime data
+*.sqlite3
+*.db
+media/
+staticfiles/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# JavaScript
+node_modules/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
