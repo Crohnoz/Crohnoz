@@ -1,56 +1,66 @@
-<p align="center">
-  <a href="https://github.com/Crohnoz/Crohnoz-Labs">
-    <img src="https://raw.githubusercontent.com/Crohnoz/Crohnoz-Labs/main/assets/brand/crohnoz-logo-horizontal.svg" width="720" alt="Crohnoz Labs — Build, Automate, Protect">
-  </a>
-</p>
+<div align="center">
 
-<h1 align="center">Enrique Flores</h1>
+# Enrique Flores
 
-<p align="center">
-  Full-Stack Developer · Cybersecurity · Founder of Crohnoz Labs
-</p>
+**Full-Stack Product Developer · Python/Django · Operational Software**
 
-<p align="center">
-  Building focused software for real businesses in Chile.
-</p>
+I design and build secure, practical systems for real-world operations in Chile through [Crohnoz Labs](https://crohnozlabs.cl).
 
-## Software that solves the actual problem
+[Website](https://crohnozlabs.cl) · [Email](mailto:prog.eflores@gmail.com)
 
-I design and build operational products for businesses that have outgrown spreadsheets, generic platforms, and manual processes. My work combines product discovery, clean interfaces, secure backends, and practical deployment.
+</div>
 
-> **If it doesn't solve a problem, we don't build it.**
+## What I build
 
-## Selected work
+I turn fragmented workflows, spreadsheets, manual controls, and operational bottlenecks into software that teams can actually use. My work covers product discovery, backend architecture, interfaces, data models, deployment, security, and continuous improvement with real users.
 
-| Product | What it solves | Stack |
+Typical domains include scheduling, clinical operations, inventory, purchasing, order management, traceability, reporting, accessibility, and small-business administration.
+
+## Public product demos
+
+These deployments demonstrate product direction and user experience without publishing the commercial source code.
+
+| Product | Focus | Access |
 | --- | --- | --- |
-| [Crohnoz Trace](https://github.com/Crohnoz/Crohnoz_Trace) | Traceability, immutable operational evidence, file hashing, and audit trails | Python · Django |
-| [Sweet Ops](https://github.com/Crohnoz/sweetops) | Daily operations for pastry and food-service teams: production, inventory, waste, and orders | Python · Django |
-| [Sistema Administrativo de Arriendos](https://github.com/Crohnoz/sistema_gestion_de_arriendos) | Billing, payments, vouchers, contracts, and move-out settlements for small buildings | React · Supabase |
-| [IncluMe](https://inclume-chile.netlify.app/) · [Code](https://github.com/Crohnoz/IncluMe) | Accessible parking discovery, community reporting, and municipal review tools | JavaScript · Django · Supabase |
-| [Crohnoz Labs](https://github.com/Crohnoz/Crohnoz-Labs) | Product studio and home for the Crohnoz ecosystem | Web · Product Design |
+| **Crohnoz Fresh Market** | Guided inventory and operations for fresh-produce stores | [Live demo](https://crohnozfreshmarket.netlify.app) |
+| **Crohnoz Sushi** | Digital ordering and operational workflows for sushi businesses | [Live demo](https://crohnozsushi.netlify.app) |
+| **Crohnoz Bottle-O** | Supplier, catalog, barcode, receiving, and stock workflows for bottle shops | [Live demo](https://crohnozbottle-o.netlify.app) |
+| **IncluMe Chile** | Accessible parking discovery, community reporting, and inclusion tooling | [Live demo](https://inclume-chile.netlify.app) |
 
-I am also developing **FDR**, a private clinical operations platform for podology practices, with scheduling, patient records, professional roles, and organization-level data isolation.
+## Private systems and case studies
 
-## Core toolkit
+- **Sweet Ops** — production, orders, inventory, waste control, station printing, and daily operations for pastry and food-service teams.
+- **FDR** — multi-organization clinical operations for podology practices, including scheduling, patient records, professional roles, and tenant-level data isolation.
+- **Crohnoz Trace** — custody, evidence, hashing, traceability, and audit-oriented operational records.
+- **Administrative Rentals System** — billing, payments, meter readings, vouchers, contracts, historical records, and move-out settlements.
+
+Detailed walkthroughs can be presented without granting repository access.
+
+## Engineering focus
 
 `Python` · `Django` · `Django REST Framework` · `JavaScript` · `React` · `PostgreSQL` · `Supabase` · `Docker` · `Linux` · `Git`
 
-## How I work
+## Working principles
 
-- Start with the real workflow and the people who perform it.
-- Keep everyday operation simple, visible, and editable.
-- Build traceability and security into the product from the beginning.
-- Ship useful increments, validate them, and improve with real users.
+- Understand the real workflow before choosing the architecture.
+- Keep daily operation simple, visible, and traceable.
+- Apply security, privacy, and least-privilege practices from the beginning.
+- Deliver useful increments, validate them with users, and improve continuously.
+- Treat deployment, documentation, testing, and operational continuity as part of the product.
 
-## Let's build something useful
+## Source-code policy
 
-Based in Chile and open to remote or hybrid opportunities, product collaborations, and selected client projects.
+Client systems, commercial products, shared internal modules, infrastructure, and production configuration remain private. Public demonstrations use synthetic or non-sensitive content and are intended to show product capability—not expose proprietary implementation.
 
-- Portfolio: [crohnoz.github.io](https://crohnoz.github.io)
-- Studio: [Crohnoz Labs](https://github.com/Crohnoz/Crohnoz-Labs)
+## Contact
+
+Based in Chile. Open to remote or hybrid software roles, product collaborations, and selected implementation projects.
+
+- Crohnoz Labs: [crohnozlabs.cl](https://crohnozlabs.cl)
 - Email: [prog.eflores@gmail.com](mailto:prog.eflores@gmail.com)
 
-<p align="center">
-  <sub>Build · Automate · Protect</sub>
-</p>
+<div align="center">
+
+**Build · Automate · Protect**
+
+</div>
