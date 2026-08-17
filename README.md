@@ -8,7 +8,7 @@
 
 I design and build software ecosystems that turn real operational problems into usable, measurable products.
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [Public work](#selected-public-surface) · [Engineering](#engineering-surface)
+[Crohnoz Labs](https://crohnozlabs.cl) · [Public surface](#public-surface) · [Engineering](#engineering-surface)
 
 </div>
 
@@ -59,7 +59,7 @@ flowchart LR
     COMMUNITY --> TALENT[Talent]
 ```
 
-The diagram is a public architectural view only. Internal infrastructure, client environments, credentials, production topology, private datasets, and sensitive implementation details are intentionally excluded.
+The diagram is a public architectural view only. Source code, internal infrastructure, client environments, credentials, production topology, private datasets, and sensitive implementation details are intentionally excluded.
 
 ---
 
@@ -78,22 +78,22 @@ I work across the full product lifecycle rather than only the frontend/backend b
 
 ## Selected Crohnoz Labs surface
 
-| System / area | Purpose | Visibility |
+| System / area | Purpose | Public exposure |
 | --- | --- | --- |
-| **Crohnoz Academy** | Role-based learning, guided training and practical upskilling | Private platform |
-| **Crohnoz Forge** | Incubation space for ideas, prototypes and product experiments | [Public repository](https://github.com/Crohnoz/Crohnoz-Forge) |
-| **Crohnoz Fresh Market** | Guided inventory and store operations | [Public repository](https://github.com/Crohnoz/Crohnoz-FreshMarket) · [Demo](https://crohnozfreshmarket.netlify.app) |
-| **Crohnoz Systems** | Shared systems engineering and reusable product foundations | [Public repository](https://github.com/Crohnoz/Crohnoz-Systems) |
-| **Crohnoz Talent** | Talent workflows and opportunity matching | Private product |
-| **Crohnoz Executive** | Executive visibility and operational decision support | Private platform |
-| **Crohnoz CrowdLab** | Public-signal observation, research and validation workflows | Private R&D |
-| **Crohnoz FinOps** | Cost visibility and operational technology spend control | Private internal system |
-| **Crohnoz Radar** | Monitoring and opportunity-detection workflows | Private internal system |
-| **Viral Engine** | Distributed content-generation and processing workflows | Private R&D |
-| **Crohnoz Trace** | Audit-oriented custody, evidence and traceability workflows | Private system |
-| **IncluMe Chile** | Accessibility-oriented discovery and community tooling | [Public repository](https://github.com/Crohnoz/IncluMe) · [Demo](https://inclume-chile.netlify.app) |
+| **Crohnoz Academy** | Role-based learning, guided training and practical upskilling | Product overview only |
+| **Crohnoz Forge** | Incubation space for ideas, prototypes and product experiments | Product overview only · source private |
+| **Crohnoz Fresh Market** | Guided inventory and store operations | [Live demo](https://crohnozfreshmarket.netlify.app) · source private |
+| **Crohnoz Systems** | Shared systems engineering and reusable product foundations | Architecture overview only · source private |
+| **Crohnoz Talent** | Talent workflows and opportunity matching | Product overview only |
+| **Crohnoz Executive** | Executive visibility and operational decision support | Product overview only |
+| **Crohnoz CrowdLab** | Public-signal observation, research and validation workflows | R&D overview only |
+| **Crohnoz FinOps** | Cost visibility and operational technology spend control | Internal system |
+| **Crohnoz Radar** | Monitoring and opportunity-detection workflows | Internal system |
+| **Viral Engine** | Distributed content-generation and processing workflows | R&D overview only |
+| **Crohnoz Trace** | Audit-oriented custody, evidence and traceability workflows | Capability overview only |
+| **IncluMe Chile** | Accessibility-oriented discovery and community tooling | [Live demo](https://inclume-chile.netlify.app) |
 
-This is a curated subset of a larger repository portfolio spanning production systems, prototypes, research, internal tooling, operational software, and reusable engineering components.
+This is a curated product surface. The implementation behind commercial products, internal platforms, reusable components and R&D systems is not part of the public portfolio.
 
 ---
 
@@ -130,15 +130,29 @@ This is a curated subset of a larger repository portfolio spanning production sy
 
 ---
 
-## Selected public surface
+## Public surface
 
-These repositories and deployments are intentionally public. Commercial systems, internal platforms, client work, infrastructure, private datasets, and security-sensitive implementation remain private.
+The public layer demonstrates **what the systems do**, not how the private implementation is built.
 
-- [Crohnoz Forge](https://github.com/Crohnoz/Crohnoz-Forge) — product incubation and experimentation.
-- [Crohnoz Fresh Market](https://github.com/Crohnoz/Crohnoz-FreshMarket) — operational product for inventory-driven retail workflows.
-- [Crohnoz Systems](https://github.com/Crohnoz/Crohnoz-Systems) — systems engineering work and shared foundations.
-- [IncluMe](https://github.com/Crohnoz/IncluMe) — accessibility and community-oriented software.
-- [Crohnoz.github.io](https://github.com/Crohnoz/Crohnoz.github.io) — earlier public web work and portfolio history.
+- [Crohnoz Labs](https://crohnozlabs.cl) — primary product and company surface.
+- [Crohnoz Fresh Market](https://crohnozfreshmarket.netlify.app) — live product demonstration.
+- [IncluMe Chile](https://inclume-chile.netlify.app) — accessibility-oriented public demonstration.
+
+Additional demonstrations and case-study views can be published with synthetic data and sanitized architecture diagrams while keeping source repositories private.
+
+---
+
+## Repository exposure policy
+
+**Default: private source. Public by exception.**
+
+A repository should be public only when its contents are deliberately intended for open distribution, education, an open-source component, or a sanitized showcase. Product source code, reusable internal modules, commercial logic, infrastructure, client work, operational automation and R&D remain private.
+
+The preferred public pattern is:
+
+`private repository → controlled deployment → synthetic/demo data → public product surface`
+
+This lets the work remain inspectable from a product perspective without exposing implementation, internal architecture, credentials, infrastructure, datasets or proprietary logic.
 
 ---
 
@@ -149,15 +163,7 @@ These repositories and deployments are intentionally public. Commercial systems,
 3. **Security and privacy are architecture concerns, not a final checklist.**
 4. **A useful product includes deployment, testing, documentation and continuity.**
 5. **Ship increments, observe real use, measure friction, improve continuously.**
-6. **Keep sensitive systems private while exposing enough evidence to demonstrate capability.**
-
----
-
-## Public / private boundary
-
-GitHub is the **showroom**, not the production control room.
-
-Public material can demonstrate product thinking, architecture, interfaces, engineering practices, selected source code, and synthetic workflows. It does **not** expose client data, private repositories, production configuration, infrastructure addresses, credentials, secrets, internal security findings, or operational access paths.
+6. **Expose capability publicly; keep proprietary implementation private.**
 
 ---
 
