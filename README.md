@@ -25,41 +25,34 @@ The work is intentionally broader than a conventional portfolio: products share 
 ### Ecosystem map
 
 ```mermaid
-flowchart LR
-    LAB[Crohnoz Labs]
+flowchart TB
+    LAB["CROHNOZ LABS<br/>Product engineering ecosystem"]
+    FOUNDATION["SHARED FOUNDATION<br/>Architecture · Data · Security · Delivery · Observability"]
 
-    LAB --> PRODUCT[Product Systems]
-    LAB --> OPS[Operations & Intelligence]
-    LAB --> AI[Applied AI & Automation]
-    LAB --> ENG[Engineering Platform]
-    LAB --> COMMUNITY[Learning & Community]
+    LAB --> FOUNDATION
 
-    PRODUCT --> FM[Fresh Market]
-    PRODUCT --> SUPPLY[Supply]
-    PRODUCT --> PAY[Pay]
-    PRODUCT --> MATCH[Match]
-    PRODUCT --> TRACE[Trace]
+    FOUNDATION --> PRODUCT["PRODUCT SYSTEMS<br/>Turn operations into usable software"]
+    FOUNDATION --> OPS["OPERATIONS & INTELLIGENCE<br/>Measure, coordinate and decide"]
+    FOUNDATION --> AI["APPLIED AI & AUTOMATION<br/>Observe, assist and automate"]
+    FOUNDATION --> ENG["ENGINEERING PLATFORM<br/>Build, secure and operate"]
+    FOUNDATION --> COMMUNITY["LEARNING & COMMUNITY<br/>Train, incubate and connect"]
 
-    OPS --> EXEC[Executive]
-    OPS --> FIN[FinOps]
-    OPS --> OI[Operations Intelligence]
-    OPS --> RADAR[Radar]
-
-    AI --> VIRAL[Viral Engine]
-    AI --> CROWD[CrowdLab]
-    AI --> GEMELO[Gemelo]
-    AI --> VISUAL[Visual Systems]
-
-    ENG --> SYSTEMS[Systems]
-    ENG --> AUDIT[Auditory]
-    ENG --> METHODS[Methodologies]
-
-    COMMUNITY --> ACADEMY[Academy]
-    COMMUNITY --> FORGE[Forge]
-    COMMUNITY --> TALENT[Talent]
+    PRODUCT --> PRODUCT_SET["Fresh Market · Supply · Pay<br/>Match · Trace"]
+    OPS --> OPS_SET["Executive · FinOps<br/>Operations Intelligence · Radar"]
+    AI --> AI_SET["Viral Engine · CrowdLab<br/>Gemelo · Visual Systems"]
+    ENG --> ENG_SET["Systems · Auditory<br/>Methodologies"]
+    COMMUNITY --> COMMUNITY_SET["Academy · Forge · Talent"]
 ```
 
-The diagram is a public architectural view only. Source code, internal infrastructure, client environments, credentials, production topology, private datasets, and sensitive implementation details are intentionally excluded.
+**How to read it:** Crohnoz Labs is not a collection of isolated apps. The products sit on a shared engineering foundation, while each area has a distinct role in the ecosystem:
+
+- **Product Systems** transform operational workflows into software people can use every day.
+- **Operations & Intelligence** turn activity into visibility, metrics, coordination and decision support.
+- **Applied AI & Automation** adds observation, assistance, content processing and automated workflows where they provide practical value.
+- **Engineering Platform** provides reusable architecture, security practices, tooling and delivery foundations across products.
+- **Learning & Community** develops people, validates ideas and creates paths from learning to experimentation and opportunity.
+
+The systems shown are representative, not an exhaustive inventory. The diagram exposes the **product architecture and capability model**, while source code, internal infrastructure, client environments, credentials, production topology, private datasets and sensitive implementation details remain private.
 
 ---
 
