@@ -10,7 +10,7 @@ Building practical technology systems for real operations — from software and 
 
 [ES](README.es.md) · **EN** · [中文](README.zh-CN.md)
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [Professional profile](https://crohnozlabs.cl/profile) · [Public repositories](https://github.com/Crohnoz?tab=repositories)
+[Crohnoz Labs](https://crohnozlabs.cl) · [Professional profile](https://crohnozlabs.cl/profile) · [Public evidence](evidence/README.md)
 
 **Chile → Global · Software ↔ Hardware · Build → Operate → Improve**
 
@@ -81,16 +81,17 @@ flowchart TB
 
 ## Public evidence
 
-Selected public work is intentionally inspectable without exposing private infrastructure, client systems or proprietary implementation.
+Public evidence is curated as **case studies and demonstrations**, not as a dump of source repositories. The purpose is to show product thinking, architecture, engineering controls and operational understanding while keeping proprietary implementation private by default.
 
-- [Crohnoz Forge](https://github.com/Crohnoz/Crohnoz-Forge) — product lab and incubation
-- [Crohnoz Fresh Market](https://github.com/Crohnoz/Crohnoz-FreshMarket) — product and operations
-- [Crohnoz Systems](https://github.com/Crohnoz/Crohnoz-Systems) — systems engineering
-- [IncluMe](https://github.com/Crohnoz/IncluMe) — accessibility-oriented project
-- [CV Ciberseguridad](https://github.com/Crohnoz/CV-Ciberseguridad) — cybersecurity evidence
-- [portalnoviciado](https://github.com/Crohnoz/portalnoviciado) — public web system
+| Product | What it proves | Evidence |
+|---|---|---|
+| **Crohnoz Forge** | Discovery systems, local-first workflows, privacy and stage gates | [Case study](evidence/forge.md) · [Live demo](https://crohnoz-forge.netlify.app) |
+| **Crohnoz Fresh Market** | Full-stack operational engineering, inventory rules, RBAC, traceability and continuity | [Case study](evidence/fresh-market.md) |
+| **IncluMe** | Accessibility-oriented product design and citizen/municipal workflows | [Case study](evidence/inclume.md) · [Citizen demo](https://inclume-chile.netlify.app/) |
 
-> **Public by design, private by default.** Client environments, credentials, production topology, private datasets and internal repositories remain outside the public surface.
+**[Open the complete Public Evidence catalog →](evidence/README.md)**
+
+> **Evidence is public by design. Product implementation is private by default.** Client environments, credentials, production topology, databases, private datasets and internal repositories remain outside the public surface.
 
 ## Engineering surface
 
@@ -128,7 +129,7 @@ Crohnoz Labs is open to cross-market collaboration across **software, hardware, 
 
 **Product engineering for real operations.**
 
-[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/profile)
+[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/profile) · [Evidence](evidence/README.md)
 
 `BUILD` · `INTEGRATE` · `AUTOMATE` · `OBSERVE` · `PROTECT` · `IMPROVE`
 
