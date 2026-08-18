@@ -10,7 +10,7 @@
 
 [English](README.md) · [Español](README.es.md) · **中文**
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [中文专业资料](https://crohnozlabs.cl/profile?lang=zh) · [公开仓库](https://github.com/Crohnoz?tab=repositories)
+[Crohnoz Labs](https://crohnozlabs.cl) · [中文专业资料](https://crohnozlabs.cl/profile?lang=zh) · [公开证据](evidence/README.md)
 
 **Chile → Global · Software ↔ Hardware · Build → Operate → Improve**
 
@@ -46,14 +46,17 @@ Crohnoz Labs 是一个产品工程生态系统，各领域共享同一套技术�
 
 ## 精选公开证据
 
-- [Crohnoz Labs](https://crohnozlabs.cl)
-- [Crohnoz Forge](https://github.com/Crohnoz/Crohnoz-Forge)
-- [Crohnoz Fresh Market](https://github.com/Crohnoz/Crohnoz-FreshMarket)
-- [Crohnoz Systems](https://github.com/Crohnoz/Crohnoz-Systems)
-- [IncluMe](https://github.com/Crohnoz/IncluMe)
-- [CV Ciberseguridad](https://github.com/Crohnoz/CV-Ciberseguridad)
+公开证据以**案例研究和演示**的形式呈现，而不是直接公开完整产品源码。重点是展示真实问题、产品决策、架构思路、工程控制与运营理解，同时默认保护专有实现。
 
-公开内容用于展示经过筛选的能力和项目。私人仓库、内部基础设施、客户数据和生产系统不会在这里公开。
+| 产品 | 展示能力 | 公开证据 |
+|---|---|---|
+| **Crohnoz Forge** | 产品发现、本地优先工作流、隐私与阶段门控 | [案例研究](evidence/forge.md) · [在线演示](https://crohnoz-forge.netlify.app) |
+| **Crohnoz Fresh Market** | 全栈运营工程、库存规则、RBAC、可追溯性与连续性 | [案例研究](evidence/fresh-market.md) |
+| **IncluMe** | 无障碍产品设计与市民/市政双端流程 | [案例研究](evidence/inclume.md) · [市民端演示](https://inclume-chile.netlify.app/) |
+
+**[查看完整公开证据目录 →](evidence/README.md)**
+
+> **证据经过设计后公开；产品实现默认保持私有。** 客户环境、凭据、数据库、生产拓扑、私人数据集和内部仓库不会进入公开展示层。
 
 ## 技术栈
 
@@ -80,6 +83,6 @@ Crohnoz Labs 对软件、硬件、技术集成和产品开发领域的国际合�
 
 **面向真实运营场景的产品工程。**
 
-[访问 crohnozlabs.cl](https://crohnozlabs.cl)
+[访问 crohnozlabs.cl](https://crohnozlabs.cl) · [公开证据](evidence/README.md)
 
 </div>
