@@ -10,7 +10,7 @@ Construyo sistemas para operaciones reales: desde software y datos hasta integra
 
 [English](README.md) · **Español** · [中文](README.zh-CN.md)
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [Perfil profesional](https://crohnozlabs.cl/perfil) · [Repositorios públicos](https://github.com/Crohnoz?tab=repositories)
+[Crohnoz Labs](https://crohnozlabs.cl) · [Perfil profesional](https://crohnozlabs.cl/perfil) · [Evidencia pública](evidence/README.md)
 
 **Chile → Global · Software ↔ Hardware · Construir → Operar → Mejorar**
 
@@ -46,14 +46,17 @@ Crohnoz Labs funciona como un ecosistema de ingeniería de producto. Las áreas 
 
 ## Evidencia pública seleccionada
 
-- [Crohnoz Labs](https://crohnozlabs.cl)
-- [Crohnoz Forge](https://github.com/Crohnoz/Crohnoz-Forge)
-- [Crohnoz Fresh Market](https://github.com/Crohnoz/Crohnoz-FreshMarket)
-- [Crohnoz Systems](https://github.com/Crohnoz/Crohnoz-Systems)
-- [IncluMe](https://github.com/Crohnoz/IncluMe)
-- [CV Ciberseguridad](https://github.com/Crohnoz/CV-Ciberseguridad)
+La evidencia pública se publica como **casos de estudio y demostraciones**, no como una descarga masiva de repositorios. La idea es mostrar el problema, las decisiones de producto, la arquitectura y los controles técnicos sin exponer por defecto la implementación propietaria.
 
-La superficie pública demuestra capacidades y productos seleccionados. Los repositorios privados, infraestructura interna, datos de clientes y sistemas productivos permanecen fuera de esta vitrina.
+| Producto | Qué demuestra | Evidencia |
+|---|---|---|
+| **Crohnoz Forge** | Discovery, flujos local-first, privacidad y stage gates | [Caso de estudio](evidence/forge.md) · [Demo](https://crohnoz-forge.netlify.app) |
+| **Crohnoz Fresh Market** | Ingeniería full-stack operacional, inventario, RBAC, trazabilidad y continuidad | [Caso de estudio](evidence/fresh-market.md) |
+| **IncluMe** | Diseño orientado a accesibilidad y flujos ciudadano/municipal | [Caso de estudio](evidence/inclume.md) · [Demo ciudadana](https://inclume-chile.netlify.app/) |
+
+**[Abrir catálogo completo de evidencia pública →](evidence/README.md)**
+
+> **La evidencia es pública por diseño; la implementación del producto es privada por defecto.** Los entornos de clientes, credenciales, bases de datos, topología productiva, datasets privados y repositorios internos quedan fuera de esta vitrina.
 
 ## Stack
 
@@ -76,6 +79,6 @@ La superficie pública demuestra capacidades y productos seleccionados. Los repo
 
 **Ingeniería de producto para operaciones reales.**
 
-[Visitar crohnozlabs.cl](https://crohnozlabs.cl)
+[Visitar crohnozlabs.cl](https://crohnozlabs.cl) · [Evidencia](evidence/README.md)
 
 </div>
