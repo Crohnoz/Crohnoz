@@ -1,16 +1,18 @@
 ==============================
-    Crohnoz® - Sistema de Mantenimiento
+    Crohnoz Labs - Sistema de Mantenimiento
 ==============================
 
 Versión portable para Windows 10/11
+Brand System: Future 1.0
+Claim: Tecnología que resuelve problemas reales.
 Creado por: Enrique Flores
 
 --------------------------------------
 📦 CONTENIDO DEL PAQUETE
 --------------------------------------
-- crohnoz_gui.py .......... Script principal
-- crohnoz_gui_logo.png .... Logo para la interfaz
-- crohnoz_icon.ico ........ Ícono personalizado para empaquetar .exe
+- crohnoz_gui.py ................ Interfaz con branding Future 1.0 generado en memoria
+- brand/assets/crohnoz_icon.ico . Ícono oficial para empaquetar .exe
+- brand/ ......................... Fuente canónica de identidad visual y tokens
 
 --------------------------------------
 🚀 CÓMO EJECUTAR LA APLICACIÓN
@@ -21,7 +23,7 @@ Creado por: Enrique Flores
 2. Ejecuta el archivo:
    > python crohnoz_gui.py
 
-(Recuerda tener Python instalado. Requiere: psutil, plyer, pillow)
+Requiere: psutil, plyer, pillow
 
 Para instalar las dependencias:
    > pip install psutil plyer pillow
@@ -33,23 +35,26 @@ Para instalar las dependencias:
 1. Instala PyInstaller si no lo tienes:
    > pip install pyinstaller
 
-2. Ejecuta este comando en la carpeta:
-   > pyinstaller --onefile --icon=crohnoz_icon.ico --name Crohnoz crohnoz_gui.py
+2. Ejecuta:
+   > pyinstaller Crohnoz.spec
+
+Alternativamente:
+   > pyinstaller --onefile --icon=brand/assets/crohnoz_icon.ico --name Crohnoz crohnoz_gui.py
 
 3. Encontrarás el .exe en la carpeta /dist
-
-Puedes compartir solo ese archivo .exe como versión portable.
 
 --------------------------------------
 🔐 NOTA DE SEGURIDAD
 --------------------------------------
 
-Este software no recolecta datos, ni se conecta a internet.
+Este software no recolecta datos ni se conecta a internet.
 Todo el mantenimiento se realiza localmente desde tu PC.
 
 --------------------------------------
-💬 Soporte
+🎨 IDENTIDAD
 --------------------------------------
-Puedes mejorar esta app o distribuirla con fines educativos.
 
-Crohnoz® 2025 - Todos los derechos reservados.
+La identidad visual oficial vive en /brand.
+No volver a introducir logos anteriores en la raíz del repositorio.
+
+Crohnoz Labs - Tecnología que resuelve problemas reales.
