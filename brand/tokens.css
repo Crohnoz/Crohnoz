@@ -1,0 +1,12 @@
+:root {
+  --crohnoz-deep-space: #0A0B14;
+  --crohnoz-purple: #8B5CF6;
+  --crohnoz-magenta: #EC4899;
+  --crohnoz-cyan: #06B6D4;
+  --crohnoz-blue: #3B82F6;
+  --crohnoz-violet-glow: #A855F7;
+  --crohnoz-light-neutral: #F8FAFC;
+  --crohnoz-gradient: linear-gradient(180deg, #EC4899 0%, #8B5CF6 50%, #06B6D4 100%);
+  --crohnoz-display: "Sora", "Inter", system-ui, sans-serif;
+  --crohnoz-ui: "Inter", system-ui, sans-serif;
+}

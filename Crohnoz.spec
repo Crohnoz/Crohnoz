@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['crohnoz_icon.ico'],
+    icon=['brand/assets/crohnoz_icon.ico'],
 )
