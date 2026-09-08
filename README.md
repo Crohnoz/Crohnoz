@@ -1,16 +1,14 @@
 <div align="center">
 
-# Enrique Flores
+<img src="brand/assets/github-banner.svg" alt="Crohnoz Labs — Tecnología que resuelve problemas reales" width="100%" />
 
-### Product & Systems Architect · Founder, Crohnoz Labs
+### Enrique Flores · Product & Systems Architect · Founder, Crohnoz Labs
 
 **Software · Hardware · Product Engineering · Applied AI · Automation · Secure Systems**
 
-Building practical technology systems for real operations — from software and data to hardware integration and connected prototypes.
-
 [ES](README.es.md) · **EN** · [中文](README.zh-CN.md)
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [Professional profile](https://crohnozlabs.cl/profile) · [Public evidence](evidence/README.md)
+[Crohnoz Labs](https://crohnozlabs.cl) · [Professional profile](https://crohnozlabs.cl/profile) · [Public evidence](evidence/README.md) · [Brand System](brand/README.md)
 
 **Chile → Global · Software ↔ Hardware · Build → Operate → Improve**
 
@@ -19,6 +17,8 @@ Building practical technology systems for real operations — from software and 
 ---
 
 ## Crohnoz Labs
+
+**Tecnología que resuelve problemas reales.**
 
 Crohnoz Labs is a product-engineering ecosystem built around a simple idea: understand a real operational problem, design the right system, ship a verifiable implementation, and improve it from evidence.
 
@@ -43,15 +43,15 @@ flowchart TB
 
     D --> G["PRODUCT MATURITY<br/>L0 Concept → L1 Demo → L2 Pilot → L3 Production"]
 
-    classDef founder fill:#11131a,stroke:#EF32FF,color:#fff,stroke-width:2px;
-    classDef lab fill:#171226,stroke:#7B45FF,color:#fff,stroke-width:2px;
-    classDef product fill:#17224b,stroke:#287DFF,color:#fff;
-    classDef engineering fill:#102c35,stroke:#00D9F5,color:#fff;
-    classDef hardware fill:#2f2439,stroke:#b687ff,color:#fff;
-    classDef ai fill:#3b1934,stroke:#EF32FF,color:#fff;
+    classDef founder fill:#0A0B14,stroke:#EC4899,color:#fff,stroke-width:2px;
+    classDef lab fill:#0A0B14,stroke:#8B5CF6,color:#fff,stroke-width:2px;
+    classDef product fill:#17224b,stroke:#3B82F6,color:#fff;
+    classDef engineering fill:#102c35,stroke:#06B6D4,color:#fff;
+    classDef hardware fill:#2f2439,stroke:#A855F7,color:#fff;
+    classDef ai fill:#3b1934,stroke:#EC4899,color:#fff;
     classDef ops fill:#3a2917,stroke:#f0b94b,color:#fff;
     classDef delivery fill:#17191f,stroke:#9bb2ff,color:#fff,stroke-width:2px;
-    classDef gate fill:#f5f2ea,stroke:#7B45FF,color:#17191f,stroke-width:2px;
+    classDef gate fill:#F8FAFC,stroke:#8B5CF6,color:#17191f,stroke-width:2px;
 
     class F founder;
     class L lab;
@@ -108,10 +108,6 @@ Public evidence is curated as **case studies and demonstrations**, not as a dump
 
 `Python` · `Django / DRF` · `PostgreSQL` · `React` · `JavaScript` · `Docker` · `Linux` · `REST APIs` · `RBAC` · `CI/CD` · `pytest` · `Ruff` · `Automation` · `Applied AI`
 
-## International direction
-
-Crohnoz Labs is open to cross-market collaboration across **software, hardware, technology integration and product development**. The goal is practical, verifiable technical and commercial work — not inflated claims or decorative partnerships.
-
 ## Engineering principles
 
 1. **Understand the operation before choosing the architecture.**
@@ -127,10 +123,12 @@ Crohnoz Labs is open to cross-market collaboration across **software, hardware, 
 
 ### Crohnoz Labs
 
-**Product engineering for real operations.**
+**Tecnología que resuelve problemas reales.**
 
-[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/profile) · [Evidence](evidence/README.md)
+`IDEAS` · `SOFTWARE` · `IMPACTO`
 
 `BUILD` · `INTEGRATE` · `AUTOMATE` · `OBSERVE` · `PROTECT` · `IMPROVE`
+
+[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/profile) · [Evidence](evidence/README.md) · [Brand](brand/README.md)
 
 </div>
