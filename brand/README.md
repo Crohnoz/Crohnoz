@@ -8,6 +8,7 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - **Primary claim:** **Tecnología que resuelve problemas reales.**
 - **Signature:** `IDEAS · SOFTWARE · IMPACTO`
 - **Operating language:** `BUILD · INTEGRATE · AUTOMATE · OBSERVE · PROTECT · IMPROVE`
+- **Systems narrative:** `PROBLEM → SYSTEM → EVIDENCE → SCALE`
 - **Primary mark:** vertical signal / waveform bars. Do not substitute cubes, waves, monograms or unrelated symbols.
 
 ## Official palette
@@ -37,16 +38,43 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - `assets/favicon.svg` — web favicon source.
 - `assets/crohnoz_icon.ico` — Windows / PyInstaller icon.
 - `assets/github-banner.svg` — technical profile / repository banner.
+- `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
+
+## Crohnoz Operating Model
+
+The **Crohnoz Operating Model** is the canonical systems diagram for public profiles, presentations and high-level product documentation.
+
+It communicates five layers:
+
+1. **Leadership** — Enrique Flores · Founder · Product & Systems Architecture.
+2. **Core ecosystem** — Crohnoz Labs as the technology and product system.
+3. **Capabilities** — Product, Engineering, AI & Automation, Hardware and Operations.
+4. **Delivery** — cross-functional execution through a shared delivery engine.
+5. **Lifecycle and maturity** — `DISCOVER → DESIGN → BUILD → VALIDATE → DEPLOY → OPERATE → IMPROVE`, progressing from `L0 IDEA` to `L4 SCALE`.
+
+### Product maturity levels
+
+| Level | Name | Meaning |
+|---|---|---|
+| `L0` | Idea | Problem and opportunity defined |
+| `L1` | Prototype | Core concept proven |
+| `L2` | Pilot | Operation validated with real users or workflows |
+| `L3` | Production | Reliable operational delivery |
+| `L4` | Scale | Repeatable growth, continuity and improvement |
+
+The visual should remain intentionally high-level. Do not turn it into a detailed infrastructure, org-chart or repository-dependency diagram.
 
 ## Rules
 
 1. Keep the mark proportions intact.
-2. Preserve the magenta → purple → cyan vertical gradient as the principal chromatic signature.
+2. Preserve the magenta → purple → cyan gradient as the principal chromatic signature.
 3. Prefer Deep Space backgrounds. On light backgrounds use the official light lockup.
 4. Do not add unapproved symbols or replace the signal mark.
 5. Maintain generous clear space around the mark and wordmark.
 6. Use the claim exactly as written in Spanish unless a localized campaign explicitly requires translation.
 7. New Crohnoz products should inherit these tokens before introducing product-level accent colors.
+8. Use the Operating Model for public ecosystem explanation; use technical architecture diagrams for implementation detail.
+9. Keep public diagrams outcome-oriented: problem, capability, delivery, evidence and maturity before infrastructure detail.
 
 ## Brand principles
 
