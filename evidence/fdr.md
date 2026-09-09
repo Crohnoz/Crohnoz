@@ -1,103 +1,163 @@
-# FDR — Flagship Engineering Case Study
+<div align="center">
 
-[← Public Evidence](README.md)
+<a href="../README.md"><img src="https://img.shields.io/badge/←_BACK_TO_PROFILE-0A0B14?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Back to profile" /></a>
+<a href="README.md"><img src="https://img.shields.io/badge/PUBLIC_EVIDENCE-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Public Evidence" /></a>
 
-> **Maturity:** `L2+ · Advanced Pilot / Production-Oriented`
->
+<br/><br/>
+
+<img src="../brand/assets/fdr-flagship.svg" alt="FDR — Crohnoz Labs flagship system" width="100%" />
+
+# FDR · Flagship Engineering Case Study
+
+`L2+ · ADVANCED PILOT / PRODUCTION-ORIENTED`
+
+**Healthcare operations · domain integrity · privacy · workflow lifecycle · controlled delivery**
+
+</div>
+
 > This case study is intentionally sanitized. It documents engineering decisions and observable product behavior without exposing private clinical data, credentials, production topology, private repositories or client-sensitive implementation details.
 
-## Context
+---
+
+## Why FDR matters
 
 FDR is a healthcare operations platform designed around real clinical and administrative workflows rather than a generic CRUD model. The system connects public booking, professional availability, patient operations, clinical workflow boundaries and controlled delivery.
 
-The product is currently the most mature system in the Crohnoz portfolio and is treated as the primary reference for production-oriented engineering practices.
+It is currently the most mature system in the Crohnoz portfolio and the primary reference for production-oriented engineering practices.
 
-## Operational problem
+---
 
-Healthcare scheduling is not simply a calendar problem. A valid public reservation depends on several conditions being true at the same time:
+## System view
 
-- the professional belongs to the correct organization;
-- the professional is active and publicly available;
-- the public profile is published;
-- the professional accepts new patients;
-- the requested service is active and publicly bookable;
-- the professional actually offers that service;
-- the selected time slot belongs to the same valid scope.
+<img src="../brand/assets/fdr-architecture.svg" alt="Sanitized FDR system architecture" width="100%" />
 
-The system therefore treats booking as a domain contract, not as a front-end form.
+The central design principle is simple: **public booking is a domain contract, not a front-end form**.
 
-## System design
+A valid reservation depends on several conditions being true at the same time:
 
-### Public booking contract
+- correct organization scope;
+- active professional;
+- published public profile;
+- acceptance of new patients;
+- active and publicly bookable service;
+- real professional ↔ service offering;
+- valid availability in the same scope.
 
-The public booking flow enforces the relationship:
+The backend enforces that relationship rather than trusting UI state.
 
-`Organization → Professional → Service Offering → Availability → Reservation`
+---
 
-Server-side validation prevents a manipulated request from selecting a professional, service or slot outside the allowed scope. The UI is only a projection of the same domain rules enforced by the backend.
+## Public booking contract
 
-### Reservation lifecycle
+<div align="center">
 
-Reservations have explicit operational states rather than a single boolean confirmation flag.
+### `Organization → Professional → Service Offering → Availability → Reservation`
 
-`SCHEDULED → CONFIRMED → CHECKED_IN → COMPLETED`
+</div>
 
-with additional outcomes such as:
+Server-side validation prevents manipulated requests from selecting a professional, service or slot outside the allowed scope. The UI is a projection of the domain contract, not the source of truth.
+
+### What this proves
+
+| Control | Engineering meaning |
+|---|---|
+| **Organization scope** | Public selection cannot cross the intended operational boundary |
+| **Published professional** | Internal records do not automatically become public availability |
+| **Structured offering** | A public service must actually be offered by the selected professional |
+| **Scoped availability** | A slot is only valid inside the same professional/service relationship |
+| **Server validation** | Manipulated client input does not redefine business rules |
+
+---
+
+## Reservation lifecycle
+
+FDR models operational states explicitly instead of collapsing the workflow into a generic `confirmed = true/false` flag.
+
+<div align="center">
+
+### `SCHEDULED → CONFIRMED → CHECKED_IN → COMPLETED`
 
 `CANCELLED · NO_SHOW`
 
-Calendar exports reflect the real reservation state instead of presenting every newly created reservation as confirmed.
+</div>
 
-### Public and private boundaries
+Calendar exports also reflect the actual reservation state. A newly created reservation is not automatically represented as confirmed simply because an event exists.
 
-The platform separates public discovery and booking surfaces from authenticated operational views. Public URLs and client-side interactions are designed to avoid unnecessary exposure of patient contact data or internal clinical context.
+This matters because system state, UI language and calendar semantics should describe the same operational truth.
 
-### Professional public layer
+---
 
-Professional profiles and structured service offerings are modeled as explicit publication data rather than inferred from internal records. This allows public availability to have a controlled publication contract independent from private operational data.
+## Public / private boundary
+
+The platform separates public discovery and booking surfaces from authenticated operational views.
+
+Public interactions are designed to minimize unnecessary exposure of patient contact information or internal clinical context. Professional public profiles and service offerings are modeled as explicit publication data instead of being inferred directly from internal operational records.
+
+That separation allows the public product to evolve without treating the private clinical model as a public API by accident.
+
+---
 
 ## Reliability and regression thinking
 
-FDR includes targeted regression coverage for operational contracts such as:
+FDR includes targeted regression coverage for domain invariants such as:
 
 - professional × service × availability scope;
 - rejection of manipulated public booking requests;
 - reservation lifecycle behavior;
-- calendar/ICS status mapping;
+- calendar / ICS status mapping;
 - privacy behavior on public booking surfaces;
-- professional profile publication behavior;
+- professional-profile publication behavior;
 - reproducible staging data aligned with the public booking contract.
 
-The engineering approach favors narrow, explicit regressions around domain invariants rather than relying only on broad end-to-end happy paths.
+The approach favors **narrow regressions around important invariants** rather than relying only on broad happy-path testing.
+
+---
 
 ## Delivery model
 
-The project uses a controlled release workflow with a dedicated production-oriented branch and staged changes through focused pull requests. Staging data is generated through reproducible bootstrap logic rather than unmanaged manual fixtures.
+The project uses a controlled release workflow with a dedicated production-oriented branch and focused pull requests. Staging data is generated through reproducible bootstrap logic rather than unmanaged manual fixtures.
 
-CI workflows are treated as an operational resource: coverage, execution cost and redundant runs are managed intentionally instead of assuming unlimited automation capacity.
+CI is also treated as an operational resource: coverage, execution cost and redundant automation are managed intentionally instead of assuming infinite compute or unlimited build minutes.
 
-## What FDR demonstrates
+---
 
-| Capability | Evidence |
+## Engineering evidence
+
+| Capability | Publicly describable evidence |
 |---|---|
 | **Domain modeling** | Booking requires a valid organization, professional, offering, service and slot relationship |
 | **Backend integrity** | Invalid manipulated selections are rejected server-side |
-| **Workflow design** | Explicit reservation lifecycle rather than generic confirmation flags |
+| **Workflow design** | Explicit reservation lifecycle instead of generic confirmation flags |
 | **Privacy thinking** | Public surfaces minimize unnecessary personal-data exposure |
 | **Product architecture** | Public directory, booking and private operations use controlled boundaries |
 | **Testing discipline** | Regression suites encode operational invariants |
 | **Delivery engineering** | Staging, controlled releases and CI resource management are part of the system |
 
+---
+
 ## Current maturity
 
-FDR is represented as **L2+ Advanced Pilot / Production-Oriented**, not as a fully scaled L3/L4 product.
+<div align="center">
 
-This means the system already demonstrates substantial production-oriented engineering and real operational depth, while still leaving room for additional hardening, operational evidence, scale validation and long-term production metrics before claiming full maturity.
+### `L0 IDEA → L1 PROTOTYPE → L2 PILOT → ● L2+ ADVANCED PILOT → L3 PRODUCTION → L4 SCALE`
 
-## Why it matters
+</div>
 
-FDR demonstrates the type of work Crohnoz Labs is intended to represent: understanding a real operation, translating it into explicit domain contracts, protecting the public/private boundary, building measurable regression controls and evolving the product through controlled delivery.
+FDR is represented as **L2+ Advanced Pilot / Production-Oriented**, not as a fully proven L3/L4 system.
 
-It is the current flagship reference for the Crohnoz operating model:
+That distinction is intentional. The platform already demonstrates substantial production-oriented engineering and real operational depth, while still leaving room for additional hardening, longer-term production evidence, scale validation and operational metrics before claiming full production maturity.
 
-**Problem → System → Evidence → Scale.**
+---
+
+## Crohnoz reference
+
+FDR is the current strongest example of the Crohnoz operating model:
+
+<div align="center">
+
+# **Problem → System → Evidence → Scale**
+
+<a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_ENRIQUE_FLORES_PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Return to Enrique Flores profile" /></a>
+<a href="README.md"><img src="https://img.shields.io/badge/EXPLORE_ALL_PUBLIC_EVIDENCE-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="38" alt="Explore all public evidence" /></a>
+
+</div>
