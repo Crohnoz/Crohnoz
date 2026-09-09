@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+  <title id="title">Crohnoz Labs — Selected Evidence</title>
+  <desc id="desc">Three public case-study cards for Crohnoz Forge, Crohnoz Fresh Market and IncluMe.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="forge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="fresh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity=".07"/>
+    </linearGradient>
+    <linearGradient id="inclume" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity=".07"/>
+    </linearGradient>
+    <style>
+      .eyebrow{font:700 17px Inter,Arial,sans-serif;letter-spacing:4px;fill:#9CA3AF}
+      .heading{font:800 42px Inter,Arial,sans-serif;letter-spacing:1px;fill:#F8FAFC}
+      .sub{font:500 20px Inter,Arial,sans-serif;fill:#9CA3AF}
+      .cardTitle{font:800 29px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .cardType{font:700 14px Inter,Arial,sans-serif;letter-spacing:3px}
+      .body{font:500 18px Inter,Arial,sans-serif;fill:#CBD5E1}
+      .label{font:700 15px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .muted{font:500 15px Inter,Arial,sans-serif;fill:#94A3B8}
+    </style>
+  </defs>
+
+  <rect width="1600" height="650" rx="28" fill="#0A0B14"/>
+  <rect x="1" y="1" width="1598" height="648" rx="27" fill="none" stroke="#24283B"/>
+
+  <text x="70" y="72" class="eyebrow">SELECTED PUBLIC EVIDENCE</text>
+  <text x="70" y="125" class="heading">Three systems. Three different capabilities.</text>
+  <text x="70" y="163" class="sub">Product reasoning · operational engineering · inclusive multi-stakeholder design</text>
+  <rect x="70" y="190" width="1460" height="3" rx="2" fill="url(#brand)"/>
+
+  <!-- Forge -->
+  <g transform="translate(70 230)">
+    <rect width="455" height="350" rx="24" fill="#11131E" stroke="#2B2F43"/>
+    <rect width="455" height="350" rx="24" fill="url(#forge)"/>
+    <circle cx="52" cy="52" r="22" fill="#EC4899" fill-opacity=".12" stroke="#EC4899"/>
+    <path d="M43 54h18M52 45v18" stroke="#EC4899" stroke-width="3" stroke-linecap="round"/>
+    <text x="86" y="46" class="cardType" fill="#EC4899">PRODUCT REASONING</text>
+    <text x="32" y="112" class="cardTitle">Crohnoz Forge</text>
+    <text x="32" y="151" class="body">Turns ambiguous problems into</text>
+    <text x="32" y="178" class="body">structured product decisions.</text>
+    <rect x="32" y="211" width="391" height="1" fill="#2B2F43"/>
+    <text x="32" y="246" class="label">DISCOVERY → BLUEPRINT → TESTING</text>
+    <text x="32" y="279" class="muted">Evidence · assumptions · stage gates</text>
+    <text x="32" y="306" class="muted">Local-first · privacy-aware · handoff</text>
+    <text x="32" y="334" class="cardType" fill="#EC4899">CASE STUDY + LIVE DEMO</text>
+  </g>
+
+  <!-- Fresh Market -->
+  <g transform="translate(572 230)">
+    <rect width="455" height="350" rx="24" fill="#11131E" stroke="#2B2F43"/>
+    <rect width="455" height="350" rx="24" fill="url(#fresh)"/>
+    <circle cx="52" cy="52" r="22" fill="#06B6D4" fill-opacity=".12" stroke="#06B6D4"/>
+    <path d="M41 58l8-13 8 9 8-16" fill="none" stroke="#06B6D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="86" y="46" class="cardType" fill="#06B6D4">OPERATIONAL ENGINEERING</text>
+    <text x="32" y="112" class="cardTitle">Crohnoz Fresh Market</text>
+    <text x="32" y="151" class="body">Models real retail operations,</text>
+    <text x="32" y="178" class="body">not generic CRUD screens.</text>
+    <rect x="32" y="211" width="391" height="1" fill="#2B2F43"/>
+    <text x="32" y="246" class="label">INVENTORY → ORDERS → TRACEABILITY</text>
+    <text x="32" y="279" class="muted">FEFO · RBAC · idempotency · audit</text>
+    <text x="32" y="306" class="muted">Local continuity · controlled backend</text>
+    <text x="32" y="334" class="cardType" fill="#06B6D4">COMMERCIAL PILOT EVIDENCE</text>
+  </g>
+
+  <!-- IncluMe -->
+  <g transform="translate(1075 230)">
+    <rect width="455" height="350" rx="24" fill="#11131E" stroke="#2B2F43"/>
+    <rect width="455" height="350" rx="24" fill="url(#inclume)"/>
+    <circle cx="52" cy="52" r="22" fill="#8B5CF6" fill-opacity=".12" stroke="#8B5CF6"/>
+    <circle cx="52" cy="46" r="6" fill="none" stroke="#8B5CF6" stroke-width="3"/>
+    <path d="M40 63c3-8 8-12 12-12s9 4 12 12" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round"/>
+    <text x="86" y="46" class="cardType" fill="#8B5CF6">INCLUSIVE PRODUCT DESIGN</text>
+    <text x="32" y="112" class="cardTitle">IncluMe</text>
+    <text x="32" y="151" class="body">Connects citizen and institutional</text>
+    <text x="32" y="178" class="body">workflows around accessibility.</text>
+    <rect x="32" y="211" width="391" height="1" fill="#2B2F43"/>
+    <text x="32" y="246" class="label">DISCOVERY → REPORT → REVIEW</text>
+    <text x="32" y="279" class="muted">Maps · contributions · corrections</text>
+    <text x="32" y="306" class="muted">Citizen + municipal evidence loops</text>
+    <text x="32" y="334" class="cardType" fill="#8B5CF6">CASE STUDY + PUBLIC DEMOS</text>
+  </g>
+
+  <text x="800" y="623" text-anchor="middle" class="eyebrow">PROBLEM → SYSTEM → EVIDENCE → SCALE</text>
+</svg>
