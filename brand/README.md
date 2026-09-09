@@ -31,6 +31,8 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 
 ## Asset hierarchy
 
+### Core identity
+
 - `assets/logo-horizontal-dark.svg` — default master lockup for dark surfaces.
 - `assets/logo-horizontal-light.svg` — light-surface lockup.
 - `assets/logo-stacked-dark.svg` — vertical / compact lockup.
@@ -38,8 +40,14 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - `assets/favicon.svg` — web favicon source.
 - `assets/crohnoz_icon.ico` — Windows / PyInstaller icon.
 - `assets/github-banner.svg` — technical profile / repository banner.
+
+### Systems communication
+
 - `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
-- `assets/selected-evidence.svg` — canonical three-system evidence showcase for public profiles and portfolio surfaces.
+- `assets/fdr-flagship.svg` — flagship product card. Use when one system has materially stronger operational maturity than the rest of the portfolio.
+- `assets/portfolio-maturity.svg` — canonical honest maturity map from `L0` through `L4`.
+- `assets/engineering-depth.svg` — capability map organized by engineering problem domain rather than technology count.
+- `assets/selected-evidence.svg` — legacy exploratory evidence showcase. It may be used below the maturity view, but must not visually compete with the current flagship.
 
 ## Crohnoz Operating Model
 
@@ -60,22 +68,49 @@ It communicates five layers:
 | `L0` | Idea | Problem and opportunity defined |
 | `L1` | Prototype | Core concept proven |
 | `L2` | Pilot | Operation validated with real users or workflows |
-| `L3` | Production | Reliable operational delivery |
+| `L2+` | Advanced Pilot | Substantial production-oriented engineering exists, but full production maturity is not yet claimed |
+| `L3` | Production | Reliable operational delivery with production evidence |
 | `L4` | Scale | Repeatable growth, continuity and improvement |
 
 The visual should remain intentionally high-level. Do not turn it into a detailed infrastructure, org-chart or repository-dependency diagram.
 
-## Selected Evidence Showcase
+## Portfolio hierarchy
 
-The **Selected Evidence Showcase** is a public-facing portfolio component. It must present a small number of systems that prove meaningfully different capabilities instead of listing repositories indiscriminately.
+Public surfaces must distinguish **maturity** from **potential**.
 
-Current canonical examples:
+The preferred hierarchy is:
 
-- **Crohnoz Forge** — product reasoning, discovery, assumptions, evidence and stage gates.
-- **Crohnoz Fresh Market** — operational engineering, domain rules, traceability, continuity and controlled backend behavior.
-- **IncluMe** — inclusive product design and multi-stakeholder citizen/institution workflows.
+1. **Flagship system** — the strongest current operational proof. It receives the largest visual area and the clearest CTA.
+2. **Engineering evidence** — domain contracts, reliability, privacy and delivery practices that can be demonstrated without exposing private implementation.
+3. **Operating model** — explains how Crohnoz works across products.
+4. **Current portfolio maturity** — shows where every active system actually sits from L0 to L4.
+5. **Exploratory evidence** — early systems and R&D appear after the flagship and maturity view.
 
-Use the showcase to answer **“what can Crohnoz actually prove?”**. Keep implementation detail in the linked case study rather than inside the visual card.
+Do not present prototypes as production systems. Honest maturity increases credibility.
+
+## Flagship component
+
+The flagship visual should answer four questions immediately:
+
+- **What is the system?**
+- **What operational domain does it serve?**
+- **What maturity does it honestly have?**
+- **What engineering evidence can be inspected?**
+
+The entire flagship visual should be clickable when the surface supports it, linking to a sanitized engineering case study.
+
+## Engineering Depth component
+
+Engineering capability should be grouped by the kind of problem being solved:
+
+- Product Systems
+- Backend & Data
+- Security & Trust
+- Operations
+- AI & Automation
+- Physical Systems
+
+Technology badges are secondary evidence. They should not be the primary way expertise is communicated.
 
 ## Rules
 
@@ -88,7 +123,10 @@ Use the showcase to answer **“what can Crohnoz actually prove?”**. Keep impl
 7. New Crohnoz products should inherit these tokens before introducing product-level accent colors.
 8. Use the Operating Model for public ecosystem explanation; use technical architecture diagrams for implementation detail.
 9. Keep public diagrams outcome-oriented: problem, capability, delivery, evidence and maturity before infrastructure detail.
-10. Public evidence showcases must demonstrate distinct capabilities; do not use them as repository catalogs.
+10. A flagship must have materially stronger evidence than surrounding products.
+11. Never give L1 prototypes the same visual weight as L2+/L3 systems.
+12. Public case studies must remain sanitized: evidence first, proprietary implementation private by default.
+13. Primary navigation and case-study actions should use large, high-contrast CTAs on profile surfaces; avoid relying only on small inline Markdown links.
 
 ## Brand principles
 
