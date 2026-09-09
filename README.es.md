@@ -12,10 +12,10 @@
 
 <br/>
 
-<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/CASO_DE_INGENIERÍA_FDR-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Caso de ingeniería FDR" /></a>
-<a href="evidence/README.md"><img src="https://img.shields.io/badge/EVIDENCIA_PÚBLICA-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="36" alt="Evidencia pública" /></a>
+<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/CASO_DE_INGENIERIA_FDR-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Caso de ingeniería FDR" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/DEMO_PUBLICA_SEGURA_FDR-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Demo pública segura FDR" /></a>
+<a href="evidence/README.md"><img src="https://img.shields.io/badge/EVIDENCIA_PUBLICA-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="36" alt="Evidencia pública" /></a>
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Crohnoz Labs" /></a>
-<a href="https://crohnozlabs.cl/perfil"><img src="https://img.shields.io/badge/PERFIL_PROFESIONAL-06B6D4?style=for-the-badge&logo=aboutdotme&logoColor=white" height="36" alt="Perfil profesional" /></a>
 
 <br/><br/>
 
@@ -35,13 +35,15 @@
 
 ### **[ABRIR CASO DE INGENIERÍA FDR →](evidence/fdr.md)**
 
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/ABRIR-DEMO_PUBLICA_SEGURA-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Abrir demo pública segura FDR" /></a>
+
 `L2+ · PILOTO AVANZADO / ORIENTADO A PRODUCCIÓN`
 
 </div>
 
 FDR es actualmente el sistema más maduro del portafolio Crohnoz. Es la referencia principal para mostrar cómo abordo **modelado de dominio, límites público/privado, integridad backend, lifecycle operacional, regresiones, staging y delivery controlado**.
 
-El caso público está sanitizado: muestra decisiones de ingeniería y madurez sin exponer datos clínicos privados, credenciales, topología productiva ni implementación propietaria.
+El caso público y la demo están sanitizados. La demostración utiliza pacientes, atenciones y estados ficticios y no conecta al visitante con la plataforma clínica real.
 
 ---
 
@@ -143,6 +145,6 @@ Prefiero entender la operación antes de elegir la arquitectura, reducir la carg
 <br/>
 
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/WEBSITE-CROHNOZ_LABS-EC4899?style=for-the-badge" height="34" alt="Crohnoz Labs website" /></a>
-<a href="evidence/README.md"><img src="https://img.shields.io/badge/ABRIR-EVIDENCIA_PÚBLICA-8B5CF6?style=for-the-badge" height="34" alt="Evidencia pública" /></a>
+<a href="evidence/README.md"><img src="https://img.shields.io/badge/ABRIR-EVIDENCIA_PUBLICA-8B5CF6?style=for-the-badge" height="34" alt="Evidencia pública" /></a>
 
 </div>
