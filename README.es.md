@@ -1,75 +1,82 @@
 <div align="center">
 
-# Enrique Flores
+<img src="brand/assets/github-banner.svg" alt="Crohnoz Labs — Tecnología que resuelve problemas reales" width="100%" />
 
-### Product & Systems Architect · Founder, Crohnoz Labs
+### Enrique Flores · Founder · Product & Systems Architect
 
-**Software · Hardware · Product Engineering · IA aplicada · Automatización · Sistemas seguros**
+**Diseño sistemas que convierten problemas operacionales reales en productos que funcionan.**
 
-Construyo sistemas para operaciones reales: desde software y datos hasta integración de hardware y prototipos conectados.
+`INGENIERÍA DE PRODUCTO` · `SOFTWARE` · `HARDWARE` · `IA APLICADA` · `AUTOMATIZACIÓN` · `SISTEMAS SEGUROS`
 
 [English](README.md) · **Español** · [中文](README.zh-CN.md)
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [Perfil profesional](https://crohnozlabs.cl/perfil) · [Evidencia pública](evidence/README.md)
+[Crohnoz Labs](https://crohnozlabs.cl) · [Perfil profesional](https://crohnozlabs.cl/perfil) · [Evidencia pública](evidence/README.md) · [Sistema de marca](brand/README.md)
 
-**Chile → Global · Software ↔ Hardware · Construir → Operar → Mejorar**
+**Chile → Global · Software ↔ Hardware · Problema → Sistema → Evidencia → Escala**
 
 </div>
 
 ---
 
-## Sobre mi trabajo
+## Crohnoz Labs
 
-Soy fundador de Crohnoz Labs y trabajo en la intersección entre arquitectura de producto, ingeniería de software, automatización, IA aplicada, infraestructura, seguridad y prototipado tecnológico.
+**Tecnología que resuelve problemas reales.**
 
-Mi foco no es construir pantallas aisladas: diseño sistemas completos que entienden una operación, reducen fricción, generan trazabilidad y pueden evolucionar con evidencia real.
+Crohnoz Labs es un ecosistema de ingeniería de producto enfocado en entender operaciones reales, diseñar el sistema correcto, desplegar implementaciones verificables y mejorarlas a partir de evidencia.
 
-## Ecosistema Crohnoz Labs
+<div align="center">
 
-Crohnoz Labs funciona como un ecosistema de ingeniería de producto. Las áreas comparten una misma base técnica y operativa:
+<img src="brand/assets/crohnoz-operating-model.svg" alt="Modelo operativo de Crohnoz Labs" width="100%" />
 
-- **Product & Strategy** — discovery, producto, dominio y modelado operacional.
-- **Engineering & Trust** — software, datos, calidad, seguridad y privacidad.
-- **Hardware & Prototyping** — electrónica, integración, impresión 3D y dispositivos.
-- **AI & Automation** — agentes, workflows, observación y automatización.
-- **Operations & Growth** — DevOps, delivery, FinOps, comercialización y aprendizaje.
+</div>
 
 ## Qué construyo
 
-- Aplicaciones y APIs con Python, Django/DRF y React.
-- Sistemas operacionales y dashboards orientados a roles.
-- Automatización de procesos, datos y trazabilidad.
-- Integración software/hardware y prototipos físicos conectados.
-- IA aplicada a problemas concretos, no como decoración.
-- Infraestructura Linux, contenedores, despliegues y continuidad.
-- Seguridad y privacidad integradas desde la arquitectura.
+| Sistemas de producto | Ingeniería | Operaciones inteligentes | Sistemas físicos |
+|---|---|---|---|
+| Discovery · UX · Arquitectura · Modelado de dominio | Python · Django · APIs · Datos · Seguridad · Calidad | Automatización · Agentes · Observabilidad · DevOps · FinOps | Electrónica · 3D · Dispositivos · Integración software ↔ hardware |
+| Convierto fricción operacional en requisitos de producto | Construyo sistemas confiables con controles medibles | Reduzco trabajo repetitivo y mejoro visibilidad operacional | Conecto el software con el entorno físico |
 
-## Evidencia pública seleccionada
+## Evidencia seleccionada
 
-La evidencia pública se publica como **casos de estudio y demostraciones**, no como una descarga masiva de repositorios. La idea es mostrar el problema, las decisiones de producto, la arquitectura y los controles técnicos sin exponer por defecto la implementación propietaria.
+La evidencia pública se presenta como **casos de estudio y demostraciones funcionales**, no como una descarga masiva de repositorios. El objetivo es mostrar razonamiento de producto, arquitectura, calidad de implementación y comprensión operacional sin exponer por defecto sistemas propietarios.
 
-| Producto | Qué demuestra | Evidencia |
+| Sistema | Qué demuestra | Evidencia |
 |---|---|---|
-| **Crohnoz Forge** | Discovery, flujos local-first, privacidad y stage gates | [Caso de estudio](evidence/forge.md) · [Demo](https://crohnoz-forge.netlify.app) |
-| **Crohnoz Fresh Market** | Ingeniería full-stack operacional, inventario, RBAC, trazabilidad y continuidad | [Caso de estudio](evidence/fresh-market.md) |
-| **IncluMe** | Diseño orientado a accesibilidad y flujos ciudadano/municipal | [Caso de estudio](evidence/inclume.md) · [Demo ciudadana](https://inclume-chile.netlify.app/) |
+| **Crohnoz Forge** | Discovery · flujos local-first · privacidad · etapas de madurez | [Caso de estudio](evidence/forge.md) · [Demo](https://crohnoz-forge.netlify.app) |
+| **Crohnoz Fresh Market** | Operación full-stack · inventario · RBAC · trazabilidad · continuidad | [Caso de estudio](evidence/fresh-market.md) |
+| **IncluMe** | Diseño orientado a accesibilidad · flujos ciudadanos y municipales | [Caso de estudio](evidence/inclume.md) · [Demo ciudadana](https://inclume-chile.netlify.app/) |
 
-**[Abrir catálogo completo de evidencia pública →](evidence/README.md)**
+<div align="center">
 
-> **La evidencia es pública por diseño; la implementación del producto es privada por defecto.** Los entornos de clientes, credenciales, bases de datos, topología productiva, datasets privados y repositorios internos quedan fuera de esta vitrina.
+**[Explorar el catálogo completo de evidencia pública →](evidence/README.md)**
 
-## Stack
+</div>
 
-`Python` · `Django` · `DRF` · `PostgreSQL` · `React` · `Vite` · `Docker` · `Linux` · `Git` · `Automation` · `Applied AI`
+> **La evidencia es pública por diseño. La implementación es privada por defecto.** Los entornos de clientes, credenciales, topología productiva, datasets privados y repositorios internos quedan fuera de esta vitrina.
 
-## Principios de ingeniería
+## Superficie de ingeniería
 
-1. Entender la operación antes de elegir la arquitectura.
-2. Reducir carga cognitiva para quien realmente usa el sistema.
-3. Tratar seguridad y privacidad como decisiones de diseño.
-4. Considerar despliegue, pruebas, documentación y continuidad como parte del producto.
-5. Entregar incrementos, observar uso real y mejorar continuamente.
-6. Mostrar capacidad públicamente sin exponer implementación propietaria.
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-Engineering-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-Backend-092E20?logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data-4169E1?logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-Interfaces-20232A?logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-Delivery-2496ED?logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Operations-FCC624?logo=linux&logoColor=black)
+
+`Python` · `Django / DRF` · `PostgreSQL` · `React` · `JavaScript` · `Docker` · `Linux` · `REST APIs` · `RBAC` · `CI/CD` · `pytest` · `Ruff` · `Automatización` · `IA aplicada`
+
+</div>
+
+## Principios operativos
+
+1. **Entender la operación antes de elegir la arquitectura.**
+2. **Reducir carga cognitiva para quien realmente hace el trabajo.**
+3. **Tratar seguridad, privacidad y continuidad como decisiones de arquitectura.**
+4. **Entregar incrementos, observar uso, medir fricción y mejorar.**
+5. **Mostrar capacidad públicamente; mantener privada la implementación propietaria.**
 
 ---
 
@@ -77,8 +84,10 @@ La evidencia pública se publica como **casos de estudio y demostraciones**, no 
 
 ### Crohnoz Labs
 
-**Ingeniería de producto para operaciones reales.**
+**Tecnología que resuelve problemas reales.**
 
-[Visitar crohnozlabs.cl](https://crohnozlabs.cl) · [Evidencia](evidence/README.md)
+`BUILD` · `INTEGRATE` · `AUTOMATE` · `OBSERVE` · `PROTECT` · `IMPROVE`
+
+[Website](https://crohnozlabs.cl) · [Perfil](https://crohnozlabs.cl/perfil) · [Evidencia](evidence/README.md) · [Marca](brand/README.md)
 
 </div>
