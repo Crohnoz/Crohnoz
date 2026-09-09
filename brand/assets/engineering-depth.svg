@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering depth</title>
+  <desc id="desc">Crohnoz Labs engineering capabilities across product, backend, security, operations, automation and physical systems.</desc>
+  <defs>
+    <style>
+      .head{font:800 30px Sora,Inter,Arial,sans-serif;letter-spacing:4px;fill:#F8FAFC}
+      .sub{font:500 19px Inter,Arial,sans-serif;fill:#9EABBC}
+      .name{font:800 22px Inter,Arial,sans-serif;letter-spacing:2px;fill:#F8FAFC}
+      .body{font:500 18px Inter,Arial,sans-serif;fill:#B8C3D1}
+    </style>
+  </defs>
+  <rect width="1600" height="620" rx="30" fill="#0A0B14"/>
+  <rect x="2" y="2" width="1596" height="616" rx="28" fill="none" stroke="#27324A"/>
+  <text x="70" y="72" class="head">ENGINEERING DEPTH</text>
+  <text x="70" y="108" class="sub">Capabilities are presented by problem domain, not by badge count.</text>
+
+  <g transform="translate(70 150)">
+    <rect width="455" height="180" rx="22" fill="#101522" stroke="#3B82F6"/>
+    <text x="28" y="42" class="name">PRODUCT SYSTEMS</text>
+    <text x="28" y="80" class="body">Discovery · UX · domain modeling</text>
+    <text x="28" y="112" class="body">Product architecture · workflow design</text>
+    <text x="28" y="144" class="body">Operational friction → product requirements</text>
+  </g>
+  <g transform="translate(572 150)">
+    <rect width="455" height="180" rx="22" fill="#101522" stroke="#06B6D4"/>
+    <text x="28" y="42" class="name">BACKEND &amp; DATA</text>
+    <text x="28" y="80" class="body">Django · APIs · PostgreSQL</text>
+    <text x="28" y="112" class="body">Integrity · state transitions · tenancy</text>
+    <text x="28" y="144" class="body">Business rules enforced server-side</text>
+  </g>
+  <g transform="translate(1074 150)">
+    <rect width="455" height="180" rx="22" fill="#101522" stroke="#8B5CF6"/>
+    <text x="28" y="42" class="name">SECURITY &amp; TRUST</text>
+    <text x="28" y="80" class="body">RBAC · privacy boundaries · validation</text>
+    <text x="28" y="112" class="body">Auditability · safe public surfaces</text>
+    <text x="28" y="144" class="body">Security integrated into architecture</text>
+  </g>
+
+  <g transform="translate(70 365)">
+    <rect width="455" height="180" rx="22" fill="#101522" stroke="#A855F7"/>
+    <text x="28" y="42" class="name">OPERATIONS</text>
+    <text x="28" y="80" class="body">CI/CD · staging · observability</text>
+    <text x="28" y="112" class="body">Deployment · continuity · FinOps</text>
+    <text x="28" y="144" class="body">Release thinking beyond local development</text>
+  </g>
+  <g transform="translate(572 365)">
+    <rect width="455" height="180" rx="22" fill="#101522" stroke="#EC4899"/>
+    <text x="28" y="42" class="name">AI &amp; AUTOMATION</text>
+    <text x="28" y="80" class="body">Agents · workflows · intelligence</text>
+    <text x="28" y="112" class="body">Reporting · repetitive-work reduction</text>
+    <text x="28" y="144" class="body">Applied only where it creates value</text>
+  </g>
+  <g transform="translate(1074 365)">
+    <rect width="455" height="180" rx="22" fill="#101522" stroke="#F0B94B"/>
+    <text x="28" y="42" class="name">PHYSICAL SYSTEMS</text>
+    <text x="28" y="80" class="body">Linux nodes · devices · electronics</text>
+    <text x="28" y="112" class="body">3D prototyping · edge integration</text>
+    <text x="28" y="144" class="body">Software connected to real environments</text>
+  </g>
+</svg>
