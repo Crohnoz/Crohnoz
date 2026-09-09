@@ -45,6 +45,7 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 
 - `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
 - `assets/fdr-flagship.svg` — flagship product card. Use when one system has materially stronger operational maturity than the rest of the portfolio.
+- `assets/fdr-architecture.svg` — sanitized high-level architecture for the FDR public engineering case study.
 - `assets/portfolio-maturity.svg` — canonical honest maturity map from `L0` through `L4`.
 - `assets/engineering-depth.svg` — capability map organized by engineering problem domain rather than technology count.
 - `assets/selected-evidence.svg` — legacy exploratory evidence showcase. It may be used below the maturity view, but must not visually compete with the current flagship.
