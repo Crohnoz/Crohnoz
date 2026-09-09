@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">FDR sanitized architecture</title>
+  <desc id="desc">High-level public architecture for FDR showing booking scope, lifecycle and public-private boundaries without sensitive implementation details.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899"/><stop offset="52%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
+    <style>
+      .head{font:800 30px Sora,Inter,Arial,sans-serif;letter-spacing:4px;fill:#F8FAFC}
+      .sub{font:500 19px Inter,Arial,sans-serif;fill:#9EABBC}
+      .name{font:800 20px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .meta{font:500 16px Inter,Arial,sans-serif;fill:#AAB5C4}
+      .zone{font:800 17px Inter,Arial,sans-serif;letter-spacing:3px;fill:#CBD5E1}
+    </style>
+  </defs>
+  <rect width="1600" height="720" rx="30" fill="#0A0B14"/><rect x="2" y="2" width="1596" height="716" rx="28" fill="none" stroke="#27324A"/>
+  <text x="70" y="66" class="head">FDR · SANITIZED SYSTEM VIEW</text>
+  <text x="70" y="102" class="sub">Public booking is a domain contract. Private clinical and operational implementation remains outside this diagram.</text>
+
+  <rect x="60" y="145" width="1480" height="205" rx="24" fill="#0E1420" stroke="#3B82F6" stroke-opacity=".8"/>
+  <text x="88" y="180" class="zone">PUBLIC CONTRACT</text>
+
+  <g transform="translate(90 215)">
+    <rect width="215" height="90" rx="18" fill="#121A29" stroke="#3B82F6"/><text x="107" y="38" text-anchor="middle" class="name">ORGANIZATION</text><text x="107" y="65" text-anchor="middle" class="meta">tenant scope</text>
+    <path d="M225 45 H280" stroke="#52627A" stroke-width="3"/>
+    <rect x="290" width="215" height="90" rx="18" fill="#121A29" stroke="#8B5CF6"/><text x="397" y="38" text-anchor="middle" class="name">PROFESSIONAL</text><text x="397" y="65" text-anchor="middle" class="meta">published + active</text>
+    <path d="M515 45 H570" stroke="#52627A" stroke-width="3"/>
+    <rect x="580" width="215" height="90" rx="18" fill="#121A29" stroke="#EC4899"/><text x="687" y="38" text-anchor="middle" class="name">OFFERING</text><text x="687" y="65" text-anchor="middle" class="meta">service relationship</text>
+    <path d="M805 45 H860" stroke="#52627A" stroke-width="3"/>
+    <rect x="870" width="215" height="90" rx="18" fill="#121A29" stroke="#06B6D4"/><text x="977" y="38" text-anchor="middle" class="name">AVAILABILITY</text><text x="977" y="65" text-anchor="middle" class="meta">valid public slot</text>
+    <path d="M1095 45 H1150" stroke="#52627A" stroke-width="3"/>
+    <rect x="1160" width="215" height="90" rx="18" fill="#15172B" stroke="url(#g)" stroke-width="2"/><text x="1267" y="38" text-anchor="middle" class="name">RESERVATION</text><text x="1267" y="65" text-anchor="middle" class="meta">server-validated</text>
+  </g>
+
+  <rect x="60" y="385" width="1480" height="250" rx="24" fill="#0D111A" stroke="#8B5CF6" stroke-opacity=".65"/>
+  <text x="88" y="422" class="zone">CONTROLLED OPERATION</text>
+
+  <g transform="translate(90 465)">
+    <rect width="290" height="105" rx="18" fill="#111722" stroke="#8B5CF6"/><text x="145" y="40" text-anchor="middle" class="name">RESERVATION LIFECYCLE</text><text x="145" y="70" text-anchor="middle" class="meta">scheduled → confirmed → outcome</text>
+    <path d="M300 52 H365" stroke="#52627A" stroke-width="3"/>
+    <rect x="375" width="290" height="105" rx="18" fill="#111722" stroke="#06B6D4"/><text x="520" y="40" text-anchor="middle" class="name">PRIVATE OPERATIONS</text><text x="520" y="70" text-anchor="middle" class="meta">authenticated workflow boundary</text>
+    <path d="M675 52 H740" stroke="#52627A" stroke-width="3"/>
+    <rect x="750" width="290" height="105" rx="18" fill="#111722" stroke="#3B82F6"/><text x="895" y="40" text-anchor="middle" class="name">REGRESSION CONTROLS</text><text x="895" y="70" text-anchor="middle" class="meta">scope · lifecycle · privacy · ICS</text>
+    <path d="M1050 52 H1115" stroke="#52627A" stroke-width="3"/>
+    <rect x="1125" width="290" height="105" rx="18" fill="#111722" stroke="#EC4899"/><text x="1270" y="40" text-anchor="middle" class="name">CONTROLLED DELIVERY</text><text x="1270" y="70" text-anchor="middle" class="meta">staging · release · observability</text>
+  </g>
+
+  <line x1="60" y1="670" x2="1540" y2="670" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <text x="800" y="701" text-anchor="middle" style="font:700 17px Inter,Arial,sans-serif;letter-spacing:3px;fill:#B9C3D2">PUBLIC EVIDENCE · PRIVATE IMPLEMENTATION BY DEFAULT</text>
+</svg>
