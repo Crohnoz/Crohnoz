@@ -39,6 +39,7 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - `assets/crohnoz_icon.ico` — Windows / PyInstaller icon.
 - `assets/github-banner.svg` — technical profile / repository banner.
 - `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
+- `assets/selected-evidence.svg` — canonical three-system evidence showcase for public profiles and portfolio surfaces.
 
 ## Crohnoz Operating Model
 
@@ -64,6 +65,18 @@ It communicates five layers:
 
 The visual should remain intentionally high-level. Do not turn it into a detailed infrastructure, org-chart or repository-dependency diagram.
 
+## Selected Evidence Showcase
+
+The **Selected Evidence Showcase** is a public-facing portfolio component. It must present a small number of systems that prove meaningfully different capabilities instead of listing repositories indiscriminately.
+
+Current canonical examples:
+
+- **Crohnoz Forge** — product reasoning, discovery, assumptions, evidence and stage gates.
+- **Crohnoz Fresh Market** — operational engineering, domain rules, traceability, continuity and controlled backend behavior.
+- **IncluMe** — inclusive product design and multi-stakeholder citizen/institution workflows.
+
+Use the showcase to answer **“what can Crohnoz actually prove?”**. Keep implementation detail in the linked case study rather than inside the visual card.
+
 ## Rules
 
 1. Keep the mark proportions intact.
@@ -75,6 +88,7 @@ The visual should remain intentionally high-level. Do not turn it into a detaile
 7. New Crohnoz products should inherit these tokens before introducing product-level accent colors.
 8. Use the Operating Model for public ecosystem explanation; use technical architecture diagrams for implementation detail.
 9. Keep public diagrams outcome-oriented: problem, capability, delivery, evidence and maturity before infrastructure detail.
+10. Public evidence showcases must demonstrate distinct capabilities; do not use them as repository catalogs.
 
 ## Brand principles
 
