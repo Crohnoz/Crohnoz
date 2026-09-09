@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">FDR — Crohnoz Labs flagship system</title>
+  <desc id="desc">Flagship engineering card for FDR showing product maturity, operational capabilities and engineering evidence.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/><stop offset="52%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity=".14"/><stop offset="50%" stop-color="#8B5CF6" stop-opacity=".12"/><stop offset="100%" stop-color="#06B6D4" stop-opacity=".12"/>
+    </linearGradient>
+    <style>
+      .eyebrow{font:700 22px Inter,Arial,sans-serif;letter-spacing:6px;fill:#A7B0C0}
+      .h1{font:900 118px Sora,Inter,Arial,sans-serif;letter-spacing:5px;fill:#F8FAFC}
+      .h2{font:700 34px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .body{font:500 24px Inter,Arial,sans-serif;fill:#C8D0DC}
+      .small{font:700 18px Inter,Arial,sans-serif;letter-spacing:2px;fill:#DCE3ED}
+      .pill{font:700 17px Inter,Arial,sans-serif;fill:#F8FAFC}
+      .muted{font:600 18px Inter,Arial,sans-serif;fill:#9CA8B8}
+    </style>
+  </defs>
+  <rect width="1600" height="760" rx="34" fill="#0A0B14"/>
+  <rect x="2" y="2" width="1596" height="756" rx="32" fill="none" stroke="url(#g)" stroke-width="3"/>
+  <circle cx="1450" cy="80" r="390" fill="none" stroke="#8B5CF6" stroke-opacity=".16" stroke-width="2"/>
+  <circle cx="120" cy="720" r="330" fill="none" stroke="#06B6D4" stroke-opacity=".12" stroke-width="2"/>
+
+  <text x="78" y="82" class="eyebrow">FLAGSHIP SYSTEM · REAL-WORLD DELIVERY</text>
+  <text x="78" y="215" class="h1">FDR</text>
+  <text x="78" y="272" class="h2">Healthcare Operations Platform</text>
+  <text x="78" y="320" class="body">Clinical workflows, public booking, professional scope, patient operations and controlled delivery.</text>
+
+  <g transform="translate(78 360)">
+    <rect width="340" height="62" rx="31" fill="url(#soft)" stroke="#8B5CF6" stroke-width="2"/>
+    <circle cx="31" cy="31" r="9" fill="#8B5CF6"/>
+    <text x="55" y="39" class="small">L2+ · ADVANCED PILOT</text>
+  </g>
+
+  <g transform="translate(78 466)">
+    <rect width="280" height="54" rx="14" fill="#111827" stroke="#293348"/><text x="25" y="34" class="pill">PUBLIC BOOKING</text>
+    <rect x="300" width="280" height="54" rx="14" fill="#111827" stroke="#293348"/><text x="325" y="34" class="pill">PATIENT WORKFLOWS</text>
+    <rect x="600" width="280" height="54" rx="14" fill="#111827" stroke="#293348"/><text x="625" y="34" class="pill">PROFESSIONAL SCOPE</text>
+    <rect x="900" width="280" height="54" rx="14" fill="#111827" stroke="#293348"/><text x="925" y="34" class="pill">PRIVACY &amp; TESTING</text>
+  </g>
+
+  <text x="78" y="590" class="small">ENGINEERING EVIDENCE</text>
+  <g transform="translate(78 620)">
+    <rect width="340" height="78" rx="18" fill="#0F1420" stroke="#25304A"/>
+    <text x="24" y="31" class="pill">BOOKING CONTRACT</text><text x="24" y="57" class="muted">Professional × service × availability</text>
+    <rect x="365" width="340" height="78" rx="18" fill="#0F1420" stroke="#25304A"/>
+    <text x="389" y="31" class="pill">REAL LIFECYCLE</text><text x="389" y="57" class="muted">Scheduled → confirmed → outcome</text>
+    <rect x="730" width="340" height="78" rx="18" fill="#0F1420" stroke="#25304A"/>
+    <text x="754" y="31" class="pill">REPRODUCIBLE STAGING</text><text x="754" y="57" class="muted">Fixtures aligned to public contract</text>
+    <rect x="1095" width="340" height="78" rx="18" fill="#0F1420" stroke="#25304A"/>
+    <text x="1119" y="31" class="pill">REGRESSION THINKING</text><text x="1119" y="57" class="muted">Scope · privacy · ICS · workflows</text>
+  </g>
+
+  <g transform="translate(1240 112)">
+    <rect width="280" height="82" rx="20" fill="url(#g)" opacity=".96"/>
+    <text x="140" y="34" text-anchor="middle" style="font:800 18px Inter,Arial,sans-serif;letter-spacing:2px;fill:#fff">OPEN ENGINEERING</text>
+    <text x="140" y="59" text-anchor="middle" style="font:800 18px Inter,Arial,sans-serif;letter-spacing:2px;fill:#fff">CASE STUDY →</text>
+  </g>
+</svg>
