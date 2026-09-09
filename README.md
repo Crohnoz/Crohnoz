@@ -13,9 +13,9 @@
 <br/>
 
 <a href="evidence/fdr.md"><img src="https://img.shields.io/badge/FDR_ENGINEERING_CASE_STUDY-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="FDR Engineering Case Study" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/FDR_SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="FDR Safe Live Demo" /></a>
 <a href="evidence/README.md"><img src="https://img.shields.io/badge/PUBLIC_EVIDENCE-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="36" alt="Public Evidence" /></a>
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Crohnoz Labs" /></a>
-<a href="https://crohnozlabs.cl/profile"><img src="https://img.shields.io/badge/PROFESSIONAL_PROFILE-06B6D4?style=for-the-badge&logo=aboutdotme&logoColor=white" height="36" alt="Professional Profile" /></a>
 
 <br/><br/>
 
@@ -35,13 +35,15 @@
 
 ### **[OPEN THE FDR ENGINEERING CASE STUDY →](evidence/fdr.md)**
 
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/OPEN-SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Open FDR safe live demo" /></a>
+
 `L2+ · ADVANCED PILOT / PRODUCTION-ORIENTED`
 
 </div>
 
 FDR is currently the most mature system in the Crohnoz portfolio. It is the primary public reference for how I approach **domain modeling, public/private boundaries, backend integrity, workflow lifecycle, regression thinking, staging and controlled delivery**.
 
-The public case study is intentionally sanitized: it exposes engineering decisions and product maturity without exposing private clinical data, credentials, production topology or proprietary implementation.
+The public case study and demo are intentionally sanitized. The demo uses fictitious patients, appointments and states and does not connect visitors to the real clinical platform.
 
 ---
 
