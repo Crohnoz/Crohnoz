@@ -4,13 +4,25 @@ This directory is the curated public evidence layer for Enrique Flores / Crohnoz
 
 The goal is to demonstrate **product thinking, engineering depth, operational understanding and delivery discipline without publishing complete product source code, private infrastructure, client environments or sensitive implementation details**.
 
-## Selected case studies
+## Flagship case study
 
-| Product | Evidence focus | Public surface | Source policy |
+### [FDR — Healthcare Operations Platform](fdr.md)
+
+**Maturity:** `L2+ · Advanced Pilot / Production-Oriented`
+
+FDR is the current flagship reference for the Crohnoz operating model. It demonstrates production-oriented domain modeling, public-booking integrity, explicit workflow lifecycle, privacy boundaries, reproducible staging, focused regression coverage and controlled delivery.
+
+**[Open the FDR engineering case study →](fdr.md)**
+
+## Exploratory product evidence
+
+These systems remain earlier in the maturity curve and are presented honestly as product exploration / R&D rather than equivalent production references.
+
+| Product | Maturity | Evidence focus | Public surface |
 |---|---|---|---|
-| [Crohnoz Forge](forge.md) | Product discovery, local-first workflow, privacy, stage gates | Public demo | Product source is not required as evidence |
-| [Crohnoz Fresh Market](fresh-market.md) | Retail operations, inventory, backend controls, traceability | Curated product surface | Full implementation should remain private by default |
-| [IncluMe](inclume.md) | Accessibility, civic UX, citizen + municipal workflows | Public demos | Public-facing evidence; implementation exposure reviewed separately |
+| [Crohnoz Forge](forge.md) | `L1 · Prototype / R&D` | Product discovery, local-first workflow, privacy, stage gates | Public demo |
+| [Crohnoz Fresh Market](fresh-market.md) | `L1 · Prototype / R&D` | Retail operations, inventory, backend controls, traceability | Curated product surface |
+| [IncluMe](inclume.md) | `L1 · Early Product` | Accessibility, civic UX, citizen + municipal workflows | Public demos |
 
 ## Evidence standard
 
