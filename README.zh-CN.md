@@ -39,17 +39,15 @@ Crohnoz Labs 是一个产品工程生态系统，专注于理解真实运营、�
 
 ## 精选公开证据
 
-公开证据以**案例研究和可运行演示**的形式呈现，而不是完整公开源代码。目标是展示产品思维、架构、实现质量和运营理解，同时默认保护专有系统。
-
-| 系统 | 展示能力 | 公开证据 |
-|---|---|---|
-| **Crohnoz Forge** | 产品发现 · 本地优先工作流 · 隐私 · 产品阶段门控 | [案例研究](evidence/forge.md) · [在线演示](https://crohnoz-forge.netlify.app) |
-| **Crohnoz Fresh Market** | 全栈运营 · 库存规则 · RBAC · 可追溯性 · 连续性 | [案例研究](evidence/fresh-market.md) |
-| **IncluMe** | 无障碍产品设计 · 市民和市政工作流 | [案例研究](evidence/inclume.md) · [市民端演示](https://inclume-chile.netlify.app/) |
+公开证据以**案例研究和可运行演示**的形式呈现。每个系统都代表 Crohnoz 运营模型中的不同能力。
 
 <div align="center">
 
-**[查看完整公开证据目录 →](evidence/README.md)**
+<img src="brand/assets/selected-evidence.svg" alt="Crohnoz Labs 精选公开证据：Forge、Fresh Market 和 IncluMe" width="100%" />
+
+**[Crohnoz Forge →](evidence/forge.md)** 产品推理 · **[Fresh Market →](evidence/fresh-market.md)** 运营工程 · **[IncluMe →](evidence/inclume.md)** 包容性产品设计
+
+[Forge 在线演示](https://crohnoz-forge.netlify.app) · [IncluMe 市民端演示](https://inclume-chile.netlify.app/) · **[完整证据目录 →](evidence/README.md)**
 
 </div>
 
