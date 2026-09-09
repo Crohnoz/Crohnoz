@@ -2,6 +2,7 @@
 
 <a href="../README.md"><img src="https://img.shields.io/badge/←_BACK_TO_PROFILE-0A0B14?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Back to profile" /></a>
 <a href="README.md"><img src="https://img.shields.io/badge/PUBLIC_EVIDENCE-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Public Evidence" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="34" alt="FDR Safe Live Demo" /></a>
 
 <br/><br/>
 
@@ -16,6 +17,20 @@
 </div>
 
 > This case study is intentionally sanitized. It documents engineering decisions and observable product behavior without exposing private clinical data, credentials, production topology, private repositories or client-sensitive implementation details.
+
+---
+
+## Safe public demo
+
+<div align="center">
+
+### **[OPEN THE FDR SAFE LIVE DEMO →](https://crohnozlabs.cl/demos/fdr-centro-podologico)**
+
+</div>
+
+The public demo uses **fictitious patients, appointments and workflow states**. It is designed as a safe product walkthrough and does not connect visitors to the real clinical platform or expose operational data.
+
+That distinction is part of the evidence itself: demonstrating a product should not require weakening the production privacy boundary.
 
 ---
 
@@ -157,6 +172,7 @@ FDR is the current strongest example of the Crohnoz operating model:
 
 # **Problem → System → Evidence → Scale**
 
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/OPEN_FDR-SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Open FDR safe live demo" /></a>
 <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_ENRIQUE_FLORES_PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Return to Enrique Flores profile" /></a>
 <a href="README.md"><img src="https://img.shields.io/badge/EXPLORE_ALL_PUBLIC_EVIDENCE-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="38" alt="Explore all public evidence" /></a>
 
