@@ -39,17 +39,15 @@ Crohnoz Labs es un ecosistema de ingeniería de producto enfocado en entender op
 
 ## Evidencia seleccionada
 
-La evidencia pública se presenta como **casos de estudio y demostraciones funcionales**, no como una descarga masiva de repositorios. El objetivo es mostrar razonamiento de producto, arquitectura, calidad de implementación y comprensión operacional sin exponer por defecto sistemas propietarios.
-
-| Sistema | Qué demuestra | Evidencia |
-|---|---|---|
-| **Crohnoz Forge** | Discovery · flujos local-first · privacidad · etapas de madurez | [Caso de estudio](evidence/forge.md) · [Demo](https://crohnoz-forge.netlify.app) |
-| **Crohnoz Fresh Market** | Operación full-stack · inventario · RBAC · trazabilidad · continuidad | [Caso de estudio](evidence/fresh-market.md) |
-| **IncluMe** | Diseño orientado a accesibilidad · flujos ciudadanos y municipales | [Caso de estudio](evidence/inclume.md) · [Demo ciudadana](https://inclume-chile.netlify.app/) |
+La evidencia pública se presenta como **casos de estudio y demostraciones funcionales**. Cada sistema fue seleccionado porque prueba una capacidad distinta dentro del modelo operativo de Crohnoz.
 
 <div align="center">
 
-**[Explorar el catálogo completo de evidencia pública →](evidence/README.md)**
+<img src="brand/assets/selected-evidence.svg" alt="Evidencia pública seleccionada de Crohnoz Labs: Forge, Fresh Market e IncluMe" width="100%" />
+
+**[Crohnoz Forge →](evidence/forge.md)** Razonamiento de producto · **[Fresh Market →](evidence/fresh-market.md)** Ingeniería operacional · **[IncluMe →](evidence/inclume.md)** Diseño inclusivo
+
+[Demo Forge](https://crohnoz-forge.netlify.app) · [Demo ciudadana IncluMe](https://inclume-chile.netlify.app/) · **[Catálogo completo de evidencia →](evidence/README.md)**
 
 </div>
 
