@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Crohnoz Operating Model</title>
+  <desc id="desc">Operating model for Crohnoz Labs showing leadership, core capabilities, delivery engine, lifecycle, maturity and evidence.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="brandLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="52%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title{font:800 34px Inter,Arial,sans-serif;letter-spacing:5px;fill:#F8FAFC}
+      .subtitle{font:500 18px Inter,Arial,sans-serif;letter-spacing:2px;fill:#94A3B8}
+      .eyebrow{font:700 15px Inter,Arial,sans-serif;letter-spacing:3px;fill:#CBD5E1}
+      .card-title{font:800 19px Inter,Arial,sans-serif;letter-spacing:1.8px;fill:#F8FAFC}
+      .card-copy{font:500 14px Inter,Arial,sans-serif;fill:#94A3B8}
+      .small{font:700 13px Inter,Arial,sans-serif;letter-spacing:1.3px;fill:#CBD5E1}
+      .tiny{font:500 12px Inter,Arial,sans-serif;fill:#94A3B8}
+      .node{fill:#10121C;stroke:#2B3042;stroke-width:1.5}
+      .line{stroke:#3A4056;stroke-width:2;fill:none}
+      .muted-line{stroke:#2A2F40;stroke-width:1.5;fill:none}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1100" rx="28" fill="#0A0B14"/>
+  <circle cx="1490" cy="90" r="390" fill="none" stroke="#3B82F6" stroke-opacity=".10" stroke-width="2"/>
+  <circle cx="80" cy="1030" r="310" fill="none" stroke="#A855F7" stroke-opacity=".12" stroke-width="2"/>
+
+  <text x="800" y="72" text-anchor="middle" class="eyebrow">CROHNOZ LABS</text>
+  <text x="800" y="118" text-anchor="middle" class="title">OPERATING MODEL</text>
+  <text x="800" y="151" text-anchor="middle" class="subtitle">Problem → System → Evidence → Scale</text>
+
+  <!-- Leadership -->
+  <rect x="565" y="190" width="470" height="92" rx="18" class="node" stroke="url(#brandLine)" stroke-width="2"/>
+  <text x="800" y="225" text-anchor="middle" class="card-title">ENRIQUE FLORES</text>
+  <text x="800" y="252" text-anchor="middle" class="card-copy">Founder · Product &amp; Systems Architecture</text>
+
+  <path d="M800 282 V318" class="line"/>
+  <circle cx="800" cy="318" r="4" fill="#8B5CF6"/>
+
+  <!-- Core -->
+  <rect x="490" y="330" width="620" height="112" rx="24" fill="#10121C" stroke="url(#brand)" stroke-width="3" filter="url(#glow)"/>
+  <text x="800" y="373" text-anchor="middle" class="card-title" style="font-size:26px;letter-spacing:4px">CROHNOZ LABS</text>
+  <text x="800" y="404" text-anchor="middle" class="card-copy" style="font-size:16px">Technology &amp; Product Ecosystem</text>
+
+  <!-- Capability connector -->
+  <path d="M800 442 V474 M235 474 H1365" class="line"/>
+  <path d="M235 474 V500 M518 474 V500 M800 474 V500 M1082 474 V500 M1365 474 V500" class="line"/>
+
+  <!-- Capability cards -->
+  <g>
+    <rect x="105" y="500" width="260" height="112" rx="18" class="node" stroke="#EC4899"/>
+    <text x="235" y="538" text-anchor="middle" class="card-title">PRODUCT</text>
+    <text x="235" y="566" text-anchor="middle" class="card-copy">Discovery · UX · Strategy</text>
+    <text x="235" y="589" text-anchor="middle" class="tiny">Domain intelligence</text>
+  </g>
+  <g>
+    <rect x="388" y="500" width="260" height="112" rx="18" class="node" stroke="#3B82F6"/>
+    <text x="518" y="538" text-anchor="middle" class="card-title">ENGINEERING</text>
+    <text x="518" y="566" text-anchor="middle" class="card-copy">Software · Data · Quality</text>
+    <text x="518" y="589" text-anchor="middle" class="tiny">Secure systems</text>
+  </g>
+  <g>
+    <rect x="670" y="500" width="260" height="112" rx="18" class="node" stroke="#8B5CF6"/>
+    <text x="800" y="538" text-anchor="middle" class="card-title">AI &amp; AUTOMATION</text>
+    <text x="800" y="566" text-anchor="middle" class="card-copy">Agents · Workflows · AI</text>
+    <text x="800" y="589" text-anchor="middle" class="tiny">Operational intelligence</text>
+  </g>
+  <g>
+    <rect x="952" y="500" width="260" height="112" rx="18" class="node" stroke="#A855F7"/>
+    <text x="1082" y="538" text-anchor="middle" class="card-title">HARDWARE</text>
+    <text x="1082" y="566" text-anchor="middle" class="card-copy">Devices · 3D · Integration</text>
+    <text x="1082" y="589" text-anchor="middle" class="tiny">Connected prototypes</text>
+  </g>
+  <g>
+    <rect x="1235" y="500" width="260" height="112" rx="18" class="node" stroke="#06B6D4"/>
+    <text x="1365" y="538" text-anchor="middle" class="card-title">OPERATIONS</text>
+    <text x="1365" y="566" text-anchor="middle" class="card-copy">DevOps · FinOps · Delivery</text>
+    <text x="1365" y="589" text-anchor="middle" class="tiny">Growth &amp; continuity</text>
+  </g>
+
+  <!-- Converge -->
+  <path d="M235 612 V646 H800 M518 612 V646 M800 612 V646 M1082 612 V646 M1365 612 V646 H800" class="muted-line"/>
+  <path d="M800 646 V672" class="line"/>
+
+  <rect x="490" y="672" width="620" height="78" rx="20" fill="#121521" stroke="#9BB2FF" stroke-width="2"/>
+  <text x="800" y="705" text-anchor="middle" class="card-title">DELIVERY ENGINE</text>
+  <text x="800" y="730" text-anchor="middle" class="card-copy">Cross-functional execution · measurable outcomes</text>
+
+  <!-- Lifecycle -->
+  <text x="800" y="790" text-anchor="middle" class="eyebrow">PRODUCT LIFECYCLE</text>
+  <path d="M190 834 H1410" stroke="url(#brandLine)" stroke-width="4" fill="none"/>
+  <g class="small">
+    <circle cx="190" cy="834" r="8" fill="#EC4899"/><text x="190" y="866" text-anchor="middle">DISCOVER</text>
+    <circle cx="390" cy="834" r="8" fill="#D24AA9"/><text x="390" y="866" text-anchor="middle">DESIGN</text>
+    <circle cx="590" cy="834" r="8" fill="#B34CBA"/><text x="590" y="866" text-anchor="middle">BUILD</text>
+    <circle cx="790" cy="834" r="8" fill="#8B5CF6"/><text x="790" y="866" text-anchor="middle">VALIDATE</text>
+    <circle cx="990" cy="834" r="8" fill="#586EE7"/><text x="990" y="866" text-anchor="middle">DEPLOY</text>
+    <circle cx="1190" cy="834" r="8" fill="#2D8FDD"/><text x="1190" y="866" text-anchor="middle">OPERATE</text>
+    <circle cx="1410" cy="834" r="8" fill="#06B6D4"/><text x="1410" y="866" text-anchor="middle">IMPROVE</text>
+  </g>
+
+  <!-- Maturity -->
+  <text x="800" y="925" text-anchor="middle" class="eyebrow">PRODUCT MATURITY</text>
+  <g>
+    <rect x="150" y="952" width="230" height="62" rx="16" class="node"/><text x="265" y="978" text-anchor="middle" class="small">L0 · IDEA</text><text x="265" y="998" text-anchor="middle" class="tiny">Problem defined</text>
+    <path d="M380 983 H405" class="muted-line"/>
+    <rect x="405" y="952" width="230" height="62" rx="16" class="node"/><text x="520" y="978" text-anchor="middle" class="small">L1 · PROTOTYPE</text><text x="520" y="998" text-anchor="middle" class="tiny">Concept proven</text>
+    <path d="M635 983 H660" class="muted-line"/>
+    <rect x="660" y="952" width="230" height="62" rx="16" class="node"/><text x="775" y="978" text-anchor="middle" class="small">L2 · PILOT</text><text x="775" y="998" text-anchor="middle" class="tiny">Operation validated</text>
+    <path d="M890 983 H915" class="muted-line"/>
+    <rect x="915" y="952" width="230" height="62" rx="16" class="node"/><text x="1030" y="978" text-anchor="middle" class="small">L3 · PRODUCTION</text><text x="1030" y="998" text-anchor="middle" class="tiny">Reliable delivery</text>
+    <path d="M1145 983 H1170" class="muted-line"/>
+    <rect x="1170" y="952" width="280" height="62" rx="16" fill="#11151F" stroke="url(#brandLine)" stroke-width="2"/><text x="1310" y="978" text-anchor="middle" class="small">L4 · SCALE</text><text x="1310" y="998" text-anchor="middle" class="tiny">Repeatable growth</text>
+  </g>
+
+  <text x="800" y="1060" text-anchor="middle" class="subtitle" style="font-size:14px">BUILD · INTEGRATE · AUTOMATE · OBSERVE · PROTECT · IMPROVE</text>
+</svg>
