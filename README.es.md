@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="brand/assets/github-banner-mobile.svg" />
+  <img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+</picture>
 
 <br/>
 
@@ -38,7 +41,12 @@ FDR es actualmente la evidencia operacional más fuerte del portafolio Crohnoz. 
 
 ## Superficies del producto
 
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="brand/assets/fdr-product-showcase.svg" alt="Reconstrucción sanitizada de superficies implementadas de FDR" width="100%" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico">
+  <picture>
+    <source media="(max-width: 700px)" srcset="brand/assets/fdr-product-showcase-mobile.svg" />
+    <img src="brand/assets/fdr-product-showcase.svg" alt="Reconstrucción sanitizada de superficies implementadas de FDR" width="100%" />
+  </picture>
+</a>
 
 <div align="center">
 
@@ -96,7 +104,10 @@ Trabajo en dominios donde el software tiene que adaptarse a operaciones reales: 
 
 ## Madurez actual del portafolio
 
-<img src="brand/assets/portfolio-maturity.svg" alt="Madurez actual del portafolio Crohnoz Labs" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="brand/assets/portfolio-maturity-mobile.svg" />
+  <img src="brand/assets/portfolio-maturity.svg" alt="Madurez actual del portafolio Crohnoz Labs" width="100%" />
+</picture>
 
 <div align="center">
 
