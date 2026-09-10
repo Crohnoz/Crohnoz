@@ -3,6 +3,13 @@
 <a href="README.md"><img src="https://img.shields.io/badge/←_PUBLIC_EVIDENCE-0A0B14?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Back to Public Evidence" /></a>
 <a href="https://inclume-chile.netlify.app/"><img src="https://img.shields.io/badge/OPEN-CITIZEN_DEMO-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="34" alt="Open IncluMe citizen demo" /></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(max-width: 700px)" srcset="../brand/assets/case-inclume-mobile.svg" />
+  <img src="../brand/assets/case-inclume.svg" alt="IncluMe inclusive product design case study" width="100%" />
+</picture>
+
 # IncluMe · Inclusive Product R&D
 
 `L1 · EARLY PRODUCT`
