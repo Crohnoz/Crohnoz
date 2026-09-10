@@ -13,9 +13,9 @@
 <br/>
 
 <a href="evidence/fdr.md"><img src="https://img.shields.io/badge/FDR_ENGINEERING_CASE_STUDY-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="FDR Engineering Case Study" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/FDR_SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="FDR Safe Live Demo" /></a>
 <a href="evidence/README.md"><img src="https://img.shields.io/badge/PUBLIC_EVIDENCE-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="36" alt="Public Evidence" /></a>
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Crohnoz Labs" /></a>
-<a href="https://crohnozlabs.cl/profile?lang=zh"><img src="https://img.shields.io/badge/PROFESSIONAL_PROFILE-06B6D4?style=for-the-badge&logo=aboutdotme&logoColor=white" height="36" alt="Professional Profile" /></a>
 
 <br/><br/>
 
@@ -35,13 +35,28 @@
 
 ### **[打开 FDR 工程案例 →](evidence/fdr.md)**
 
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/OPEN-SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Open FDR safe live demo" /></a>
+
 `L2+ · 高级试点 / 面向生产`
 
 </div>
 
 FDR 是目前 Crohnoz 产品组合中成熟度最高的系统，也是展示我如何处理**领域建模、公共/私有边界、后端完整性、工作流生命周期、回归测试、staging 与受控交付**的主要公开参考。
 
-公开案例经过脱敏处理：展示工程决策和产品成熟度，同时保护临床数据、凭据、生产拓扑和专有实现。
+公开案例和演示经过脱敏处理，使用虚构患者、预约与状态，不会把访客连接到真实临床平台。
+
+---
+
+## FDR 工程证据
+
+<img src="brand/assets/fdr-evidence-strip.svg" alt="FDR booking, professional profiles, lifecycle, privacy, staging and regression engineering evidence" width="100%" />
+
+<div align="center">
+
+<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/INSPECT-ENGINEERING_CASE-8B5CF6?style=for-the-badge" height="36" alt="Inspect FDR engineering case" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/TRY-SAFE_DEMO-06B6D4?style=for-the-badge" height="36" alt="Try FDR safe demo" /></a>
+
+</div>
 
 ---
 
@@ -50,6 +65,14 @@ FDR 是目前 Crohnoz 产品组合中成熟度最高的系统，也是展示我�
 <img src="brand/assets/engineering-depth.svg" alt="产品、后端、安全、运营、自动化和物理系统的工程深度" width="100%" />
 
 重点不是技术徽章的数量，而是这些技术是否真正执行**运营契约**：正确的 scope、可靠的状态转换、隐私边界、连续性和可衡量的交付控制。
+
+---
+
+## 真实运营场景中的交付
+
+<img src="brand/assets/delivery-contexts.svg" alt="医疗、商业运营、公共流程、基础设施与自动化中的工程交付" width="100%" />
+
+我更关注软件如何适配真实运营，而不是让运营去迁就软件。公开资料保留客户敏感实现的私密性，同时展示可迁移到不同领域的工程模式。
 
 ---
 
