@@ -91,15 +91,15 @@ required_cases = [
 for item in required_cases:
     require_file(item)
 
-# The primary README must preserve flagship hierarchy, responsive visuals and a professional conversion path.
+# The primary README must preserve flagship hierarchy, responsive visuals and case-study routes.
 require_text(
     "README.md",
     [
         "FDR",
         "L2+",
-        "Crohnoz Forge",
-        "Fresh Market",
-        "IncluMe",
+        "evidence/forge.md",
+        "evidence/fresh-market.md",
+        "evidence/inclume.md",
         "brand/assets/github-banner-mobile.svg",
         "brand/assets/fdr-product-showcase-mobile.svg",
         "brand/assets/portfolio-maturity-mobile.svg",
@@ -116,9 +116,9 @@ for localized_readme in ["README.es.md", "README.zh-CN.md"]:
         [
             "FDR",
             "L2+",
-            "Forge",
-            "Fresh Market",
-            "IncluMe",
+            "evidence/forge.md",
+            "evidence/fresh-market.md",
+            "evidence/inclume.md",
             "L1",
             "brand/assets/github-banner-mobile.svg",
             "brand/assets/portfolio-maturity-mobile.svg",
