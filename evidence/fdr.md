@@ -36,7 +36,12 @@ That distinction is part of the evidence itself: demonstrating a product should 
 
 ## Product surfaces
 
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="../brand/assets/fdr-product-showcase.svg" alt="Sanitized reconstruction of implemented FDR product surfaces" width="100%" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico">
+  <picture>
+    <source media="(max-width: 700px)" srcset="../brand/assets/fdr-product-showcase-mobile.svg" />
+    <img src="../brand/assets/fdr-product-showcase.svg" alt="Sanitized reconstruction of implemented FDR product surfaces" width="100%" />
+  </picture>
+</a>
 
 The showcase reconstructs three interfaces that exist in the implemented product:
 
