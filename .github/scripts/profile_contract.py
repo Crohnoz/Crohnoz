@@ -58,6 +58,7 @@ required_assets = [
     "brand/assets/github-banner.svg",
     "brand/assets/github-banner-mobile.svg",
     "brand/assets/fdr-flagship.svg",
+    "brand/assets/fdr-flagship-mobile.svg",
     "brand/assets/fdr-product-showcase.svg",
     "brand/assets/fdr-product-showcase-mobile.svg",
     "brand/assets/fdr-evidence-strip.svg",
@@ -101,6 +102,7 @@ require_text(
         "evidence/fresh-market.md",
         "evidence/inclume.md",
         "brand/assets/github-banner-mobile.svg",
+        "brand/assets/fdr-flagship-mobile.svg",
         "brand/assets/fdr-product-showcase-mobile.svg",
         "brand/assets/portfolio-maturity-mobile.svg",
         "Professional collaboration",
@@ -127,7 +129,7 @@ for localized_readme in ["README.es.md", "README.zh-CN.md"]:
     )
 
 # Case-study maturity/publication boundaries.
-require_text("evidence/fdr.md", ["L2+", "ADVANCED PILOT", "sanitized"])
+require_text("evidence/fdr.md", ["L2+", "ADVANCED PILOT", "sanitized", "fdr-flagship-mobile.svg"])
 require_text("evidence/rental-operations.md", ["NON-FLAGSHIP", "case-rental-operations-mobile.svg"])
 require_text("evidence/forge.md", ["L1 · PROTOTYPE / R&D", "case-forge-mobile.svg"])
 require_text("evidence/fresh-market.md", ["L1 · PROTOTYPE / R&D", "case-fresh-market-mobile.svg"])
@@ -140,6 +142,7 @@ require_text(
         "01 · Flagship engineering case",
         "02 · Selected operational engineering",
         "03 · Product R&D",
+        "fdr-flagship-mobile.svg",
         "case-rental-operations-mobile.svg",
         "case-forge-mobile.svg",
         "case-fresh-market-mobile.svg",
