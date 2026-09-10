@@ -24,6 +24,16 @@ These systems remain earlier in the maturity curve and are presented honestly as
 | [Crohnoz Fresh Market](fresh-market.md) | `L1 · Prototype / R&D` | Retail operations, inventory, backend controls, traceability | Curated product surface |
 | [IncluMe](inclume.md) | `L1 · Early Product` | Accessibility, civic UX, citizen + municipal workflows | Public demos |
 
+## Selected operational systems
+
+These cases demonstrate concrete operational modeling without being presented as flagship products or inflated into broader SaaS claims.
+
+| System | Evidence focus | Public boundary |
+|---|---|---|
+| [Rental Operations](rental-operations.md) | Charges, payments, vouchers, settlement rules, environment isolation | Fictitious public demo + sanitized architecture |
+
+**[Open the Rental Operations engineering case →](rental-operations.md)**
+
 ## Evidence standard
 
 A case study should answer six questions:
