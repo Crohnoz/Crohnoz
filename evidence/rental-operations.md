@@ -3,6 +3,13 @@
 <a href="README.md"><img src="https://img.shields.io/badge/←_PUBLIC_EVIDENCE-0A0B14?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Back to Public Evidence" /></a>
 <a href="https://github.com/Crohnoz/Crohnoz-Rental-Ops"><img src="https://img.shields.io/badge/OPEN-PUBLIC_REPOSITORY-A855F7?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Open Rental Operations repository" /></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(max-width: 700px)" srcset="../brand/assets/case-rental-operations-mobile.svg" />
+  <img src="../brand/assets/case-rental-operations.svg" alt="Rental Operations selected operational engineering case" width="100%" />
+</picture>
+
 # Rental Operations · Selected Operational Case
 
 `CURATED OPERATIONAL EVIDENCE · NON-FLAGSHIP`
