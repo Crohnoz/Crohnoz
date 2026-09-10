@@ -111,6 +111,21 @@ The maturity map is intentionally honest. **FDR receives flagship weight because
 
 ---
 
+## Professional collaboration
+
+<a href="https://crohnozlabs.cl/profile"><img src="brand/assets/professional-engagement.svg" alt="Professional engagement areas: product architecture, operational software, backend integrity and applied AI automation" width="100%" /></a>
+
+Best-fit work is where the main challenge is not simply shipping features, but **understanding an operation, translating it into explicit system behavior and delivering it with reliable boundaries**.
+
+<div align="center">
+
+<a href="https://crohnozlabs.cl/profile"><img src="https://img.shields.io/badge/VIEW-PROFESSIONAL_PROFILE-EC4899?style=for-the-badge&logo=aboutdotme&logoColor=white" height="38" alt="View professional profile" /></a>
+<a href="evidence/README.md"><img src="https://img.shields.io/badge/REVIEW-PUBLIC_EVIDENCE-8B5CF6?style=for-the-badge&logo=readme&logoColor=white" height="38" alt="Review public evidence" /></a>
+
+</div>
+
+---
+
 ## Deep dive
 
 <details>
@@ -185,6 +200,7 @@ I prefer to understand the operation before choosing the architecture, reduce co
 <br/>
 
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/WEBSITE-CROHNOZ_LABS-EC4899?style=for-the-badge" height="34" alt="Crohnoz Labs website" /></a>
+<a href="https://crohnozlabs.cl/profile"><img src="https://img.shields.io/badge/PROFILE-ENRIQUE_FLORES-06B6D4?style=for-the-badge" height="34" alt="Enrique Flores professional profile" /></a>
 <a href="evidence/README.md"><img src="https://img.shields.io/badge/OPEN-PUBLIC_EVIDENCE-8B5CF6?style=for-the-badge" height="34" alt="Public evidence" /></a>
 
 </div>
