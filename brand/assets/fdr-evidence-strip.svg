@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+  <title id="title">FDR Engineering Evidence</title>
+  <desc id="desc">Six evidence areas from FDR: booking contract, professional profiles, reservation lifecycle, privacy boundaries, reproducible staging and regression controls.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
+    <style>
+      .eyebrow{font:700 18px Inter,Arial,sans-serif;letter-spacing:4px;fill:#AAB3C5}.h1{font:800 42px Inter,Arial,sans-serif;fill:#F8FAFC}.cardTitle{font:800 24px Inter,Arial,sans-serif;fill:#F8FAFC}.copy{font:500 17px Inter,Arial,sans-serif;fill:#AAB3C5}.tag{font:700 14px Inter,Arial,sans-serif;letter-spacing:1px;fill:#D8DEEA}.num{font:800 20px Inter,Arial,sans-serif;fill:#F8FAFC}
+    </style>
+  </defs>
+  <rect width="1600" height="650" rx="32" fill="#0A0B14"/>
+  <rect x="55" y="52" width="1490" height="4" rx="2" fill="url(#brand)"/>
+  <text x="70" y="105" class="eyebrow">FDR · ENGINEERING EVIDENCE</text>
+  <text x="70" y="160" class="h1">What the system already proves</text>
+
+  <g transform="translate(70 210)">
+    <rect width="450" height="170" rx="22" fill="#10131D" stroke="#8B5CF6" stroke-opacity=".65"/>
+    <circle cx="42" cy="42" r="20" fill="#8B5CF6"/><text x="35" y="49" class="num">01</text>
+    <text x="80" y="48" class="cardTitle">Booking contract</text>
+    <text x="28" y="92" class="copy">Professional × offering × service × slot</text>
+    <text x="28" y="122" class="copy">validated as one server-side domain scope.</text>
+    <text x="28" y="151" class="tag">BACKEND INTEGRITY</text>
+  </g>
+
+  <g transform="translate(575 210)">
+    <rect width="450" height="170" rx="22" fill="#10131D" stroke="#3B82F6" stroke-opacity=".65"/>
+    <circle cx="42" cy="42" r="20" fill="#3B82F6"/><text x="35" y="49" class="num">02</text>
+    <text x="80" y="48" class="cardTitle">Professional layer</text>
+    <text x="28" y="92" class="copy">Published profiles and structured offerings</text>
+    <text x="28" y="122" class="copy">separate public availability from private ops.</text>
+    <text x="28" y="151" class="tag">PUBLIC / PRIVATE BOUNDARY</text>
+  </g>
+
+  <g transform="translate(1080 210)">
+    <rect width="450" height="170" rx="22" fill="#10131D" stroke="#06B6D4" stroke-opacity=".65"/>
+    <circle cx="42" cy="42" r="20" fill="#06B6D4"/><text x="35" y="49" class="num">03</text>
+    <text x="80" y="48" class="cardTitle">Reservation lifecycle</text>
+    <text x="28" y="92" class="copy">Scheduled → Confirmed → Checked-in →</text>
+    <text x="28" y="122" class="copy">Completed, with Cancelled / No-show outcomes.</text>
+    <text x="28" y="151" class="tag">STATE MODEL</text>
+  </g>
+
+  <g transform="translate(70 410)">
+    <rect width="450" height="170" rx="22" fill="#10131D" stroke="#EC4899" stroke-opacity=".65"/>
+    <circle cx="42" cy="42" r="20" fill="#EC4899"/><text x="35" y="49" class="num">04</text>
+    <text x="80" y="48" class="cardTitle">Privacy-aware surfaces</text>
+    <text x="28" y="92" class="copy">Public flows minimize PII exposure and keep</text>
+    <text x="28" y="122" class="copy">clinical context behind authenticated boundaries.</text>
+    <text x="28" y="151" class="tag">SECURITY &amp; PRIVACY</text>
+  </g>
+
+  <g transform="translate(575 410)">
+    <rect width="450" height="170" rx="22" fill="#10131D" stroke="#A855F7" stroke-opacity=".65"/>
+    <circle cx="42" cy="42" r="20" fill="#A855F7"/><text x="35" y="49" class="num">05</text>
+    <text x="80" y="48" class="cardTitle">Reproducible staging</text>
+    <text x="28" y="92" class="copy">Safe demo data is bootstrapped around the same</text>
+    <text x="28" y="122" class="copy">public contract used by the production path.</text>
+    <text x="28" y="151" class="tag">DELIVERY DISCIPLINE</text>
+  </g>
+
+  <g transform="translate(1080 410)">
+    <rect width="450" height="170" rx="22" fill="#10131D" stroke="#F8FAFC" stroke-opacity=".4"/>
+    <circle cx="42" cy="42" r="20" fill="#F8FAFC"/><text x="35" y="49" style="font:800 20px Inter,Arial,sans-serif;fill:#0A0B14">06</text>
+    <text x="80" y="48" class="cardTitle">Regression controls</text>
+    <text x="28" y="92" class="copy">Focused tests encode booking, lifecycle, privacy</text>
+    <text x="28" y="122" class="copy">and publication invariants instead of happy paths.</text>
+    <text x="28" y="151" class="tag">RELIABILITY</text>
+  </g>
+
+  <text x="70" y="625" class="copy">Evidence first · proprietary implementation private by default</text>
+</svg>
