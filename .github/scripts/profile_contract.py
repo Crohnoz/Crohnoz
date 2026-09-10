@@ -91,34 +91,38 @@ required_cases = [
 for item in required_cases:
     require_file(item)
 
-# The main public narrative must preserve flagship hierarchy and evidence paths.
+# The primary README must preserve flagship hierarchy, responsive visuals and a professional conversion path.
 require_text(
     "README.md",
     [
         "FDR",
         "L2+",
-        "FORGE-PROTOTYPE_L1",
-        "FRESH_MARKET-PROTOTYPE_L1",
-        "INCLUME-EARLY_PRODUCT_L1",
+        "Crohnoz Forge",
+        "Fresh Market",
+        "IncluMe",
         "brand/assets/github-banner-mobile.svg",
         "brand/assets/fdr-product-showcase-mobile.svg",
         "brand/assets/portfolio-maturity-mobile.svg",
         "Professional collaboration",
-        "Evidence is public by design",
+        "evidence/README.md",
+        "crohnozlabs.cl/profile",
     ],
 )
 
+# Localized surfaces can translate labels; enforce semantic anchors rather than English badge literals.
 for localized_readme in ["README.es.md", "README.zh-CN.md"]:
     require_text(
         localized_readme,
         [
             "FDR",
             "L2+",
-            "FORGE-PROTOTYPE_L1",
-            "FRESH_MARKET-PROTOTYPE_L1",
-            "INCLUME-EARLY_PRODUCT_L1",
+            "Forge",
+            "Fresh Market",
+            "IncluMe",
+            "L1",
             "brand/assets/github-banner-mobile.svg",
             "brand/assets/portfolio-maturity-mobile.svg",
+            "evidence/README.md",
         ],
     )
 
@@ -128,6 +132,20 @@ require_text("evidence/rental-operations.md", ["NON-FLAGSHIP", "case-rental-oper
 require_text("evidence/forge.md", ["L1 · PROTOTYPE / R&D", "case-forge-mobile.svg"])
 require_text("evidence/fresh-market.md", ["L1 · PROTOTYPE / R&D", "case-fresh-market-mobile.svg"])
 require_text("evidence/inclume.md", ["L1 · EARLY PRODUCT", "case-inclume-mobile.svg"])
+
+# The evidence index must expose every current case in the intended hierarchy.
+require_text(
+    "evidence/README.md",
+    [
+        "01 · Flagship engineering case",
+        "02 · Selected operational engineering",
+        "03 · Product R&D",
+        "case-rental-operations-mobile.svg",
+        "case-forge-mobile.svg",
+        "case-fresh-market-mobile.svg",
+        "case-inclume-mobile.svg",
+    ],
+)
 
 # The profile repository is editorial/portfolio infrastructure, not an application build dump.
 forbidden_root_entries = {
@@ -158,20 +176,22 @@ sensitive_markers = [
 for path in [*ROOT.glob("*.md"), *(ROOT / "brand").glob("*.md"), *(ROOT / "evidence").glob("*.md")]:
     forbid_text(path, sensitive_markers)
 
-# Validate all public SVGs as XML so malformed visual assets cannot silently land.
+# Validate every public SVG as XML so malformed visual assets cannot silently land.
 for svg in (ROOT / "brand" / "assets").glob("*.svg"):
     try:
         ElementTree.parse(svg)
     except ElementTree.ParseError as exc:
         fail(f"malformed SVG {svg.relative_to(ROOT)}: {exc}")
 
-# Validate repository-local Markdown and HTML href/src references.
+# Validate repository-local Markdown/HTML references, ignoring fenced code examples.
 markdown_link = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 html_link = re.compile(r"(?:href|src|srcset)=\"([^\"]+)\"")
+fenced_code = re.compile(r"```.*?```", re.DOTALL)
 
 for markdown in [*ROOT.glob("*.md"), *(ROOT / "brand").glob("*.md"), *(ROOT / "evidence").glob("*.md")]:
     text = markdown.read_text(encoding="utf-8", errors="replace")
-    candidates = markdown_link.findall(text) + html_link.findall(text)
+    inspectable = fenced_code.sub("", text)
+    candidates = markdown_link.findall(inspectable) + html_link.findall(inspectable)
     for raw_target in candidates:
         target = raw_target.strip().split()[0]
         if not target or target.startswith(("http://", "https://", "mailto:", "#", "data:")):
