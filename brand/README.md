@@ -46,8 +46,10 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
 - `assets/fdr-flagship.svg` — flagship product card. Use when one system has materially stronger operational maturity than the rest of the portfolio.
 - `assets/fdr-architecture.svg` — sanitized high-level architecture for the FDR public engineering case study.
+- `assets/fdr-evidence-strip.svg` — six-part proof strip for booking integrity, public profiles, lifecycle, privacy, staging and regression controls.
 - `assets/portfolio-maturity.svg` — canonical honest maturity map from `L0` through `L4`.
 - `assets/engineering-depth.svg` — capability map organized by engineering problem domain rather than technology count.
+- `assets/delivery-contexts.svg` — cross-domain delivery view for healthcare, commerce/operations, public-sector workflows and infrastructure/automation.
 - `assets/selected-evidence.svg` — legacy exploratory evidence showcase. It may be used below the maturity view, but must not visually compete with the current flagship.
 
 ## Crohnoz Operating Model
@@ -82,10 +84,12 @@ Public surfaces must distinguish **maturity** from **potential**.
 The preferred hierarchy is:
 
 1. **Flagship system** — the strongest current operational proof. It receives the largest visual area and the clearest CTA.
-2. **Engineering evidence** — domain contracts, reliability, privacy and delivery practices that can be demonstrated without exposing private implementation.
-3. **Operating model** — explains how Crohnoz works across products.
-4. **Current portfolio maturity** — shows where every active system actually sits from L0 to L4.
-5. **Exploratory evidence** — early systems and R&D appear after the flagship and maturity view.
+2. **Engineering proof strip** — a compact visual summary of concrete, inspectable behaviors already implemented in the flagship.
+3. **Engineering depth** — capability by problem domain rather than by tool count.
+4. **Real-world delivery contexts** — demonstrates transferability across domains without exposing client-sensitive implementation.
+5. **Operating model** — explains how Crohnoz works across products.
+6. **Current portfolio maturity** — shows where every active system actually sits from L0 to L4.
+7. **Exploratory evidence** — early systems and R&D appear after the flagship and maturity view.
 
 Do not present prototypes as production systems. Honest maturity increases credibility.
 
@@ -100,6 +104,21 @@ The flagship visual should answer four questions immediately:
 
 The entire flagship visual should be clickable when the surface supports it, linking to a sanitized engineering case study.
 
+## Engineering proof component
+
+A proof strip should summarize **implemented engineering behavior**, not aspirations. Every card must be traceable to a real public case-study statement or a safe observable product behavior.
+
+Preferred proof categories include:
+
+- domain integrity;
+- public/private boundaries;
+- explicit workflow state;
+- privacy and security behavior;
+- reproducible delivery/staging;
+- regression and reliability controls.
+
+Avoid vanity metrics or numerical claims unless their source and interpretation are stable.
+
 ## Engineering Depth component
 
 Engineering capability should be grouped by the kind of problem being solved:
@@ -112,6 +131,23 @@ Engineering capability should be grouped by the kind of problem being solved:
 - Physical Systems
 
 Technology badges are secondary evidence. They should not be the primary way expertise is communicated.
+
+## Real-world delivery component
+
+The delivery-context visual exists to show that the engineering approach transfers across operational domains.
+
+Use broad categories when client attribution is private or unnecessary. The visual should describe the **type of operational challenge**, not expose client names, infrastructure, datasets or confidential implementation details.
+
+## Navigation hierarchy
+
+Primary actions on a profile or case study should use large, high-contrast CTAs. Preferred order:
+
+1. flagship engineering case;
+2. safe live demo when available;
+3. public evidence catalog;
+4. Crohnoz Labs / professional profile.
+
+Small inline Markdown links may remain as secondary navigation only.
 
 ## Rules
 
@@ -128,6 +164,9 @@ Technology badges are secondary evidence. They should not be the primary way exp
 11. Never give L1 prototypes the same visual weight as L2+/L3 systems.
 12. Public case studies must remain sanitized: evidence first, proprietary implementation private by default.
 13. Primary navigation and case-study actions should use large, high-contrast CTAs on profile surfaces; avoid relying only on small inline Markdown links.
+14. Proof visuals must describe implemented behavior; do not use them for roadmap claims.
+15. Cross-domain visuals should use generic operational categories when attribution would expose unnecessary client context.
+16. Do not add numerical proof points unless they can be maintained accurately over time.
 
 ## Brand principles
 
