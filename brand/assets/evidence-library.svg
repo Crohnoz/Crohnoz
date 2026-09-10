@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Crohnoz Public Evidence Library</title>
+  <desc id="desc">Visual index separating the FDR flagship, selected operational evidence and exploratory product research.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
+    <style>.eyebrow{font:700 17px Inter,Arial,sans-serif;letter-spacing:4px;fill:#AAB3C5}.h1{font:800 42px Inter,Arial,sans-serif;fill:#F8FAFC}.title{font:800 27px Inter,Arial,sans-serif;fill:#F8FAFC}.copy{font:500 16px Inter,Arial,sans-serif;fill:#AAB3C5}.tag{font:800 13px Inter,Arial,sans-serif;letter-spacing:1.5px;fill:#D8DEEA}.big{font:800 52px Inter,Arial,sans-serif;fill:#F8FAFC}</style>
+  </defs>
+  <rect width="1600" height="620" rx="34" fill="#0A0B14"/>
+  <rect x="55" y="48" width="1490" height="4" rx="2" fill="url(#brand)"/>
+  <text x="70" y="102" class="eyebrow">CROHNOZ · PUBLIC EVIDENCE LIBRARY</text>
+  <text x="70" y="158" class="h1">Proof organized by maturity and engineering value.</text>
+
+  <g transform="translate(70 215)">
+    <rect width="700" height="320" rx="28" fill="#131725" stroke="#8B5CF6" stroke-width="2"/>
+    <rect x="28" y="28" width="166" height="34" rx="17" fill="#8B5CF6"/><text x="51" y="50" class="tag">CURRENT FLAGSHIP</text>
+    <text x="28" y="128" class="big">FDR</text>
+    <text x="28" y="164" class="title">Healthcare Operations Platform</text>
+    <text x="28" y="204" class="copy">Domain contracts · public/private boundaries</text>
+    <text x="28" y="232" class="copy">workflow lifecycle · regressions · controlled delivery</text>
+    <text x="28" y="278" class="tag">L2+ · ADVANCED PILOT / PRODUCTION-ORIENTED</text>
+  </g>
+
+  <g transform="translate(815 215)">
+    <rect width="715" height="145" rx="24" fill="#10131D" stroke="#A855F7" stroke-opacity=".65"/>
+    <text x="26" y="40" class="tag">SELECTED OPERATIONAL SYSTEM</text>
+    <text x="26" y="79" class="title">Rental Operations</text>
+    <text x="26" y="110" class="copy">Payments · vouchers · settlements · RLS · demo/private isolation</text>
+  </g>
+
+  <g transform="translate(815 390)">
+    <rect width="715" height="145" rx="24" fill="#10131D" stroke="#3B82F6" stroke-opacity=".55"/>
+    <text x="26" y="40" class="tag">PRODUCT R&amp;D · EARLY MATURITY</text>
+    <text x="26" y="79" class="title">Forge · Fresh Market · IncluMe</text>
+    <text x="26" y="110" class="copy">Discovery · retail operations · accessibility · early product evidence</text>
+  </g>
+
+  <text x="70" y="582" class="copy">Evidence is public by design · proprietary implementation remains private by default</text>
+</svg>
