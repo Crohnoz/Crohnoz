@@ -1,18 +1,53 @@
+<div align="center">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/←_BACK_TO_PROFILE-0A0B14?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Back to profile" /></a>
+
 # Public Evidence
 
-This directory is the curated public evidence layer for Enrique Flores / Crohnoz Labs.
+**Product thinking · Engineering depth · Operational systems · Honest maturity**
 
-The goal is to demonstrate **product thinking, engineering depth, operational understanding and delivery discipline without publishing complete product source code, private infrastructure, client environments or sensitive implementation details**.
+</div>
 
-## Flagship case study
+This directory is the curated public evidence layer for Enrique Flores / Crohnoz Labs. The goal is to demonstrate engineering capability **without publishing complete proprietary source code, private infrastructure, client environments or sensitive implementation details**.
 
-### [FDR — Healthcare Operations Platform](fdr.md)
+---
 
-**Maturity:** `L2+ · Advanced Pilot / Production-Oriented`
+## Flagship engineering case
 
-FDR is the current flagship reference for the Crohnoz operating model. It demonstrates production-oriented domain modeling, public-booking integrity, explicit workflow lifecycle, privacy boundaries, reproducible staging, focused regression coverage and controlled delivery.
+<a href="fdr.md">
+  <img src="../brand/assets/fdr-flagship.svg" alt="FDR flagship engineering case" width="100%" />
+</a>
 
-**[Open the FDR engineering case study →](fdr.md)**
+<img src="../brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence" width="100%" />
+
+<div align="center">
+
+<a href="fdr.md"><img src="https://img.shields.io/badge/OPEN-FDR_ENGINEERING_CASE-8B5CF6?style=for-the-badge" height="38" alt="Open FDR Engineering Case" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/TRY-FDR_SAFE_DEMO-06B6D4?style=for-the-badge" height="38" alt="Try FDR Safe Demo" /></a>
+
+`L2+ · ADVANCED PILOT / PRODUCTION-ORIENTED`
+
+</div>
+
+FDR is the current flagship reference for the Crohnoz operating model. It demonstrates production-oriented domain modeling, booking integrity, explicit workflow lifecycle, privacy boundaries, reproducible staging, focused regression coverage and controlled delivery.
+
+---
+
+## Selected operational engineering
+
+### Rental Operations
+
+A second operational case showing that the same engineering principles transfer beyond healthcare: explicit financial rules, payment evidence, exit settlement, public/private separation and database-level authorization.
+
+<div align="center">
+
+<a href="rental-operations.md"><img src="https://img.shields.io/badge/OPEN-RENTAL_OPERATIONS_CASE-3B82F6?style=for-the-badge" height="36" alt="Open Rental Operations Case" /></a>
+
+</div>
+
+This case is intentionally presented as a **selected operational system**, not as a flagship or finished multi-tenant SaaS product.
+
+---
 
 ## Exploratory product evidence
 
@@ -24,46 +59,33 @@ These systems remain earlier in the maturity curve and are presented honestly as
 | [Crohnoz Fresh Market](fresh-market.md) | `L1 · Prototype / R&D` | Retail operations, inventory, backend controls, traceability | Curated product surface |
 | [IncluMe](inclume.md) | `L1 · Early Product` | Accessibility, civic UX, citizen + municipal workflows | Public demos |
 
-## Selected operational systems
-
-These cases demonstrate concrete operational modeling without being presented as flagship products or inflated into broader SaaS claims.
-
-| System | Evidence focus | Public boundary |
-|---|---|---|
-| [Rental Operations](rental-operations.md) | Charges, payments, vouchers, settlement rules, environment isolation | Fictitious public demo + sanitized architecture |
-
-**[Open the Rental Operations engineering case →](rental-operations.md)**
+---
 
 ## Evidence standard
 
-A case study should answer six questions:
+Every public case should make the following clear:
 
 1. **What real problem does this solve?**
-2. **Who uses it and in what operational context?**
-3. **What was designed and built?**
-4. **What engineering decisions are worth inspecting?**
-5. **What evidence can be shown publicly?**
-6. **What is intentionally kept private?**
+2. **What operational context matters?**
+3. **What system was designed?**
+4. **Which engineering decisions are inspectable?**
+5. **What evidence is safe to expose?**
+6. **What remains intentionally private?**
+7. **What maturity can honestly be claimed today?**
+
+---
 
 ## Publication boundary
 
-Public evidence may include:
+Public evidence may include sanitized architecture, product behavior, live demonstrations with fictitious data, security/reliability practices, non-sensitive metrics, engineering decisions and honest maturity status.
 
-- product problem and operational context;
-- selected screenshots or live demonstrations;
-- sanitized architecture diagrams;
-- technology stack at a useful level;
-- security, reliability and quality practices;
-- non-sensitive metrics or maturity status;
-- design decisions and lessons learned.
-
-Public evidence should not include:
-
-- secrets, credentials or environment files;
-- production databases or customer data;
-- private endpoints or infrastructure topology;
-- complete proprietary source code by default;
-- client-confidential logic or identifiers;
-- internal commercial rules that provide no public evaluation value.
+It should not include secrets, credentials, production databases, customer data, private topology, complete proprietary implementations or client-confidential logic.
 
 > **Evidence is public by design. Product implementation is private by default.**
+
+<div align="center">
+
+<a href="../README.md"><img src="https://img.shields.io/badge/RETURN-ENRIQUE_FLORES_PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Return to profile" /></a>
+<a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/OPEN-CROHNOZ_LABS-EC4899?style=for-the-badge" height="36" alt="Open Crohnoz Labs" /></a>
+
+</div>
