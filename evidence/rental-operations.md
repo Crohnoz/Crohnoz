@@ -1,97 +1,88 @@
-# Rental Operations · Engineering Case Study
+<div align="center">
 
-**Selected Operational System · Public Sanitized Evidence**
+<a href="README.md"><img src="https://img.shields.io/badge/←_PUBLIC_EVIDENCE-0A0B14?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Back to Public Evidence" /></a>
+<a href="https://github.com/Crohnoz/Crohnoz-Rental-Ops"><img src="https://img.shields.io/badge/OPEN-PUBLIC_REPOSITORY-A855F7?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Open Rental Operations repository" /></a>
 
-Small-building administration combines recurring charges, payments, vouchers, contracts, tenant changes and end-of-lease settlements. When those processes live across spreadsheets, documents and manual calculations, the main engineering problem is not simply CRUD: it is preserving **state, traceability and clear operational rules** without increasing administrative friction.
+# Rental Operations · Selected Operational Case
 
-This case study documents the public engineering boundary of **Crohnoz Rental Ops**. It intentionally excludes real tenant data, credentials and private deployment details.
+`CURATED OPERATIONAL EVIDENCE · NON-FLAGSHIP`
 
-## Operational problem
+**Charges · payments · vouchers · settlements · RLS · public/private isolation**
 
-The target workflow requires an administrator to answer questions such as:
+</div>
 
-- Which units are occupied and by whom?
-- What has been charged, paid or partially paid?
-- Which voucher belongs to which payment?
-- How should small rounding differences be carried forward?
-- What must be considered when a tenant leaves?
-- How can the operator recover from a local mistake or browser failure?
-
-The system turns those questions into explicit application state rather than leaving them to memory or disconnected paperwork.
-
-## Public / private architecture
-
-The same application supports two deliberately separated modes.
-
-### Public demonstration
-
-- fictitious dataset representing 23 apartments;
-- browser-local interaction only;
-- no connection to the private database;
-- reset capability for restoring the original demonstration state.
-
-### Private operation
-
-- authentication required before rendering operational data;
-- centralized workspace backed by Supabase/PostgreSQL;
-- Row Level Security used to isolate records by owner;
-- temporary browser working copy stored in `sessionStorage`;
-- real operational data excluded from the public repository and demo.
-
-The point of this split is not cosmetic. It allows the system to remain inspectable publicly while preserving a separate trust boundary for real operation.
-
-## Domain rules worth inspecting
-
-### Traceable rounding
-
-Charges are rounded to the nearest CLP $100. The difference is not discarded: it is stored with the opposite sign as the next adjustment so the following charge compensates it.
-
-That makes a small accounting rule explicit and auditable rather than hiding it inside a visual total.
-
-### Payment evidence
-
-Voucher generation uses sequential folios and supports thermal-print workflows, keeping a direct relationship between payment activity and operator-visible evidence.
-
-### Exit settlement
-
-The departure workflow models more than a generic “close contract” action. It can account for guarantee, outstanding debt, pending utility retention and discounts before producing the final settlement.
-
-## Security and data boundary
-
-The public architecture is designed around a few simple constraints:
-
-- the demo must never connect to the private database;
-- private operation requires an authenticated session;
-- authorization must be enforced by database policy rather than UI assumptions;
-- browser persistence for private data is limited to the active session;
-- privileged service credentials do not belong in the client or repository;
-- client-specific identifiers and real records are outside the public evidence layer.
-
-## Current engineering surface
-
-- React
-- Vite
-- JavaScript
-- Supabase Auth
-- PostgreSQL / Supabase
-- Row Level Security
-- Netlify
-- JSON backup / restore workflow
-
-## Current limits
-
-The current private model is intentionally narrow: one owner per workspace. A broader multiuser product would require organizations, memberships, explicit roles, per-user audit history and progressive normalization of the domain.
-
-This is therefore presented as a **selected operational engineering case**, not as evidence of a finished multi-tenant SaaS platform.
-
-## Evidence
-
-Public repository:
-
-https://github.com/Crohnoz/Crohnoz-Rental-Ops
-
-The repository contains the sanitized application surface and additional documentation for environment separation and security decisions.
+> This case exists to show transferable operational engineering beyond healthcare. It is deliberately **not** presented as a finished multi-tenant SaaS product or as a peer to the FDR flagship.
 
 ---
 
-**Problem → System → Evidence → Scale**
+## Operational problem
+
+Small-building administration combines recurring charges, payments, vouchers, contracts, tenant changes and end-of-lease settlements. When those processes live across spreadsheets, documents and manual calculations, the engineering challenge is preserving **state, traceability and clear financial rules** without increasing operator friction.
+
+## What exists today
+
+Crohnoz Rental Ops provides a sanitized public surface around a deliberately separated operating model:
+
+- a fictitious-data demo for inspectable workflows;
+- an authenticated private mode backed by Supabase/PostgreSQL;
+- owner-level Row Level Security boundaries;
+- browser-session working state;
+- backup/restore-oriented continuity behavior.
+
+## Operational rules worth inspecting
+
+| Rule | Engineering meaning |
+|---|---|
+| **Traceable rounding** | Small CLP rounding differences are carried forward rather than silently discarded |
+| **Payment evidence** | Sequential voucher folios preserve an operator-visible relationship with payment activity |
+| **Exit settlement** | Guarantee, debt, retained utilities and discounts are modeled as explicit settlement inputs |
+| **Environment separation** | Public demonstration and private operational data do not share the same trust boundary |
+| **Database authorization** | Ownership isolation is enforced by RLS rather than UI assumptions |
+
+## Public / private system view
+
+<div align="center">
+
+### `PUBLIC DEMO → FICTITIOUS DATA → BROWSER-LOCAL WORKFLOW`
+
+### `PRIVATE MODE → AUTH → POSTGRESQL / SUPABASE → RLS → OWNER DATA`
+
+</div>
+
+## Security boundary
+
+The public architecture is designed around several constraints:
+
+- the demo must never depend on the private operational database;
+- private operation requires authentication;
+- authorization is enforced at the data layer;
+- privileged service credentials never belong in the browser or public repository;
+- real records and client-specific identifiers stay outside the public evidence layer.
+
+## Current engineering surface
+
+`React · Vite · JavaScript · Supabase Auth · PostgreSQL · Row Level Security · Netlify · JSON backup / restore`
+
+## Current limits
+
+The current private model is intentionally narrow: one owner per workspace. A broader multi-user product would require organizations, memberships, explicit roles, per-user audit history and progressive domain normalization.
+
+That limitation is part of the case study rather than something hidden from it.
+
+## Public evidence
+
+<div align="center">
+
+<a href="https://github.com/Crohnoz/Crohnoz-Rental-Ops"><img src="https://img.shields.io/badge/INSPECT-SANITIZED_PUBLIC_REPO-A855F7?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Inspect sanitized Rental Operations repository" /></a>
+
+</div>
+
+---
+
+<div align="center">
+
+**Operational rules → explicit state → traceable evidence.**
+
+<a href="README.md"><img src="https://img.shields.io/badge/RETURN-PUBLIC_EVIDENCE-8B5CF6?style=for-the-badge" height="34" alt="Return to Public Evidence" /></a>
+
+</div>
