@@ -2,6 +2,13 @@
 
 <a href="README.md"><img src="https://img.shields.io/badge/←_PUBLIC_EVIDENCE-0A0B14?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Back to Public Evidence" /></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(max-width: 700px)" srcset="../brand/assets/case-fresh-market-mobile.svg" />
+  <img src="../brand/assets/case-fresh-market.svg" alt="Crohnoz Fresh Market operational product R&D case study" width="100%" />
+</picture>
+
 # Crohnoz Fresh Market · Operational Product R&D
 
 `L1 · PROTOTYPE / R&D`
