@@ -1,25 +1,17 @@
 <div align="center">
 
-<img src="brand/assets/github-banner.svg" alt="Crohnoz Labs — Tecnología que resuelve problemas reales" width="100%" />
-
-### Enrique Flores · Founder · Product & Systems Architect
-
-# Convierto problemas operacionales reales en sistemas que funcionan.
-
-**Ingeniería de producto · Backend · Operaciones seguras · IA aplicada · Integración de hardware**
-
-**Chile → Global · Problema → Sistema → Evidencia → Escala**
+<img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
 
 <br/>
 
-<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/CASO_DE_INGENIERIA_FDR-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Caso de ingeniería FDR" /></a>
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/DEMO_PUBLICA_SEGURA_FDR-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Demo pública segura FDR" /></a>
-<a href="evidence/README.md"><img src="https://img.shields.io/badge/EVIDENCIA_PUBLICA-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="36" alt="Evidencia pública" /></a>
-<a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" alt="Crohnoz Labs" /></a>
+<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/ABRIR_FDR-CASO_DE_INGENIERIA-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Abrir caso de ingeniería FDR" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/PROBAR_FDR-DEMO_PUBLICA_SEGURA-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Probar demo pública segura FDR" /></a>
+<a href="evidence/README.md"><img src="https://img.shields.io/badge/EXPLORAR-EVIDENCIA_PUBLICA-3B82F6?style=for-the-badge&logo=readme&logoColor=white" height="38" alt="Explorar evidencia pública" /></a>
+<a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/ENTRAR-CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Entrar a Crohnoz Labs" /></a>
 
 <br/><br/>
 
-[English](README.md) · **Español** · [中文](README.zh-CN.md) · [Sistema de marca](brand/README.md)
+**[English](README.md) · Español · [中文](README.zh-CN.md) · [Sistema de marca](brand/README.md)**
 
 </div>
 
@@ -27,36 +19,44 @@
 
 ## Sistema insignia
 
-<a href="evidence/fdr.md">
-  <img src="brand/assets/fdr-flagship.svg" alt="FDR — sistema insignia de operaciones de salud de Crohnoz Labs" width="100%" />
-</a>
+<a href="evidence/fdr.md"><img src="brand/assets/fdr-flagship.svg" alt="FDR — sistema insignia de operaciones de salud de Crohnoz Labs" width="100%" /></a>
 
 <div align="center">
 
-### **[ABRIR CASO DE INGENIERÍA FDR →](evidence/fdr.md)**
-
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/ABRIR-DEMO_PUBLICA_SEGURA-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Abrir demo pública segura FDR" /></a>
+### **FDR · Plataforma de operaciones de salud**
 
 `L2+ · PILOTO AVANZADO / ORIENTADO A PRODUCCIÓN`
 
+<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/REVISAR-CASO_DE_INGENIERIA-8B5CF6?style=for-the-badge" height="36" alt="Revisar caso de ingeniería FDR" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/ABRIR-DEMO_SEGURA-06B6D4?style=for-the-badge" height="36" alt="Abrir demo segura FDR" /></a>
+
 </div>
 
-FDR es actualmente el sistema más maduro del portafolio Crohnoz. Es la referencia principal para mostrar cómo abordo **modelado de dominio, límites público/privado, integridad backend, lifecycle operacional, regresiones, staging y delivery controlado**.
-
-El caso público y la demo están sanitizados. La demostración utiliza pacientes, atenciones y estados ficticios y no conecta al visitante con la plataforma clínica real.
+FDR es actualmente la evidencia operacional más fuerte del portafolio Crohnoz. Demuestra **modelado de dominio, límites público/privado, integridad backend, lifecycle explícito, controles de regresión, staging reproducible y delivery controlado**.
 
 ---
 
-## Evidencia de ingeniería FDR
+## Superficies del producto
 
-<img src="brand/assets/fdr-evidence-strip.svg" alt="Evidencia de ingeniería FDR en reserva pública, perfiles, lifecycle, privacidad, staging y regresiones" width="100%" />
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="brand/assets/fdr-product-showcase.svg" alt="Reconstrucción sanitizada de superficies implementadas de FDR" width="100%" /></a>
 
 <div align="center">
 
-<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/REVISAR-CASO_DE_INGENIERIA-8B5CF6?style=for-the-badge" height="36" alt="Revisar caso de ingeniería FDR" /></a>
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/PROBAR-DEMO_SEGURA-06B6D4?style=for-the-badge" height="36" alt="Probar demo segura FDR" /></a>
+**Workspace profesional · Reserva pública · Presencia profesional**
+
+La pieza visual es una **reconstrucción sanitizada basada en interfaces implementadas de FDR**, no un screenshot inventado. Utiliza etiquetas demo y no contiene datos reales de pacientes.
+
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/ABRIR_EL_PRODUCTO-DEMO_PUBLICA_SEGURA-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Abrir demo pública segura FDR" /></a>
 
 </div>
+
+---
+
+## Evidencia de ingeniería
+
+<img src="brand/assets/fdr-evidence-strip.svg" alt="Evidencia FDR en reserva, perfiles profesionales, lifecycle, privacidad, staging y regresiones" width="100%" />
+
+El foco está en **comportamiento que el sistema ya hace cumplir**, no en roadmap: booking con scope, publicación controlada, estados explícitos, límites de privacidad, staging reproducible y regresiones focalizadas.
 
 ---
 
@@ -64,37 +64,39 @@ El caso público y la demo están sanitizados. La demostración utiliza paciente
 
 <img src="brand/assets/engineering-depth.svg" alt="Profundidad de ingeniería en producto, backend, seguridad, operaciones, automatización y sistemas físicos" width="100%" />
 
-El foco no está en cuántas tecnologías aparecen en una lista, sino en si esas tecnologías hacen cumplir **contratos operacionales reales**: scope correcto, transiciones confiables, privacidad, continuidad y controles de delivery medibles.
+Una tecnología importa cuando permite hacer cumplir un contrato operacional real. Por eso esta portada prioriza **pensamiento de sistemas y resultados de ingeniería**, no cantidad de badges.
 
 ---
 
 ## Delivery en operaciones reales
 
-<img src="brand/assets/delivery-contexts.svg" alt="Delivery de ingeniería en salud, comercio, flujos públicos e infraestructura" width="100%" />
+<img src="brand/assets/delivery-contexts.svg" alt="Delivery de ingeniería en salud, comercio, sector público e infraestructura" width="100%" />
 
-Trabajo en dominios donde el software tiene que adaptarse a una operación existente y no al revés. La vitrina pública mantiene privadas las implementaciones sensibles de clientes, pero muestra patrones de ingeniería transferibles entre distintos contextos.
-
----
-
-## Modelo operativo Crohnoz
-
-Crohnoz Labs es el ecosistema de ingeniería de producto que utilizo para pasar desde el entendimiento operacional hasta sistemas validados.
-
-<img src="brand/assets/crohnoz-operating-model.svg" alt="Modelo operativo de Crohnoz Labs" width="100%" />
+Trabajo en dominios donde el software tiene que adaptarse a operaciones reales: salud, comercio y sistemas operacionales, flujos de sector público, infraestructura y automatización aplicada. La implementación sensible de clientes permanece privada; los patrones de ingeniería transferibles quedan visibles.
 
 <div align="center">
 
-**DESCUBRIR → DISEÑAR → CONSTRUIR → VALIDAR → DESPLEGAR → OPERAR → MEJORAR**
+<a href="evidence/rental-operations.md"><img src="https://img.shields.io/badge/CASO_SECUNDARIO-RENTAL_OPERATIONS-A855F7?style=for-the-badge" height="34" alt="Caso de ingeniería Rental Operations" /></a>
 
 </div>
 
 ---
 
-## Portafolio actual
+## Modelo operativo Crohnoz
+
+<img src="brand/assets/crohnoz-operating-model.svg" alt="Modelo operativo de Crohnoz Labs" width="100%" />
+
+<div align="center">
+
+### **DESCUBRIR → DISEÑAR → CONSTRUIR → VALIDAR → DESPLEGAR → OPERAR → MEJORAR**
+
+</div>
+
+---
+
+## Madurez actual del portafolio
 
 <img src="brand/assets/portfolio-maturity.svg" alt="Madurez actual del portafolio Crohnoz Labs" width="100%" />
-
-El modelo de madurez es deliberadamente explícito. **FDR es el flagship.** Forge, Fresh Market e IncluMe siguen siendo exploraciones de producto en etapas tempranas y no se presentan como referencias equivalentes de producción.
 
 <div align="center">
 
@@ -105,29 +107,33 @@ El modelo de madurez es deliberadamente explícito. **FDR es el flagship.** Forg
 
 </div>
 
+El mapa de madurez es deliberadamente honesto. **FDR recibe el peso visual de flagship porque su evidencia operacional es materialmente más fuerte.** Los sistemas tempranos siguen visibles sin presentarlos como equivalentes a producción.
+
 ---
 
-## Evidencia, no declaraciones
+## Profundizar
+
+<details>
+<summary><strong>Evidencia, no declaraciones · qué debe demostrar un sistema real</strong></summary>
+
+<br/>
 
 | Área de ingeniería | Qué debería demostrar un sistema real |
 |---|---|
-| **Modelado de dominio** | Las reglas del negocio existen como contratos explícitos y no como supuestos ocultos en la UI |
-| **Integridad backend** | Operaciones inválidas o manipuladas son rechazadas en servidor |
-| **Seguridad y privacidad** | Las superficies públicas exponen sólo lo que la operación realmente necesita |
-| **Diseño de workflow** | Los estados y transiciones representan la operación real |
-| **Confiabilidad** | Las regresiones codifican invariantes y modos de falla importantes |
-| **Delivery** | Staging, release, observabilidad y continuidad son parte del producto |
-| **Madurez** | Prototipo, piloto, producción y escala se distinguen honestamente |
+| **Modelado de dominio** | Reglas de negocio como contratos explícitos, no supuestos ocultos en UI |
+| **Integridad backend** | Operaciones inválidas o manipuladas rechazadas en servidor |
+| **Seguridad y privacidad** | Superficies públicas que exponen sólo lo operacionalmente necesario |
+| **Diseño de workflow** | Estados y transiciones que representan la operación real |
+| **Confiabilidad** | Regresiones que codifican invariantes y modos de falla relevantes |
+| **Delivery** | Staging, release, observabilidad y continuidad como parte del producto |
+| **Madurez** | Prototipo, piloto, producción y escala diferenciados honestamente |
 
-<div align="center">
+</details>
 
-### **[EXPLORAR TODA LA EVIDENCIA PÚBLICA →](evidence/README.md)**
+<details>
+<summary><strong>Cómo trabajo · secuencia operacional</strong></summary>
 
-</div>
-
----
-
-## Cómo trabajo
+<br/>
 
 | 01 | 02 | 03 | 04 | 05 | 06 | 07 |
 |---|---|---|---|---|---|---|
@@ -136,9 +142,12 @@ El modelo de madurez es deliberadamente explícito. **FDR es el flagship.** Forg
 
 Prefiero entender la operación antes de elegir la arquitectura, reducir la carga cognitiva de quien usa el sistema y tratar seguridad, privacidad, pruebas, despliegue y continuidad como parte del producto.
 
----
+</details>
 
-## Superficie de ingeniería
+<details>
+<summary><strong>Superficie de ingeniería · tecnologías y controles</strong></summary>
+
+<br/>
 
 <div align="center">
 
@@ -150,6 +159,16 @@ Prefiero entender la operación antes de elegir la arquitectura, reducir la carg
 ![Linux](https://img.shields.io/badge/Linux-Operations-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 `Django / DRF` · `PostgreSQL` · `REST APIs` · `RBAC` · `pytest` · `Ruff` · `CI/CD` · `Observabilidad` · `Automatización` · `IA aplicada` · `Integración de hardware`
+
+</div>
+
+</details>
+
+<br/>
+
+<div align="center">
+
+<a href="evidence/README.md"><img src="https://img.shields.io/badge/ABRIR_LA_BIBLIOTECA-EVIDENCIA_PUBLICA-8B5CF6?style=for-the-badge&logo=readme&logoColor=white" height="38" alt="Abrir biblioteca de evidencia pública" /></a>
 
 </div>
 
