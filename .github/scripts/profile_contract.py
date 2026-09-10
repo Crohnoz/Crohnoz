@@ -42,13 +42,7 @@ def forbid_text(path: Path, values: list[str]) -> None:
             fail(f"{path.relative_to(ROOT)}: forbidden legacy/sensitive text {value!r}")
 
 
-required_root_files = [
-    ".gitignore",
-    "README.md",
-    "README.es.md",
-    "README.zh-CN.md",
-]
-for item in required_root_files:
+for item in [".gitignore", "README.md", "README.es.md", "README.zh-CN.md"]:
     require_file(item)
 
 for item in ["brand", "evidence", ".github"]:
@@ -57,6 +51,9 @@ for item in ["brand", "evidence", ".github"]:
 required_assets = [
     "brand/assets/github-banner.svg",
     "brand/assets/github-banner-mobile.svg",
+    "brand/assets/cta-fdr-case.svg",
+    "brand/assets/cta-fdr-demo.svg",
+    "brand/assets/cta-evidence.svg",
     "brand/assets/fdr-flagship.svg",
     "brand/assets/fdr-flagship-mobile.svg",
     "brand/assets/fdr-product-showcase.svg",
@@ -81,23 +78,24 @@ required_assets = [
 for item in required_assets:
     require_file(item)
 
-required_cases = [
+for item in [
     "evidence/README.md",
     "evidence/fdr.md",
     "evidence/rental-operations.md",
     "evidence/forge.md",
     "evidence/fresh-market.md",
     "evidence/inclume.md",
-]
-for item in required_cases:
+]:
     require_file(item)
 
-# The primary README must preserve flagship hierarchy, responsive visuals and case-study routes.
+# Main profile: preserve the calm first-screen navigation, flagship hierarchy and responsive evidence path.
 require_text(
     "README.md",
     [
         "FDR",
-        "L2+",
+        "brand/assets/cta-fdr-case.svg",
+        "brand/assets/cta-fdr-demo.svg",
+        "brand/assets/cta-evidence.svg",
         "evidence/forge.md",
         "evidence/fresh-market.md",
         "evidence/inclume.md",
@@ -111,31 +109,35 @@ require_text(
     ],
 )
 
-# Localized surfaces can translate labels; enforce semantic anchors rather than English badge literals.
+# Localized surfaces may translate labels, but must preserve the same routes and three-action first screen.
 for localized_readme in ["README.es.md", "README.zh-CN.md"]:
     require_text(
         localized_readme,
         [
             "FDR",
-            "L2+",
+            "brand/assets/cta-fdr-case.svg",
+            "brand/assets/cta-fdr-demo.svg",
+            "brand/assets/cta-evidence.svg",
             "evidence/forge.md",
             "evidence/fresh-market.md",
             "evidence/inclume.md",
             "L1",
             "brand/assets/github-banner-mobile.svg",
+            "brand/assets/fdr-flagship-mobile.svg",
             "brand/assets/portfolio-maturity-mobile.svg",
             "evidence/README.md",
         ],
     )
 
-# Case-study maturity/publication boundaries.
+# Maturity belongs to the canonical flagship/case evidence rather than duplicated decorative text in every README.
+require_text("brand/assets/fdr-flagship.svg", ["L2+ · ADVANCED PILOT", "WHAT THIS SYSTEM PROVES"])
+require_text("brand/assets/fdr-flagship-mobile.svg", ["L2+ · ADVANCED PILOT", "WHAT THIS SYSTEM PROVES"])
 require_text("evidence/fdr.md", ["L2+", "ADVANCED PILOT", "sanitized", "fdr-flagship-mobile.svg"])
 require_text("evidence/rental-operations.md", ["NON-FLAGSHIP", "case-rental-operations-mobile.svg"])
 require_text("evidence/forge.md", ["L1 · PROTOTYPE / R&D", "case-forge-mobile.svg"])
 require_text("evidence/fresh-market.md", ["L1 · PROTOTYPE / R&D", "case-fresh-market-mobile.svg"])
 require_text("evidence/inclume.md", ["L1 · EARLY PRODUCT", "case-inclume-mobile.svg"])
 
-# The evidence index must expose every current case in the intended hierarchy.
 require_text(
     "evidence/README.md",
     [
@@ -150,7 +152,6 @@ require_text(
     ],
 )
 
-# The profile repository is editorial/portfolio infrastructure, not an application build dump.
 forbidden_root_entries = {
     "venv",
     ".venv",
@@ -165,11 +166,9 @@ for name in forbidden_root_entries:
     if (ROOT / name).exists():
         fail(f"forbidden legacy root entry returned: {name}")
 
-# Mermaid was replaced by sanitized branded public diagrams.
 for markdown in (ROOT / "evidence").glob("*.md"):
     forbid_text(markdown, ["```mermaid"])
 
-# Basic public-secret guardrail for text surfaces.
 sensitive_markers = [
     "-----BEGIN PRIVATE KEY-----",
     "sk-proj-",
@@ -179,7 +178,7 @@ sensitive_markers = [
 for path in [*ROOT.glob("*.md"), *(ROOT / "brand").glob("*.md"), *(ROOT / "evidence").glob("*.md")]:
     forbid_text(path, sensitive_markers)
 
-# Validate every public SVG as XML so malformed visual assets cannot silently land.
+# Every visual asset must remain valid XML.
 for svg in (ROOT / "brand" / "assets").glob("*.svg"):
     try:
         ElementTree.parse(svg)
