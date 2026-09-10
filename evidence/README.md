@@ -1,9 +1,8 @@
 <div align="center">
 
-<a href="../README.md"><img src="https://img.shields.io/badge/←_BACK_TO_PROFILE-0A0B14?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Back to profile" /></a>
-<a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="34" alt="Crohnoz Labs" /></a>
+**[← Enrique Flores profile](../README.md) · [Crohnoz Labs](https://crohnozlabs.cl)**
 
-<br/><br/>
+<br/>
 
 <img src="../brand/assets/evidence-library.svg" alt="Crohnoz Labs Public Evidence Library" width="100%" />
 
@@ -13,7 +12,7 @@
 
 </div>
 
-This library is the curated public evidence layer for Enrique Flores / Crohnoz Labs. It exists to demonstrate engineering capability **without publishing complete proprietary source code, private infrastructure, client environments or sensitive implementation details**.
+This is the curated public evidence layer for Enrique Flores / Crohnoz Labs. It demonstrates engineering capability **without publishing complete proprietary source code, private infrastructure, client environments or sensitive implementation details**.
 
 > **Evidence is public by design. Product implementation is private by default.**
 
@@ -32,14 +31,12 @@ This library is the curated public evidence layer for Enrique Flores / Crohnoz L
 
 <div align="center">
 
-<a href="fdr.md"><img src="https://img.shields.io/badge/OPEN-FDR_ENGINEERING_CASE-8B5CF6?style=for-the-badge" height="38" alt="Open FDR Engineering Case" /></a>
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/TRY-FDR_SAFE_DEMO-06B6D4?style=for-the-badge" height="38" alt="Try FDR Safe Demo" /></a>
-
-`L2+ · ADVANCED PILOT / PRODUCTION-ORIENTED`
+<a href="fdr.md"><img src="../brand/assets/cta-fdr-case.svg" width="280" alt="Open FDR engineering case" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="../brand/assets/cta-fdr-demo.svg" width="280" alt="Open FDR safe live demo" /></a>
 
 </div>
 
-FDR is the current flagship reference for the Crohnoz operating model. It demonstrates production-oriented domain modeling, booking integrity, explicit workflow lifecycle, privacy boundaries, reproducible staging, focused regression coverage and controlled delivery.
+FDR is the current flagship reference for the Crohnoz operating model. It demonstrates **domain integrity, booking scope, explicit workflow lifecycle, privacy boundaries, reproducible staging and targeted regression coverage**.
 
 ---
 
@@ -52,14 +49,11 @@ FDR is the current flagship reference for the Crohnoz operating model. It demons
   </picture>
 </a>
 
-Rental Operations demonstrates that the same engineering approach transfers beyond healthcare: explicit financial rules, payment evidence, settlement behavior, public/private separation and database-level authorization.
+Rental Operations shows the same engineering approach beyond healthcare: explicit financial rules, payment evidence, settlement behavior, public/private separation and database-level authorization.
 
 <div align="center">
 
-<a href="rental-operations.md"><img src="https://img.shields.io/badge/OPEN-RENTAL_OPERATIONS_CASE-A855F7?style=for-the-badge" height="36" alt="Open Rental Operations Case" /></a>
-<a href="https://github.com/Crohnoz/Crohnoz-Rental-Ops"><img src="https://img.shields.io/badge/INSPECT-PUBLIC_REPOSITORY-3B82F6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Inspect Rental Operations repository" /></a>
-
-`CURATED OPERATIONAL EVIDENCE · NON-FLAGSHIP`
+**[Engineering case →](rental-operations.md) · [Public repository →](https://github.com/Crohnoz/Crohnoz-Rental-Ops)**
 
 </div>
 
@@ -67,7 +61,7 @@ Rental Operations demonstrates that the same engineering approach transfers beyo
 
 ## 03 · Product R&D
 
-These systems remain earlier in the maturity curve. They are shown because each proves a different capability—not because a public demo makes them production-equivalent.
+These systems remain earlier in the maturity curve. They are visible because each proves a different capability—not because a polished interface makes them production-equivalent.
 
 ### Crohnoz Forge · Product reasoning
 
@@ -78,12 +72,7 @@ These systems remain earlier in the maturity curve. They are shown because each 
   </picture>
 </a>
 
-<div align="center">
-
-<a href="forge.md"><img src="https://img.shields.io/badge/READ-FORGE_CASE-8B5CF6?style=for-the-badge" height="34" alt="Read Forge case" /></a>
-<a href="https://crohnoz-forge.netlify.app"><img src="https://img.shields.io/badge/TRY-PUBLIC_DEMO-3B82F6?style=for-the-badge" height="34" alt="Try Forge public demo" /></a>
-
-</div>
+**[Case study →](forge.md) · [Public demo →](https://crohnoz-forge.netlify.app)**
 
 ### Crohnoz Fresh Market · Operational domain modeling
 
@@ -94,11 +83,7 @@ These systems remain earlier in the maturity curve. They are shown because each 
   </picture>
 </a>
 
-<div align="center">
-
-<a href="fresh-market.md"><img src="https://img.shields.io/badge/READ-FRESH_MARKET_CASE-06B6D4?style=for-the-badge" height="34" alt="Read Fresh Market case" /></a>
-
-</div>
+**[Case study →](fresh-market.md)**
 
 ### IncluMe · Inclusive multi-stakeholder product design
 
@@ -109,12 +94,7 @@ These systems remain earlier in the maturity curve. They are shown because each 
   </picture>
 </a>
 
-<div align="center">
-
-<a href="inclume.md"><img src="https://img.shields.io/badge/READ-INCLUME_CASE-EC4899?style=for-the-badge" height="34" alt="Read IncluMe case" /></a>
-<a href="https://inclume-chile.netlify.app/"><img src="https://img.shields.io/badge/TRY-CITIZEN_DEMO-3B82F6?style=for-the-badge" height="34" alt="Try IncluMe citizen demo" /></a>
-
-</div>
+**[Case study →](inclume.md) · [Citizen demo →](https://inclume-chile.netlify.app/)**
 
 ---
 
@@ -139,14 +119,14 @@ The hierarchy is deliberate: **visual quality does not upgrade maturity**. A sys
 
 <br/>
 
-1. **What real problem does this solve?**
-2. **What operational context matters?**
-3. **What system was designed?**
-4. **Which engineering decisions are inspectable?**
-5. **What evidence is safe to expose?**
-6. **What remains intentionally private?**
-7. **What maturity can honestly be claimed today?**
-8. **What evidence is required for the next maturity gate?**
+1. What real problem does this solve?
+2. What operational context matters?
+3. What exists today?
+4. Which engineering decisions are inspectable?
+5. What evidence is safe to expose?
+6. What remains intentionally private?
+7. What maturity can honestly be claimed today?
+8. What evidence is required for the next maturity gate?
 
 </details>
 
@@ -155,7 +135,7 @@ The hierarchy is deliberate: **visual quality does not upgrade maturity**. A sys
 
 <br/>
 
-Public evidence may include sanitized architecture, product behavior, live demonstrations with fictitious data, sanitized product-surface reconstructions, security/reliability practices, stable non-sensitive metrics, engineering decisions and honest maturity status.
+Public evidence may include sanitized architecture, implemented behavior, fictitious-data demos, sanitized product-surface reconstructions, security/reliability practices and honest maturity status.
 
 It should not include secrets, credentials, production databases, customer data, private topology, complete proprietary implementations or client-confidential logic.
 
@@ -167,8 +147,6 @@ It should not include secrets, credentials, production databases, customer data,
 
 ### **Problem → System → Evidence → Scale**
 
-<a href="../README.md"><img src="https://img.shields.io/badge/RETURN-ENRIQUE_FLORES_PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Return to profile" /></a>
-<a href="https://crohnozlabs.cl/profile"><img src="https://img.shields.io/badge/OPEN-PROFESSIONAL_PROFILE-06B6D4?style=for-the-badge" height="36" alt="Open professional profile" /></a>
-<a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/OPEN-CROHNOZ_LABS-EC4899?style=for-the-badge" height="36" alt="Open Crohnoz Labs" /></a>
+[Enrique Flores profile](../README.md) · [Professional profile](https://crohnozlabs.cl/profile) · [Crohnoz Labs](https://crohnozlabs.cl)
 
 </div>
