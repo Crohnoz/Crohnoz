@@ -1,61 +1,78 @@
-# Crohnoz Fresh Market — Case Study
+<div align="center">
 
-[← Public Evidence](README.md)
+<a href="README.md"><img src="https://img.shields.io/badge/←_PUBLIC_EVIDENCE-0A0B14?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Back to Public Evidence" /></a>
+
+# Crohnoz Fresh Market · Operational Product R&D
+
+`L1 · PROTOTYPE / R&D`
+
+**Perishable inventory · traceability · role workflows · continuity · backend controls**
+
+</div>
+
+> Fresh Market is an early operational-product prototype. It explores demanding retail-domain rules, but it is **not** presented as a validated production deployment.
+
+---
 
 ## Problem
 
-Fresh-food retail combines inventory, variable quantities, receiving, pricing, spoilage, customer accounts, cash reconciliation and day-to-day operational decisions. Generic CRUD software does not capture that operational reality well.
+Fresh-food retail combines inventory, variable quantities, receiving, pricing, spoilage, customer accounts, cash reconciliation and continuous operational decisions. A generic CRUD model does not describe that environment well enough.
 
-## Product
+## What exists today
 
-Crohnoz Fresh Market is a vertical product for greengrocers, produce stores and fresh-product retailers. It combines a complete local operating mode with a Django backend for controlled remote operations.
+The prototype explores a vertical operating model for greengrocers and fresh-product retailers, combining a local operating mode with a Django-oriented backend design for controlled remote operations.
 
-## What this demonstrates
+Its current value is the **domain and integrity work already modeled/prototyped**, not a claim of production adoption.
 
-- domain modeling for perishable inventory;
-- lot-based inventory and FEFO consumption priority;
-- receiving, movement history and traceability;
-- role-based access control;
-- idempotent write operations and optimistic concurrency controls;
-- append-only audit concepts;
-- order preparation and actual-quantity reconciliation;
-- local continuity and explicit fallback when remote services are unavailable;
-- separation between demo/local data and authenticated server data.
+## Engineering concepts already explored
 
-## Sanitized architecture view
+| Area | Prototype evidence |
+|---|---|
+| **Perishable inventory** | Lot-based stock and FEFO consumption rules |
+| **Traceability** | Receiving, movement history and operational audit concepts |
+| **Access control** | Role-oriented workflows and organization boundaries |
+| **Write integrity** | Idempotency, optimistic-concurrency and server-side recalculation concepts |
+| **Order operations** | Preparation and actual-quantity reconciliation |
+| **Continuity** | Explicit local/remote state and degraded-mode thinking |
 
-```mermaid
-flowchart LR
-    U["Operator / Manager"] --> UI["Operational UI"]
-    UI --> L["Local safe mode"]
-    UI --> API["Authenticated API boundary"]
-    API --> RBAC["RBAC + organization scope"]
-    RBAC --> INV["Inventory & lots"]
-    RBAC --> ORD["Orders & preparation"]
-    INV --> AUD["Traceability / audit"]
-    ORD --> AUD
-```
+## Sanitized system view
 
-## Engineering evidence
+<div align="center">
 
-The product design includes controls for:
+### `OPERATOR → OPERATIONAL UI → LOCAL CONTINUITY / AUTHENTICATED BACKEND`
 
-- organization-scoped access;
-- inventory mutation versioning;
-- retry-safe/idempotent operations;
-- FEFO enforcement for perishable stock;
-- immutable operational history;
-- server-side recalculation of order totals and quantities;
-- explicit distinction between local and remote state.
+`INVENTORY · LOTS · ORDERS · TRACEABILITY · ROLE CONTROLS`
 
-## Public evidence policy
+</div>
 
-The case study exposes the **problem, operating model, architectural controls and product maturity**. It does not need to expose the complete Django implementation, database schema, internal deployment configuration, credentials, private business logic or real operational data.
+## Current maturity
 
-## Maturity
+Fresh Market is **L1 Prototype / R&D**. Although parts of the design are production-oriented, deployability alone is not treated as proof of operational maturity.
 
-The product has been developed as a commercial pilot with a deployable Django backend and a local demo mode using safe data. Production readiness should always be evaluated separately from the existence of a deployable build.
+The next maturity gate is a constrained real-world pilot with representative inventory, receiving, order and reconciliation workflows; measured operator feedback; and validated recovery/continuity behavior.
 
-## Why it matters
+### What is not claimed
 
-Fresh Market is evidence of **full-stack operational product engineering**: the value is not a screenshot or CRUD interface, but the way domain rules, data integrity, security and continuity are translated into a usable workflow.
+- production-grade retail deployment;
+- validated multi-store scale;
+- proven long-term inventory accuracy;
+- mature commercial adoption;
+- complete operational observability.
+
+## Public evidence boundary
+
+The case exposes the problem, operating model, architectural controls and current maturity. Complete backend implementation, database structure, deployment configuration, credentials, proprietary business logic and real operational data remain private by default.
+
+## Why it remains useful evidence
+
+Fresh Market demonstrates the ability to identify **where a vertical domain stops being CRUD and starts requiring explicit operational contracts**. That distinction is valuable even while the product remains early-stage.
+
+---
+
+<div align="center">
+
+**Prototype honestly · validate before claiming production.**
+
+<a href="README.md"><img src="https://img.shields.io/badge/RETURN-PUBLIC_EVIDENCE-8B5CF6?style=for-the-badge" height="34" alt="Return to Public Evidence" /></a>
+
+</div>
