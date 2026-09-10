@@ -1,66 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1060" role="img" aria-labelledby="title desc">
   <title id="title">FDR — Crohnoz Labs flagship system mobile</title>
-  <desc id="desc">Mobile flagship engineering card for FDR showing advanced-pilot maturity, operational capabilities and engineering evidence.</desc>
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#EC4899"/><stop offset="52%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/>
-    </linearGradient>
-    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EC4899" stop-opacity=".14"/><stop offset="50%" stop-color="#8B5CF6" stop-opacity=".12"/><stop offset="100%" stop-color="#06B6D4" stop-opacity=".12"/>
-    </linearGradient>
-    <style>
-      .ey{font:800 22px Inter,Arial,sans-serif;letter-spacing:4px;fill:#B7C0CF}
-      .h1{font:900 126px Sora,Inter,Arial,sans-serif;letter-spacing:4px;fill:#F8FAFC}
-      .h2{font:800 34px Inter,Arial,sans-serif;fill:#F8FAFC}
-      .body{font:500 25px Inter,Arial,sans-serif;fill:#C7D0DC}
-      .pill{font:800 22px Inter,Arial,sans-serif;fill:#F8FAFC}
-      .name{font:800 25px Inter,Arial,sans-serif;fill:#F8FAFC}
-      .muted{font:600 21px Inter,Arial,sans-serif;fill:#AAB6C5}
-      .flow{font:800 19px Inter,Arial,sans-serif;letter-spacing:1px;fill:#DDE5EF}
-    </style>
-  </defs>
-  <rect width="900" height="1280" rx="36" fill="#0A0B14"/>
-  <rect x="2" y="2" width="896" height="1276" rx="34" fill="none" stroke="url(#g)" stroke-width="3"/>
-  <circle cx="805" cy="110" r="290" fill="none" stroke="#8B5CF6" stroke-opacity=".15" stroke-width="2"/>
-  <circle cx="90" cy="1190" r="250" fill="none" stroke="#06B6D4" stroke-opacity=".10" stroke-width="2"/>
-
-  <text x="54" y="76" class="ey">FLAGSHIP SYSTEM</text>
-  <text x="54" y="220" class="h1">FDR</text>
-  <text x="54" y="274" class="h2">Healthcare Operations Platform</text>
-  <text x="54" y="326" class="body">Real clinical and administrative workflows</text>
-  <text x="54" y="362" class="body">with explicit public/private boundaries.</text>
-
-  <g transform="translate(54 405)">
-    <rect width="390" height="66" rx="33" fill="url(#soft)" stroke="#8B5CF6" stroke-width="2"/>
-    <circle cx="34" cy="33" r="9" fill="#8B5CF6"/>
-    <text x="62" y="42" class="pill">L2+ · ADVANCED PILOT</text>
-  </g>
-
-  <text x="54" y="540" class="ey">OPERATIONAL SURFACE</text>
-  <g transform="translate(54 580)">
-    <rect width="792" height="145" rx="24" fill="#101522" stroke="#EC4899"/>
-    <text x="30" y="47" class="name">PUBLIC BOOKING + PROFESSIONAL SCOPE</text>
-    <text x="30" y="88" class="muted">Professional × service × real availability</text>
-    <text x="30" y="120" class="muted">with controlled publication boundaries.</text>
-  </g>
-
-  <g transform="translate(54 755)">
-    <rect width="792" height="145" rx="24" fill="#101522" stroke="#8B5CF6"/>
-    <text x="30" y="47" class="name">REAL WORKFLOW LIFECYCLE</text>
-    <text x="30" y="88" class="muted">Scheduled → confirmed → checked in → outcome</text>
-    <text x="30" y="120" class="muted">with cancellation and no-show states.</text>
-  </g>
-
-  <g transform="translate(54 930)">
-    <rect width="792" height="145" rx="24" fill="#101522" stroke="#06B6D4"/>
-    <text x="30" y="47" class="name">DELIVERY + REGRESSION EVIDENCE</text>
-    <text x="30" y="88" class="muted">Reproducible staging · privacy checks · regressions</text>
-    <text x="30" y="120" class="muted">around the operational contract.</text>
-  </g>
-
-  <text x="450" y="1160" text-anchor="middle" class="flow">DOMAIN → BACKEND INTEGRITY → WORKFLOW → DELIVERY</text>
-  <g transform="translate(230 1195)">
-    <rect width="440" height="58" rx="29" fill="url(#g)" opacity=".96"/>
-    <text x="220" y="37" text-anchor="middle" class="pill">OPEN ENGINEERING CASE →</text>
-  </g>
+  <desc id="desc">Mobile flagship engineering card for FDR showing advanced-pilot maturity and three core engineering proof areas.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EC4899"/><stop offset="52%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient><linearGradient id="soft" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899" stop-opacity=".10"/><stop offset="50%" stop-color="#8B5CF6" stop-opacity=".08"/><stop offset="100%" stop-color="#06B6D4" stop-opacity=".08"/></linearGradient><style>.ey{font:800 21px Inter,Arial,sans-serif;letter-spacing:4px;fill:#AAB4C3}.h1{font:900 120px Sora,Inter,Arial,sans-serif;letter-spacing:3px;fill:#F8FAFC}.h2{font:800 33px Inter,Arial,sans-serif;fill:#F8FAFC}.body{font:500 24px Inter,Arial,sans-serif;fill:#B9C3D0}.pill{font:800 21px Inter,Arial,sans-serif;fill:#F8FAFC}.name{font:800 23px Inter,Arial,sans-serif;fill:#F8FAFC}.muted{font:600 20px Inter,Arial,sans-serif;fill:#A8B3C2}</style></defs>
+  <rect width="900" height="1060" rx="36" fill="#0A0B14"/><rect x="2" y="2" width="896" height="1056" rx="34" fill="none" stroke="url(#g)" stroke-width="2" stroke-opacity=".74"/><circle cx="810" cy="80" r="280" fill="none" stroke="#8B5CF6" stroke-opacity=".08" stroke-width="2"/>
+  <text x="54" y="78" class="ey">FEATURED FLAGSHIP</text><text x="54" y="218" class="h1">FDR</text><text x="54" y="270" class="h2">Healthcare Operations Platform</text><text x="54" y="324" class="body">Operational contracts first. UI second.</text>
+  <g transform="translate(54 372)"><rect width="390" height="66" rx="33" fill="url(#soft)" stroke="#8B5CF6" stroke-opacity=".58"/><circle cx="34" cy="33" r="8" fill="#8B5CF6"/><text x="62" y="42" class="pill">L2+ · ADVANCED PILOT</text></g>
+  <text x="54" y="520" class="ey">WHAT THIS SYSTEM PROVES</text>
+  <g transform="translate(54 560)"><rect width="792" height="120" rx="24" fill="#10131D" stroke="#FFFFFF" stroke-opacity=".08"/><text x="30" y="45" class="name">DOMAIN INTEGRITY</text><text x="30" y="82" class="muted">Booking scope enforced server-side.</text></g>
+  <g transform="translate(54 710)"><rect width="792" height="120" rx="24" fill="#10131D" stroke="#FFFFFF" stroke-opacity=".08"/><text x="30" y="45" class="name">WORKFLOW TRUTH</text><text x="30" y="82" class="muted">Lifecycle states reflect the real operation.</text></g>
+  <g transform="translate(54 860)"><rect width="792" height="120" rx="24" fill="#10131D" stroke="#FFFFFF" stroke-opacity=".08"/><text x="30" y="45" class="name">CONTROLLED DELIVERY</text><text x="30" y="82" class="muted">Privacy · staging · targeted regressions.</text></g>
+  <text x="54" y="1022" class="ey">PROBLEM → SYSTEM → EVIDENCE</text>
 </svg>
