@@ -4,7 +4,7 @@
 
 Small-building administration combines recurring charges, payments, vouchers, contracts, tenant changes and end-of-lease settlements. When those processes live across spreadsheets, documents and manual calculations, the main engineering problem is not simply CRUD: it is preserving **state, traceability and clear operational rules** without increasing administrative friction.
 
-This case study documents the public engineering boundary of the Crohnoz rental-administration system. It intentionally excludes real tenant data, credentials and private deployment details.
+This case study documents the public engineering boundary of **Crohnoz Rental Ops**. It intentionally excludes real tenant data, credentials and private deployment details.
 
 ## Operational problem
 
@@ -88,7 +88,7 @@ This is therefore presented as a **selected operational engineering case**, not 
 
 Public repository:
 
-https://github.com/Crohnoz/sistema_gestion_de_arriendos
+https://github.com/Crohnoz/Crohnoz-Rental-Ops
 
 The repository contains the sanitized application surface and additional documentation for environment separation and security decisions.
 
