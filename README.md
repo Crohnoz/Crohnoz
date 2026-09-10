@@ -47,11 +47,32 @@ The public case study and demo are intentionally sanitized. The demo uses fictit
 
 ---
 
+## FDR engineering evidence
+
+<img src="brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence across booking, public profiles, lifecycle, privacy, staging and regression controls" width="100%" />
+
+<div align="center">
+
+<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/INSPECT-ENGINEERING_CASE-8B5CF6?style=for-the-badge" height="36" alt="Inspect FDR engineering case" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/TRY-SAFE_DEMO-06B6D4?style=for-the-badge" height="36" alt="Try FDR safe demo" /></a>
+
+</div>
+
+---
+
 ## Engineering depth
 
 <img src="brand/assets/engineering-depth.svg" alt="Engineering depth across product, backend, security, operations, automation and physical systems" width="100%" />
 
 The emphasis is not on how many technologies appear in a badge list. It is on whether those technologies are used to enforce **real operational contracts**: correct scope, reliable state transitions, privacy boundaries, continuity and measurable delivery controls.
+
+---
+
+## Real-world delivery
+
+<img src="brand/assets/delivery-contexts.svg" alt="Real-world engineering delivery across healthcare, commerce, public-sector workflows and infrastructure" width="100%" />
+
+I work across domains where software must fit an existing operation rather than force the operation to fit the software. The public profile keeps client-sensitive implementation private while showing the engineering patterns that transfer across domains.
 
 ---
 
