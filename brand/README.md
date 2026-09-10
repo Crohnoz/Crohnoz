@@ -39,18 +39,57 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - `assets/mark.svg` — stand-alone mark.
 - `assets/favicon.svg` — web favicon source.
 - `assets/crohnoz_icon.ico` — Windows / PyInstaller icon.
-- `assets/github-banner.svg` — technical profile / repository banner.
+- `assets/github-banner.svg` — **premium founder-profile hero** combining Enrique Flores, Crohnoz Labs and the current flagship signal in one first-screen composition.
 
 ### Systems communication
 
 - `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
 - `assets/fdr-flagship.svg` — flagship product card. Use when one system has materially stronger operational maturity than the rest of the portfolio.
+- `assets/fdr-product-showcase.svg` — sanitized reconstruction of implemented FDR product surfaces: professional workspace, public booking and professional presence.
 - `assets/fdr-architecture.svg` — sanitized high-level architecture for the FDR public engineering case study.
 - `assets/fdr-evidence-strip.svg` — six-part proof strip for booking integrity, public profiles, lifecycle, privacy, staging and regression controls.
 - `assets/portfolio-maturity.svg` — canonical honest maturity map from `L0` through `L4`.
 - `assets/engineering-depth.svg` — capability map organized by engineering problem domain rather than technology count.
 - `assets/delivery-contexts.svg` — cross-domain delivery view for healthcare, commerce/operations, public-sector workflows and infrastructure/automation.
 - `assets/selected-evidence.svg` — legacy exploratory evidence showcase. It may be used below the maturity view, but must not visually compete with the current flagship.
+
+## Premium profile composition
+
+The public GitHub profile should behave like a **portfolio control center**, not a long developer README.
+
+Preferred first-screen hierarchy:
+
+1. **Founder hero** — Enrique Flores + role + Crohnoz Labs + current flagship signal.
+2. **Primary actions** — engineering case, safe live demo, public evidence library and Crohnoz Labs.
+3. **Flagship system** — the strongest current operational proof.
+4. **Product surfaces** — sanitized, visually inspectable implemented interfaces.
+5. **Engineering proof** — concrete behaviors already enforced by the system.
+6. **Engineering depth** — capability by problem domain.
+7. **Real-world delivery** — cross-domain transferability.
+8. **Operating model** — how Crohnoz moves from problem to evidence.
+9. **Portfolio maturity** — honest position of active systems.
+10. **Deep dive** — detailed tables, stack and operating principles may be collapsed below the primary visual narrative.
+
+The first screen must answer: **who is Enrique, what is Crohnoz, what is the strongest proof, and where can I inspect it?**
+
+## Product-surface evidence
+
+A product-surface showcase may reconstruct real implemented interfaces when direct screenshots are unsuitable, unstable or would expose sensitive data.
+
+Requirements:
+
+- every represented surface must exist in the implemented product;
+- labels and records must be fictitious or generic;
+- the visual must identify itself as a sanitized reconstruction when there is any risk of being mistaken for a literal screenshot;
+- it must not invent controls, states or capabilities;
+- it should communicate **operability**, not decorative UI concepts;
+- when a safe public demo exists, the showcase should link to it.
+
+For FDR, the canonical surfaces are:
+
+- **Professional workspace** — daily agenda, next attention, state-aware actions and operational metrics;
+- **Public booking** — service, professional, real availability, review and confirmation;
+- **Professional presence** — publication, verification and visibility controls separated from private clinical operations.
 
 ## Crohnoz Operating Model
 
@@ -83,13 +122,14 @@ Public surfaces must distinguish **maturity** from **potential**.
 
 The preferred hierarchy is:
 
-1. **Flagship system** — the strongest current operational proof. It receives the largest visual area and the clearest CTA.
-2. **Engineering proof strip** — a compact visual summary of concrete, inspectable behaviors already implemented in the flagship.
-3. **Engineering depth** — capability by problem domain rather than by tool count.
-4. **Real-world delivery contexts** — demonstrates transferability across domains without exposing client-sensitive implementation.
-5. **Operating model** — explains how Crohnoz works across products.
-6. **Current portfolio maturity** — shows where every active system actually sits from L0 to L4.
-7. **Exploratory evidence** — early systems and R&D appear after the flagship and maturity view.
+1. **Flagship system** — the strongest current operational proof. It receives the largest visual area and clearest CTA.
+2. **Product-surface evidence** — implemented interfaces shown safely.
+3. **Engineering proof strip** — concrete, inspectable behaviors already implemented in the flagship.
+4. **Engineering depth** — capability by problem domain rather than tool count.
+5. **Real-world delivery contexts** — transferability across domains without exposing client-sensitive implementation.
+6. **Operating model** — explains how Crohnoz works across products.
+7. **Current portfolio maturity** — shows where every active system actually sits from L0 to L4.
+8. **Exploratory evidence** — early systems and R&D appear after the flagship and maturity view.
 
 Do not present prototypes as production systems. Honest maturity increases credibility.
 
@@ -167,6 +207,8 @@ Small inline Markdown links may remain as secondary navigation only.
 14. Proof visuals must describe implemented behavior; do not use them for roadmap claims.
 15. Cross-domain visuals should use generic operational categories when attribution would expose unnecessary client context.
 16. Do not add numerical proof points unless they can be maintained accurately over time.
+17. Detailed stack and principle sections should not interrupt the first-screen product narrative; collapse or move them below the primary evidence path.
+18. Product-surface reconstructions must be clearly sanitized and must never be presented as literal screenshots when they are illustrative reconstructions.
 
 ## Brand principles
 
