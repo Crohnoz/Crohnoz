@@ -6,7 +6,10 @@
 
 <br/><br/>
 
-<img src="../brand/assets/fdr-flagship.svg" alt="FDR — Crohnoz Labs flagship system" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="../brand/assets/fdr-flagship-mobile.svg" />
+  <img src="../brand/assets/fdr-flagship.svg" alt="FDR — Crohnoz Labs flagship system" width="100%" />
+</picture>
 
 # FDR · Flagship Engineering Case Study
 
