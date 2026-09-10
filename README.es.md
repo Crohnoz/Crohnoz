@@ -111,6 +111,21 @@ El mapa de madurez es deliberadamente honesto. **FDR recibe el peso visual de fl
 
 ---
 
+## Colaboración profesional
+
+<a href="https://crohnozlabs.cl/profile"><img src="brand/assets/professional-engagement.svg" alt="Áreas de colaboración profesional: arquitectura de producto, software operacional, integridad backend e IA aplicada" width="100%" /></a>
+
+El mejor encaje está en proyectos donde el desafío no es simplemente agregar funcionalidades, sino **entender una operación, convertirla en comportamiento explícito del sistema y entregarla con límites confiables**.
+
+<div align="center">
+
+<a href="https://crohnozlabs.cl/profile"><img src="https://img.shields.io/badge/VER-PERFIL_PROFESIONAL-EC4899?style=for-the-badge&logo=aboutdotme&logoColor=white" height="38" alt="Ver perfil profesional" /></a>
+<a href="evidence/README.md"><img src="https://img.shields.io/badge/REVISAR-EVIDENCIA_PUBLICA-8B5CF6?style=for-the-badge&logo=readme&logoColor=white" height="38" alt="Revisar evidencia pública" /></a>
+
+</div>
+
+---
+
 ## Profundizar
 
 <details>
@@ -185,6 +200,7 @@ Prefiero entender la operación antes de elegir la arquitectura, reducir la carg
 <br/>
 
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/WEBSITE-CROHNOZ_LABS-EC4899?style=for-the-badge" height="34" alt="Crohnoz Labs website" /></a>
+<a href="https://crohnozlabs.cl/profile"><img src="https://img.shields.io/badge/PERFIL-ENRIQUE_FLORES-06B6D4?style=for-the-badge" height="34" alt="Perfil profesional de Enrique Flores" /></a>
 <a href="evidence/README.md"><img src="https://img.shields.io/badge/ABRIR-EVIDENCIA_PUBLICA-8B5CF6?style=for-the-badge" height="34" alt="Evidencia pública" /></a>
 
 </div>
