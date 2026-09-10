@@ -1,3 +1,6 @@
+# Profile repository hygiene
+# This repository is an editorial portfolio surface, not an application build workspace.
+
 # Python
 __pycache__/
 *.py[cod]
@@ -32,10 +35,16 @@ media/
 staticfiles/
 *.log
 
-# Build artifacts
+# Build and packaged artifacts
 build/
 dist/
 *.egg-info/
+*.exe
+*.pkg
+*.pyz
+*.toc
+*.spec
+*.zip
 
 # JavaScript
 node_modules/
