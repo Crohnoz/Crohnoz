@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="brand/assets/github-banner-mobile.svg" />
+  <img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+</picture>
 
 <br/>
 
@@ -38,7 +41,12 @@ FDR is currently the strongest operational proof in the Crohnoz portfolio. It de
 
 ## Product surfaces
 
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="brand/assets/fdr-product-showcase.svg" alt="Sanitized reconstruction of implemented FDR product surfaces" width="100%" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico">
+  <picture>
+    <source media="(max-width: 700px)" srcset="brand/assets/fdr-product-showcase-mobile.svg" />
+    <img src="brand/assets/fdr-product-showcase.svg" alt="Sanitized reconstruction of implemented FDR product surfaces" width="100%" />
+  </picture>
+</a>
 
 <div align="center">
 
@@ -96,7 +104,10 @@ I work across domains where software must fit real operations: healthcare, comme
 
 ## Current portfolio maturity
 
-<img src="brand/assets/portfolio-maturity.svg" alt="Crohnoz Labs current product portfolio maturity" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="brand/assets/portfolio-maturity-mobile.svg" />
+  <img src="brand/assets/portfolio-maturity.svg" alt="Crohnoz Labs current product portfolio maturity" width="100%" />
+</picture>
 
 <div align="center">
 
