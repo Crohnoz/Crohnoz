@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 430" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world delivery contexts</title>
+  <desc id="desc">Domains where Enrique Flores and Crohnoz Labs apply product engineering: healthcare, commerce and operations, public-sector workflows, and infrastructure and automation.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
+    <style>.eyebrow{font:700 18px Inter,Arial,sans-serif;letter-spacing:4px;fill:#AAB3C5}.h1{font:800 38px Inter,Arial,sans-serif;fill:#F8FAFC}.title{font:800 24px Inter,Arial,sans-serif;fill:#F8FAFC}.copy{font:500 16px Inter,Arial,sans-serif;fill:#AAB3C5}.tag{font:700 13px Inter,Arial,sans-serif;letter-spacing:1.2px;fill:#D8DEEA}</style>
+  </defs>
+  <rect width="1600" height="430" rx="30" fill="#0A0B14"/>
+  <rect x="55" y="45" width="1490" height="4" rx="2" fill="url(#brand)"/>
+  <text x="70" y="96" class="eyebrow">REAL-WORLD DELIVERY</text>
+  <text x="70" y="146" class="h1">Engineering across operational contexts</text>
+
+  <g transform="translate(70 195)"><rect width="340" height="175" rx="22" fill="#10131D" stroke="#8B5CF6" stroke-opacity=".55"/><text x="26" y="45" class="title">Healthcare</text><text x="26" y="82" class="copy">Scheduling · patient workflows</text><text x="26" y="110" class="copy">public/private boundaries</text><text x="26" y="145" class="tag">FDR · FLAGSHIP</text></g>
+  <g transform="translate(445 195)"><rect width="340" height="175" rx="22" fill="#10131D" stroke="#EC4899" stroke-opacity=".55"/><text x="26" y="45" class="title">Commerce &amp; Operations</text><text x="26" y="82" class="copy">POS · inventory · role workflows</text><text x="26" y="110" class="copy">local continuity · traceability</text><text x="26" y="145" class="tag">OPERATIONAL SYSTEMS</text></g>
+  <g transform="translate(820 195)"><rect width="340" height="175" rx="22" fill="#10131D" stroke="#3B82F6" stroke-opacity=".55"/><text x="26" y="45" class="title">Public-sector workflows</text><text x="26" y="82" class="copy">Validation · data boundaries</text><text x="26" y="110" class="copy">controlled delivery · audit thinking</text><text x="26" y="145" class="tag">DATA &amp; PROCESS</text></g>
+  <g transform="translate(1195 195)"><rect width="335" height="175" rx="22" fill="#10131D" stroke="#06B6D4" stroke-opacity=".55"/><text x="26" y="45" class="title">Infrastructure &amp; AI</text><text x="26" y="82" class="copy">Linux · containers · private networks</text><text x="26" y="110" class="copy">agents · automation · edge systems</text><text x="26" y="145" class="tag">SYSTEMS &amp; AUTOMATION</text></g>
+</svg>
