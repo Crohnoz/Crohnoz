@@ -21,7 +21,12 @@ This library is the curated public evidence layer for Enrique Flores / Crohnoz L
 
 ## 01 · Flagship engineering case
 
-<a href="fdr.md"><img src="../brand/assets/fdr-flagship.svg" alt="FDR flagship engineering case" width="100%" /></a>
+<a href="fdr.md">
+  <picture>
+    <source media="(max-width: 700px)" srcset="../brand/assets/fdr-flagship-mobile.svg" />
+    <img src="../brand/assets/fdr-flagship.svg" alt="FDR flagship engineering case" width="100%" />
+  </picture>
+</a>
 
 <img src="../brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence" width="100%" />
 
