@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">FDR Product Surface Showcase</title>
+  <desc id="desc">Sanitized product-surface reconstruction based on implemented FDR professional workspace, public booking and professional presence interfaces.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#172033"/><stop offset="100%" stop-color="#0F172A"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".28"/></filter>
+    <style>
+      .eyebrow{font:700 17px Inter,Arial,sans-serif;letter-spacing:4px;fill:#AAB3C5}.h1{font:800 43px Inter,Arial,sans-serif;fill:#F8FAFC}.sub{font:500 18px Inter,Arial,sans-serif;fill:#AAB3C5}.windowTitle{font:800 20px Inter,Arial,sans-serif;fill:#111827}.windowCopy{font:600 12px Inter,Arial,sans-serif;fill:#64748B}.small{font:700 11px Inter,Arial,sans-serif;fill:#64748B}.metric{font:800 24px Inter,Arial,sans-serif;fill:#0F766E}.label{font:800 12px Inter,Arial,sans-serif;fill:#334155}.darkLabel{font:800 13px Inter,Arial,sans-serif;fill:#E2E8F0}.tag{font:800 12px Inter,Arial,sans-serif;letter-spacing:1.5px;fill:#D8DEEA}
+    </style>
+  </defs>
+  <rect width="1600" height="920" rx="34" fill="#0A0B14"/>
+  <circle cx="1430" cy="40" r="390" fill="#8B5CF6" opacity=".06"/>
+  <circle cx="120" cy="900" r="330" fill="#06B6D4" opacity=".05"/>
+  <rect x="55" y="52" width="1490" height="4" rx="2" fill="url(#brand)"/>
+  <text x="70" y="106" class="eyebrow">FDR · PRODUCT SURFACES</text>
+  <text x="70" y="162" class="h1">A real system should look operable, not hypothetical.</text>
+  <text x="70" y="202" class="sub">Sanitized UI reconstruction based on implemented product surfaces · no real patient data</text>
+
+  <!-- Professional workspace -->
+  <g transform="translate(70 255)" filter="url(#shadow)">
+    <rect width="700" height="565" rx="28" fill="#F8FAFC"/>
+    <rect width="700" height="52" rx="28" fill="#E2E8F0"/><rect y="30" width="700" height="22" fill="#E2E8F0"/>
+    <circle cx="28" cy="26" r="7" fill="#F87171"/><circle cx="52" cy="26" r="7" fill="#FBBF24"/><circle cx="76" cy="26" r="7" fill="#34D399"/>
+    <text x="108" y="31" class="label">PROFESSIONAL WORKSPACE</text>
+    <text x="28" y="92" class="small">MI JORNADA CLÍNICA</text>
+    <text x="28" y="126" class="windowTitle">Buenos días, Profesional Demo</text>
+    <text x="28" y="151" class="windowCopy">Agenda, estados y siguientes acciones en una sola vista.</text>
+
+    <rect x="28" y="178" width="644" height="104" rx="18" fill="#0F172A"/>
+    <text x="48" y="205" class="darkLabel">PRÓXIMA ATENCIÓN</text>
+    <text x="48" y="241" style="font:800 28px Inter,Arial,sans-serif;fill:#F8FAFC">10:30 · Paciente demo</text>
+    <text x="48" y="266" style="font:600 13px Inter,Arial,sans-serif;fill:#94A3B8">Atención podológica · Profesional Demo</text>
+    <rect x="525" y="205" width="120" height="40" rx="10" fill="#A7F3D0"/><text x="548" y="230" style="font:800 12px Inter,Arial,sans-serif;fill:#065F46">CHECK-IN</text>
+
+    <g transform="translate(28 305)">
+      <rect width="145" height="82" rx="15" fill="#FFFFFF" stroke="#DDE4EC"/><text x="16" y="28" class="small">ATENCIONES HOY</text><text x="16" y="62" class="metric">06</text>
+      <rect x="160" width="145" height="82" rx="15" fill="#FFFFFF" stroke="#DDE4EC"/><text x="176" y="28" class="small">POR CONFIRMAR</text><text x="176" y="62" style="font:800 24px Inter,Arial,sans-serif;fill:#B45309">02</text>
+      <rect x="320" width="145" height="82" rx="15" fill="#FFFFFF" stroke="#DDE4EC"/><text x="336" y="28" class="small">EN ESPERA</text><text x="336" y="62" style="font:800 24px Inter,Arial,sans-serif;fill:#334155">01</text>
+      <rect x="480" width="164" height="82" rx="15" fill="#FFFFFF" stroke="#DDE4EC"/><text x="496" y="28" class="small">CERRADAS</text><text x="496" y="62" style="font:800 24px Inter,Arial,sans-serif;fill:#047857">03</text>
+    </g>
+
+    <text x="28" y="428" class="windowTitle">Agenda de hoy</text>
+    <text x="28" y="450" class="windowCopy">Estados y acciones operacionales</text>
+    <g transform="translate(28 468)">
+      <rect width="644" height="70" rx="14" fill="#FFFFFF" stroke="#DDE4EC"/>
+      <text x="16" y="28" style="font:800 16px Inter,Arial,sans-serif;fill:#0F172A">09:00</text><text x="86" y="27" class="label">Paciente demo A</text><text x="86" y="49" class="windowCopy">Evaluación clínica</text><rect x="520" y="17" width="96" height="34" rx="9" fill="#DCFCE7"/><text x="538" y="38" style="font:800 11px Inter,Arial,sans-serif;fill:#166534">COMPLETED</text>
+    </g>
+  </g>
+
+  <!-- Public booking -->
+  <g transform="translate(810 255)" filter="url(#shadow)">
+    <rect width="720" height="268" rx="28" fill="#F8FAFC"/>
+    <rect width="720" height="48" rx="28" fill="#E2E8F0"/><rect y="28" width="720" height="20" fill="#E2E8F0"/>
+    <circle cx="28" cy="24" r="7" fill="#F87171"/><circle cx="52" cy="24" r="7" fill="#FBBF24"/><circle cx="76" cy="24" r="7" fill="#34D399"/>
+    <text x="108" y="29" class="label">PUBLIC BOOKING</text>
+    <text x="26" y="86" class="small">RESERVA ONLINE · PROCESO SEGURO</text>
+    <text x="26" y="118" class="windowTitle">Reserva tu hora</text>
+    <text x="26" y="140" class="windowCopy">Atención → profesional → disponibilidad → revisión → confirmación</text>
+    <g transform="translate(26 162)">
+      <circle cx="18" cy="18" r="18" fill="#0F766E"/><text x="13" y="23" style="font:800 12px Inter,Arial,sans-serif;fill:#fff">1</text><text x="46" y="15" class="label">Datos de la reserva</text><text x="46" y="34" class="small">Atención, horario y contacto</text>
+      <line x1="220" y1="18" x2="252" y2="18" stroke="#CBD5E1" stroke-width="3"/>
+      <circle cx="278" cy="18" r="18" fill="#E2E8F0"/><text x="273" y="23" style="font:800 12px Inter,Arial,sans-serif;fill:#64748B">2</text><text x="306" y="15" class="label">Revisar</text><text x="306" y="34" class="small">Confirma la información</text>
+      <line x1="438" y1="18" x2="470" y2="18" stroke="#CBD5E1" stroke-width="3"/>
+      <circle cx="496" cy="18" r="18" fill="#E2E8F0"/><text x="491" y="23" style="font:800 12px Inter,Arial,sans-serif;fill:#64748B">3</text><text x="524" y="15" class="label">Confirmación</text><text x="524" y="34" class="small">Reserva registrada</text>
+    </g>
+  </g>
+
+  <!-- Presence console -->
+  <g transform="translate(810 555)" filter="url(#shadow)">
+    <rect width="720" height="265" rx="28" fill="#F8FAFC"/>
+    <rect width="720" height="48" rx="28" fill="#E2E8F0"/><rect y="28" width="720" height="20" fill="#E2E8F0"/>
+    <circle cx="28" cy="24" r="7" fill="#F87171"/><circle cx="52" cy="24" r="7" fill="#FBBF24"/><circle cx="76" cy="24" r="7" fill="#34D399"/>
+    <text x="108" y="29" class="label">PROFESSIONAL PRESENCE</text>
+    <text x="26" y="83" class="small">FDR PROFESIONALES · TU PRESENCIA</text>
+    <text x="26" y="114" class="windowTitle">Perfil público controlado</text>
+    <text x="26" y="136" class="windowCopy">Publicación y verificación permanecen separadas de datos clínicos.</text>
+    <g transform="translate(26 158)">
+      <rect width="210" height="76" rx="14" fill="#FFFFFF" stroke="#DDE4EC"/><text x="15" y="25" class="small">PUBLICACIÓN</text><text x="15" y="53" style="font:800 15px Inter,Arial,sans-serif;fill:#047857">PUBLICADO</text>
+      <rect x="226" width="210" height="76" rx="14" fill="#FFFFFF" stroke="#DDE4EC"/><text x="241" y="25" class="small">VERIFICACIÓN</text><text x="241" y="53" style="font:800 15px Inter,Arial,sans-serif;fill:#7C3AED">PENDIENTE</text>
+      <rect x="452" width="242" height="76" rx="14" fill="#FFFFFF" stroke="#DDE4EC"/><text x="467" y="25" class="small">COMPONENTES</text><text x="467" y="51" class="label">Identidad · Servicios</text><text x="467" y="67" class="small">Ubicación / modalidad</text>
+    </g>
+  </g>
+
+  <text x="70" y="875" class="tag">IMPLEMENTED SURFACES · SANITIZED RECONSTRUCTION · EVIDENCE WITHOUT PRIVATE DATA</text>
+</svg>
