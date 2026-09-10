@@ -22,7 +22,12 @@
 
 ## Sistema insignia
 
-<a href="evidence/fdr.md"><img src="brand/assets/fdr-flagship.svg" alt="FDR — sistema insignia de operaciones de salud de Crohnoz Labs" width="100%" /></a>
+<a href="evidence/fdr.md">
+  <picture>
+    <source media="(max-width: 700px)" srcset="brand/assets/fdr-flagship-mobile.svg" />
+    <img src="brand/assets/fdr-flagship.svg" alt="FDR — sistema insignia de operaciones de salud de Crohnoz Labs" width="100%" />
+  </picture>
+</a>
 
 <div align="center">
 
