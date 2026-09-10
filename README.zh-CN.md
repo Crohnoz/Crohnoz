@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="brand/assets/github-banner-mobile.svg" />
+  <img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+</picture>
 
 <br/>
 
@@ -38,7 +41,12 @@ FDR 是目前 Crohnoz 产品组合中最强的运营证据，展示了**领域�
 
 ## 产品界面
 
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="brand/assets/fdr-product-showcase.svg" alt="基于已实现 FDR 界面的脱敏产品展示" width="100%" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico">
+  <picture>
+    <source media="(max-width: 700px)" srcset="brand/assets/fdr-product-showcase-mobile.svg" />
+    <img src="brand/assets/fdr-product-showcase.svg" alt="基于已实现 FDR 界面的脱敏产品展示" width="100%" />
+  </picture>
+</a>
 
 <div align="center">
 
@@ -96,7 +104,10 @@ FDR 是目前 Crohnoz 产品组合中最强的运营证据，展示了**领域�
 
 ## 当前产品成熟度
 
-<img src="brand/assets/portfolio-maturity.svg" alt="Crohnoz Labs 当前产品成熟度" width="100%" />
+<picture>
+  <source media="(max-width: 700px)" srcset="brand/assets/portfolio-maturity-mobile.svg" />
+  <img src="brand/assets/portfolio-maturity.svg" alt="Crohnoz Labs 当前产品成熟度" width="100%" />
+</picture>
 
 <div align="center">
 
