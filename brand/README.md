@@ -40,15 +40,18 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 - `assets/favicon.svg` — web favicon source.
 - `assets/crohnoz_icon.ico` — legacy application icon retained as a brand asset only.
 - `assets/github-banner.svg` — **premium founder-profile hero** combining Enrique Flores, Crohnoz Labs and the current flagship signal in one first-screen composition.
+- `assets/github-banner-mobile.svg` — vertical mobile hero; preferred below `700px`.
 
 ### Systems communication
 
 - `assets/crohnoz-operating-model.svg` — canonical visual explanation of how Crohnoz Labs turns real operational problems into scalable systems.
 - `assets/fdr-flagship.svg` — flagship product card. Use when one system has materially stronger operational maturity than the rest of the portfolio.
-- `assets/fdr-product-showcase.svg` — sanitized reconstruction of implemented FDR product surfaces: professional workspace, public booking and professional presence.
+- `assets/fdr-product-showcase.svg` — desktop sanitized reconstruction of implemented FDR product surfaces: professional workspace, public booking and professional presence.
+- `assets/fdr-product-showcase-mobile.svg` — stacked mobile reconstruction of the same implemented FDR surfaces; preferred below `700px`.
 - `assets/fdr-architecture.svg` — sanitized high-level architecture for the FDR public engineering case study.
 - `assets/fdr-evidence-strip.svg` — six-part proof strip for booking integrity, public profiles, lifecycle, privacy, staging and regression controls.
-- `assets/portfolio-maturity.svg` — canonical honest maturity map from `L0` through `L4`.
+- `assets/portfolio-maturity.svg` — desktop honest maturity map from `L0` through `L4`.
+- `assets/portfolio-maturity-mobile.svg` — stacked mobile maturity view; preferred below `700px`.
 - `assets/engineering-depth.svg` — capability map organized by engineering problem domain rather than technology count.
 - `assets/delivery-contexts.svg` — cross-domain delivery view for healthcare, commerce/operations, public-sector workflows and infrastructure/automation.
 - `assets/professional-engagement.svg` — professional conversion layer describing the kinds of engineering engagements that best fit Enrique Flores / Crohnoz Labs.
@@ -74,6 +77,22 @@ Preferred hierarchy:
 11. **Deep dive** — detailed tables, stack and operating principles collapsed below the primary visual narrative.
 
 The first screen must answer: **who is Enrique, what is Crohnoz, what is the strongest proof, and where can I inspect it?**
+
+## Responsive composition
+
+The profile is designed for both desktop and mobile GitHub surfaces.
+
+Use `<picture>` with `media="(max-width: 700px)"` when a panoramic diagram becomes too dense to remain legible on a narrow screen.
+
+Current responsive pairs:
+
+- `github-banner-mobile.svg` → `github-banner.svg`;
+- `fdr-product-showcase-mobile.svg` → `fdr-product-showcase.svg`;
+- `portfolio-maturity-mobile.svg` → `portfolio-maturity.svg`.
+
+Mobile variants must **recompose** information rather than merely shrink the desktop canvas. Preserve the same claims and maturity state, but increase text size, stack cards vertically and remove decorative details when necessary.
+
+Do not create a mobile variant when the SVG remains legible as a secondary illustration and the surrounding HTML already carries the essential information.
 
 ## Product-surface evidence
 
@@ -284,6 +303,7 @@ Do not update maturity automatically from commit count, feature count or visual 
 19. Early-product case studies must state both the current maturity and the next evidence gate.
 20. The profile repository must remain free of application build artifacts and local runtime environments.
 21. Professional CTAs should follow evidence, not replace it.
+22. Responsive profile visuals must recompose dense content for narrow screens rather than simply shrinking desktop artwork.
 
 ## Brand principles
 
