@@ -47,11 +47,32 @@ El caso público y la demo están sanitizados. La demostración utiliza paciente
 
 ---
 
+## Evidencia de ingeniería FDR
+
+<img src="brand/assets/fdr-evidence-strip.svg" alt="Evidencia de ingeniería FDR en reserva pública, perfiles, lifecycle, privacidad, staging y regresiones" width="100%" />
+
+<div align="center">
+
+<a href="evidence/fdr.md"><img src="https://img.shields.io/badge/REVISAR-CASO_DE_INGENIERIA-8B5CF6?style=for-the-badge" height="36" alt="Revisar caso de ingeniería FDR" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/PROBAR-DEMO_SEGURA-06B6D4?style=for-the-badge" height="36" alt="Probar demo segura FDR" /></a>
+
+</div>
+
+---
+
 ## Profundidad de ingeniería
 
 <img src="brand/assets/engineering-depth.svg" alt="Profundidad de ingeniería en producto, backend, seguridad, operaciones, automatización y sistemas físicos" width="100%" />
 
 El foco no está en cuántas tecnologías aparecen en una lista, sino en si esas tecnologías hacen cumplir **contratos operacionales reales**: scope correcto, transiciones confiables, privacidad, continuidad y controles de delivery medibles.
+
+---
+
+## Delivery en operaciones reales
+
+<img src="brand/assets/delivery-contexts.svg" alt="Delivery de ingeniería en salud, comercio, flujos públicos e infraestructura" width="100%" />
+
+Trabajo en dominios donde el software tiene que adaptarse a una operación existente y no al revés. La vitrina pública mantiene privadas las implementaciones sensibles de clientes, pero muestra patrones de ingeniería transferibles entre distintos contextos.
 
 ---
 
