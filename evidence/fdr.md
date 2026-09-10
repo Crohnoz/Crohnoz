@@ -34,6 +34,18 @@ That distinction is part of the evidence itself: demonstrating a product should 
 
 ---
 
+## Engineering proof at a glance
+
+<img src="../brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence across booking, professional profiles, lifecycle, privacy, staging and regression controls" width="100%" />
+
+<div align="center">
+
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/TRY-SAFE_PRODUCT_WALKTHROUGH-06B6D4?style=for-the-badge" height="36" alt="Try FDR safe product walkthrough" /></a>
+
+</div>
+
+---
+
 ## Why FDR matters
 
 FDR is a healthcare operations platform designed around real clinical and administrative workflows rather than a generic CRUD model. The system connects public booking, professional availability, patient operations, clinical workflow boundaries and controlled delivery.
