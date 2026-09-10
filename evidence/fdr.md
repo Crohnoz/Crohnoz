@@ -34,15 +34,31 @@ That distinction is part of the evidence itself: demonstrating a product should 
 
 ---
 
-## Engineering proof at a glance
+## Product surfaces
 
-<img src="../brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence across booking, professional profiles, lifecycle, privacy, staging and regression controls" width="100%" />
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="../brand/assets/fdr-product-showcase.svg" alt="Sanitized reconstruction of implemented FDR product surfaces" width="100%" /></a>
+
+The showcase reconstructs three interfaces that exist in the implemented product:
+
+| Surface | Operational purpose |
+|---|---|
+| **Professional workspace** | Daily clinical agenda, next-attention context, state-aware actions and operational metrics |
+| **Public booking** | Three-step service → professional → availability → review → confirmation flow |
+| **Professional presence** | Explicit public-profile publication, verification and service-visibility controls |
+
+The composition uses fictitious labels and simplified content so the product can be inspected without exposing patient records. It is **representational evidence of implemented surfaces**, not a claim that the SVG itself is a production screenshot.
 
 <div align="center">
 
-<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/TRY-SAFE_PRODUCT_WALKTHROUGH-06B6D4?style=for-the-badge" height="36" alt="Try FDR safe product walkthrough" /></a>
+<a href="https://crohnozlabs.cl/demos/fdr-centro-podologico"><img src="https://img.shields.io/badge/EXPLORE_THE_SURFACES-SAFE_LIVE_DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" height="38" alt="Explore FDR safe live demo" /></a>
 
 </div>
+
+---
+
+## Engineering proof at a glance
+
+<img src="../brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence across booking, professional profiles, lifecycle, privacy, staging and regression controls" width="100%" />
 
 ---
 
