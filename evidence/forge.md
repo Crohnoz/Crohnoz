@@ -3,6 +3,13 @@
 <a href="README.md"><img src="https://img.shields.io/badge/←_PUBLIC_EVIDENCE-0A0B14?style=for-the-badge&logo=readme&logoColor=white" height="34" alt="Back to Public Evidence" /></a>
 <a href="https://crohnoz-forge.netlify.app"><img src="https://img.shields.io/badge/OPEN-SAFE_PUBLIC_DEMO-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" height="34" alt="Open Forge public demo" /></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(max-width: 700px)" srcset="../brand/assets/case-forge-mobile.svg" />
+  <img src="../brand/assets/case-forge.svg" alt="Crohnoz Forge product reasoning case study" width="100%" />
+</picture>
+
 # Crohnoz Forge · Product R&D Case
 
 `L1 · PROTOTYPE / R&D`
