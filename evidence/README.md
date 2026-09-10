@@ -1,22 +1,25 @@
 <div align="center">
 
 <a href="../README.md"><img src="https://img.shields.io/badge/←_BACK_TO_PROFILE-0A0B14?style=for-the-badge&logo=github&logoColor=white" height="34" alt="Back to profile" /></a>
+<a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/CROHNOZ_LABS-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" height="34" alt="Crohnoz Labs" /></a>
 
-# Public Evidence
+<br/><br/>
+
+<img src="../brand/assets/evidence-library.svg" alt="Crohnoz Labs Public Evidence Library" width="100%" />
+
+# Public Evidence Library
 
 **Product thinking · Engineering depth · Operational systems · Honest maturity**
 
 </div>
 
-This directory is the curated public evidence layer for Enrique Flores / Crohnoz Labs. The goal is to demonstrate engineering capability **without publishing complete proprietary source code, private infrastructure, client environments or sensitive implementation details**.
+This library is the curated public evidence layer for Enrique Flores / Crohnoz Labs. It exists to demonstrate engineering capability **without publishing complete proprietary source code, private infrastructure, client environments or sensitive implementation details**.
 
 ---
 
 ## Flagship engineering case
 
-<a href="fdr.md">
-  <img src="../brand/assets/fdr-flagship.svg" alt="FDR flagship engineering case" width="100%" />
-</a>
+<a href="fdr.md"><img src="../brand/assets/fdr-flagship.svg" alt="FDR flagship engineering case" width="100%" /></a>
 
 <img src="../brand/assets/fdr-evidence-strip.svg" alt="FDR engineering evidence" width="100%" />
 
@@ -41,7 +44,7 @@ A second operational case showing that the same engineering principles transfer 
 
 <div align="center">
 
-<a href="rental-operations.md"><img src="https://img.shields.io/badge/OPEN-RENTAL_OPERATIONS_CASE-3B82F6?style=for-the-badge" height="36" alt="Open Rental Operations Case" /></a>
+<a href="rental-operations.md"><img src="https://img.shields.io/badge/OPEN-RENTAL_OPERATIONS_CASE-A855F7?style=for-the-badge" height="36" alt="Open Rental Operations Case" /></a>
 
 </div>
 
@@ -49,21 +52,24 @@ This case is intentionally presented as a **selected operational system**, not a
 
 ---
 
-## Exploratory product evidence
+## Product R&D
 
-These systems remain earlier in the maturity curve and are presented honestly as product exploration / R&D rather than equivalent production references.
+These systems remain earlier in the maturity curve and are presented honestly as **product exploration / R&D**, not as production-equivalent references.
 
 | Product | Maturity | Evidence focus | Public surface |
 |---|---|---|---|
-| [Crohnoz Forge](forge.md) | `L1 · Prototype / R&D` | Product discovery, local-first workflow, privacy, stage gates | Public demo |
-| [Crohnoz Fresh Market](fresh-market.md) | `L1 · Prototype / R&D` | Retail operations, inventory, backend controls, traceability | Curated product surface |
-| [IncluMe](inclume.md) | `L1 · Early Product` | Accessibility, civic UX, citizen + municipal workflows | Public demos |
+| **[Crohnoz Forge](forge.md)** | `L1 · Prototype / R&D` | Product discovery · local-first workflow · privacy · stage gates | [Live demo](https://crohnoz-forge.netlify.app) |
+| **[Crohnoz Fresh Market](fresh-market.md)** | `L1 · Prototype / R&D` | Retail operations · inventory · backend controls · traceability | Curated case study |
+| **[IncluMe](inclume.md)** | `L1 · Early Product` | Accessibility · civic UX · citizen + municipal workflows | [Citizen demo](https://inclume-chile.netlify.app/) |
 
 ---
 
 ## Evidence standard
 
-Every public case should make the following clear:
+<details>
+<summary><strong>What every public case should make clear</strong></summary>
+
+<br/>
 
 1. **What real problem does this solve?**
 2. **What operational context matters?**
@@ -73,17 +79,24 @@ Every public case should make the following clear:
 6. **What remains intentionally private?**
 7. **What maturity can honestly be claimed today?**
 
----
+</details>
 
-## Publication boundary
+<details>
+<summary><strong>Publication boundary</strong></summary>
 
-Public evidence may include sanitized architecture, product behavior, live demonstrations with fictitious data, security/reliability practices, non-sensitive metrics, engineering decisions and honest maturity status.
+<br/>
+
+Public evidence may include sanitized architecture, product behavior, live demonstrations with fictitious data, sanitized product-surface reconstructions, security/reliability practices, stable non-sensitive metrics, engineering decisions and honest maturity status.
 
 It should not include secrets, credentials, production databases, customer data, private topology, complete proprietary implementations or client-confidential logic.
 
-> **Evidence is public by design. Product implementation is private by default.**
+</details>
+
+---
 
 <div align="center">
+
+### **Evidence is public by design. Product implementation is private by default.**
 
 <a href="../README.md"><img src="https://img.shields.io/badge/RETURN-ENRIQUE_FLORES_PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" height="36" alt="Return to profile" /></a>
 <a href="https://crohnozlabs.cl"><img src="https://img.shields.io/badge/OPEN-CROHNOZ_LABS-EC4899?style=for-the-badge" height="36" alt="Open Crohnoz Labs" /></a>
