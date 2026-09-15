@@ -15,9 +15,25 @@
 
 **[English](README.md) · Español · [中文](README.zh-CN.md)**
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [Perfil profesional](https://crohnozlabs.cl/profile) · [Sistema de marca](brand/README.md)
+[LinkedIn](https://www.linkedin.com/in/prog-eflores) · [Crohnoz Labs](https://crohnozlabs.cl) · [Perfil profesional](https://crohnozlabs.cl/profile) · [Evidencia pública](evidence/README.md)
 
 </div>
+
+---
+
+## Resumen para recruiters
+
+**Python Backend / Full Stack Engineer** enfocado en software de producción, sistemas operacionales y automatización.
+
+`Python` · `Django / DRF` · `PostgreSQL` · `React` · `REST APIs` · `Docker` · `Linux` · `CI/CD` · `pytest` · `RBAC` · `Automatización` · `IA aplicada`
+
+- **Roles objetivo:** Python Backend Engineer, Django Developer, Full Stack Engineer, Software Engineer y Automation Engineer.
+- **Perfil de entrega:** requerimientos → modelado de dominio → implementación → pruebas → despliegue → operación.
+- **Experiencia aplicada:** sistemas reales en salud, comercio, flujos de sector público e infraestructura.
+- **Disponibilidad:** abierto a oportunidades de ingeniería de software remotas y en Chile.
+- **Portafolio basado en evidencia:** el código sensible de clientes permanece privado; los casos públicos demuestran arquitectura, comportamiento implementado y controles de ingeniería.
+
+**[LinkedIn →](https://www.linkedin.com/in/prog-eflores) · [Caso de ingeniería FDR →](evidence/fdr.md) · [Perfil profesional →](https://crohnozlabs.cl/profile)**
 
 ---
 
