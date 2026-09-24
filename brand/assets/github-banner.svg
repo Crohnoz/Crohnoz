@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
   <title id="title">Enrique Flores · Crohnoz Labs</title>
-  <desc id="desc">Premium founder profile hero for Enrique Flores, Product and Systems Architect at Crohnoz Labs, with FDR as the current flagship.</desc>
+  <desc id="desc">Professional profile hero for Enrique Flores, Software Developer and Product & Systems practitioner at Crohnoz Labs, with FDR as the current flagship.</desc>
   <defs>
     <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EC4899"/><stop offset="52%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EC4899"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient>
@@ -22,9 +22,9 @@
     <rect x="0" y="72" width="26" height="150" rx="13" fill="url(#brand)"/><rect x="38" y="38" width="26" height="66" rx="13" fill="url(#brand)"/><rect x="38" y="116" width="26" height="132" rx="13" fill="url(#brand)"/><rect x="76" y="20" width="26" height="230" rx="13" fill="url(#brand)"/><rect x="114" y="0" width="26" height="280" rx="13" fill="url(#brand)"/><rect x="152" y="44" width="26" height="70" rx="13" fill="url(#brand)"/><rect x="152" y="128" width="26" height="142" rx="13" fill="url(#brand)"/><rect x="190" y="28" width="26" height="230" rx="13" fill="url(#brand)"/><rect x="228" y="66" width="26" height="64" rx="13" fill="url(#brand)"/><rect x="228" y="148" width="26" height="94" rx="13" fill="url(#brand)"/>
   </g>
 
-  <text x="184" y="118" class="kicker">CROHNOZ LABS · FOUNDER PROFILE</text>
+  <text x="184" y="118" class="kicker">CROHNOZ LABS · PROFESSIONAL PROFILE</text>
   <text x="74" y="214" class="name">ENRIQUE FLORES</text>
-  <text x="76" y="258" class="role">Founder · Product &amp; Systems Architect</text>
+  <text x="76" y="258" class="role">Software Developer · Product &amp; Systems</text>
   <text x="76" y="316" class="copy">I turn operational complexity into working systems.</text>
 
   <g transform="translate(76 358)">
