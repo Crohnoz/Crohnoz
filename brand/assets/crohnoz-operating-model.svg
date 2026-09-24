@@ -41,7 +41,7 @@
   <!-- Leadership -->
   <rect x="565" y="190" width="470" height="92" rx="18" class="node" stroke="url(#brandLine)" stroke-width="2"/>
   <text x="800" y="225" text-anchor="middle" class="card-title">ENRIQUE FLORES</text>
-  <text x="800" y="252" text-anchor="middle" class="card-copy">Founder · Product &amp; Systems Architecture</text>
+  <text x="800" y="252" text-anchor="middle" class="card-copy">Software Developer · Product &amp; Systems Architecture</text>
 
   <path d="M800 282 V318" class="line"/>
   <circle cx="800" cy="318" r="4" fill="#8B5CF6"/>

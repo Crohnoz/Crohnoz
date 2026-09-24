@@ -67,10 +67,10 @@ Crohnoz Labs, the professional profile, language selection and the Brand System 
 
 ## Canonical profile assets
 
-### Founder surface
+### Professional profile surface
 
-- `assets/github-banner.svg` — desktop founder hero.
-- `assets/github-banner-mobile.svg` — mobile founder hero below `700px`.
+- `assets/github-banner.svg` — desktop professional profile hero.
+- `assets/github-banner-mobile.svg` — mobile professional profile hero below `700px`.
 - `assets/cta-fdr-case.svg` — primary case-study CTA.
 - `assets/cta-fdr-demo.svg` — primary safe-demo CTA.
 - `assets/cta-evidence.svg` — primary public-evidence CTA.

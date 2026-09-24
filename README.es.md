@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(max-width: 700px)" srcset="brand/assets/github-banner-mobile.svg" />
-  <img src="brand/assets/github-banner.svg" alt="Enrique Flores · Founder · Product & Systems Architect · Crohnoz Labs" width="100%" />
+  <img src="brand/assets/github-banner.svg" alt="Enrique Flores · Software Developer · Product & Systems · Crohnoz Labs" width="100%" />
 </picture>
 
 <br/><br/>
