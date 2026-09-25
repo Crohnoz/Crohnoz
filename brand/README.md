@@ -5,11 +5,26 @@ This directory is the canonical source of truth for the Crohnoz Labs visual iden
 ## Core identity
 
 - **Master brand:** Crohnoz Labs
+- **Canonical spelling:** **Crohnoz Labs** — always with `C`, `h` and final `z`.
+- **Short brand:** **Crohnoz** — reserved for product families, GitHub identity and compact contexts.
+- **Primary domain:** `crohnozlabs.cl`
 - **Primary claim:** **Tecnología que resuelve problemas reales.**
 - **Signature:** `IDEAS · SOFTWARE · IMPACTO`
 - **Operating language:** `BUILD · INTEGRATE · AUTOMATE · OBSERVE · PROTECT · IMPROVE`
 - **Systems narrative:** `PROBLEM → SYSTEM → EVIDENCE → SCALE`
 - **Primary mark:** vertical signal / waveform bars
+
+## Canonical naming
+
+Use **Crohnoz Labs** as the institutional name in public-facing copy, metadata, profiles and external communications.
+
+Do not use `Cronos Labs`, `Kronos Labs`, `Chronos Labs`, `Chronoz Labs` or other spelling variants as current branding. Legacy variants may remain only in redirects, compatibility aliases or historical records where changing them would break traceability.
+
+Product naming follows `Crohnoz + product descriptor` when the product belongs to the master brand, for example **Crohnoz Trace**, **Crohnoz Academy** and **Crohnoz Systems**.
+
+When a platform requires a compact identifier, prefer `crohnozlabs` or `crohnoz` rather than phonetic variants.
+
+---
 
 ## Visual tokens
 
@@ -105,7 +120,7 @@ Crohnoz Labs, the professional profile, language selection and the Brand System 
 
 ## Preferred profile sequence
 
-1. **Founder hero** — identity, role and current flagship signal.
+1. **Professional hero** — identity, current role and flagship signal.
 2. **Three primary actions** — case, demo, evidence.
 3. **Flagship engineering case** — strongest operational proof.
 4. **Product surfaces** — implemented interfaces shown safely.
