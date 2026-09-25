@@ -15,7 +15,7 @@
 
 **[ES](README.es.md) · EN · [中文](README.zh-CN.md)**
 
-[LinkedIn](https://www.linkedin.com/in/prog-eflores) · [Crohnoz Labs](https://crohnozlabs.cl) · [Professional Profile](https://crohnozlabs.cl/profile) · [Public Evidence](evidence/README.md)
+[LinkedIn](https://www.linkedin.com/in/prog-eflores) · [Crohnoz Labs](https://crohnozlabs.cl) · [Professional Profile](https://crohnozlabs.cl/enrique-flores) · [Public Evidence](evidence/README.md)
 
 </div>
 
@@ -35,7 +35,7 @@
 - **Availability:** open to remote and Chile-based software engineering opportunities.
 - **Evidence-first portfolio:** sensitive client code remains private; public case studies demonstrate architecture, implemented behavior and engineering controls.
 
-**[LinkedIn →](https://www.linkedin.com/in/prog-eflores) · [FDR engineering case →](evidence/fdr.md) · [Professional profile →](https://crohnozlabs.cl/profile)**
+**[LinkedIn →](https://www.linkedin.com/in/prog-eflores) · [FDR engineering case →](evidence/fdr.md) · [Professional profile →](https://crohnozlabs.cl/enrique-flores)**
 
 ---
 
@@ -126,13 +126,13 @@ I work where software has to fit real operations: healthcare, operational commer
 
 ## Professional collaboration
 
-<a href="https://crohnozlabs.cl/profile"><img src="brand/assets/professional-engagement.svg" alt="Professional engagement areas: product architecture, operational software, backend integrity and applied AI automation" width="100%" /></a>
+<a href="https://crohnozlabs.cl/enrique-flores"><img src="brand/assets/professional-engagement.svg" alt="Professional engagement areas: product architecture, operational software, backend integrity and applied AI automation" width="100%" /></a>
 
 Best-fit work is where the challenge is **understanding an operation, turning its rules into explicit system behavior and delivering it with reliable boundaries**.
 
 <div align="center">
 
-**[Professional profile →](https://crohnozlabs.cl/profile) · [Public evidence →](evidence/README.md) · [Crohnoz Labs →](https://crohnozlabs.cl)**
+**[Professional profile →](https://crohnozlabs.cl/enrique-flores) · [Public evidence →](evidence/README.md) · [Crohnoz Labs →](https://crohnozlabs.cl)**
 
 </div>
 
@@ -173,6 +173,6 @@ Security, privacy, testing, deployment and continuity are treated as product con
 
 `BUILD · INTEGRATE · AUTOMATE · OBSERVE · PROTECT · IMPROVE`
 
-[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/profile) · [Evidence](evidence/README.md)
+[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/enrique-flores) · [Evidence](evidence/README.md)
 
 </div>

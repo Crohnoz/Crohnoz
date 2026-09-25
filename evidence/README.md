@@ -147,6 +147,6 @@ It should not include secrets, credentials, production databases, customer data,
 
 ### **Problem → System → Evidence → Scale**
 
-[Enrique Flores profile](../README.md) · [Professional profile](https://crohnozlabs.cl/profile) · [Crohnoz Labs](https://crohnozlabs.cl)
+[Enrique Flores profile](../README.md) · [Professional profile](https://crohnozlabs.cl/enrique-flores) · [Crohnoz Labs](https://crohnozlabs.cl)
 
 </div>

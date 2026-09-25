@@ -105,7 +105,7 @@ require_text(
         "brand/assets/portfolio-maturity-mobile.svg",
         "Professional collaboration",
         "evidence/README.md",
-        "crohnozlabs.cl/profile",
+        "crohnozlabs.cl/enrique-flores",
     ],
 )
 
