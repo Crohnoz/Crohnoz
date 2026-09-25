@@ -19,6 +19,8 @@
 
 </div>
 
+**Enrique Flores** — **Crohnoz Labs** 软件开发者。`@Crohnoz` 是 GitHub 技术身份；Crohnoz Labs 是机构品牌。
+
 ---
 
 ## 旗舰工程案例

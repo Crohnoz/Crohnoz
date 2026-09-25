@@ -19,6 +19,8 @@
 
 </div>
 
+**Enrique Flores** — Desarrollador de software en **Crohnoz Labs**. `@Crohnoz` es la identidad técnica en GitHub; Crohnoz Labs es la marca institucional.
+
 ---
 
 ## Resumen para recruiters

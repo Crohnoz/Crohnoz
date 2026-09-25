@@ -19,6 +19,8 @@
 
 </div>
 
+**Enrique Flores** — Software Developer at **Crohnoz Labs**. `@Crohnoz` is the technical GitHub identity; Crohnoz Labs is the institutional brand.
+
 ---
 
 ## Recruiter snapshot
