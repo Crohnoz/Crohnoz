@@ -15,7 +15,7 @@
 
 **[English](README.md) · [Español](README.es.md) · 中文**
 
-[Crohnoz Labs](https://crohnozlabs.cl) · [专业资料](https://crohnozlabs.cl/profile) · [品牌系统](brand/README.md)
+[Crohnoz Labs](https://crohnozlabs.cl) · [专业资料](https://crohnozlabs.cl/enrique-flores) · [品牌系统](brand/README.md)
 
 </div>
 
@@ -110,13 +110,13 @@ FDR 获得旗舰级权重，是因为其证据明显更强。较早期系统保�
 
 ## 专业合作
 
-<a href="https://crohnozlabs.cl/profile"><img src="brand/assets/professional-engagement.svg" alt="产品架构、运营软件、后端完整性和应用型人工智能自动化" width="100%" /></a>
+<a href="https://crohnozlabs.cl/enrique-flores"><img src="brand/assets/professional-engagement.svg" alt="产品架构、运营软件、后端完整性和应用型人工智能自动化" width="100%" /></a>
 
 最适合的项目，是需要**理解真实运营、把规则转化为明确系统行为，并以可靠边界完成交付**的项目。
 
 <div align="center">
 
-**[专业资料 →](https://crohnozlabs.cl/profile) · [公开证据 →](evidence/README.md) · [Crohnoz Labs →](https://crohnozlabs.cl)**
+**[专业资料 →](https://crohnozlabs.cl/enrique-flores) · [公开证据 →](evidence/README.md) · [Crohnoz Labs →](https://crohnozlabs.cl)**
 
 </div>
 
@@ -157,6 +157,6 @@ FDR 获得旗舰级权重，是因为其证据明显更强。较早期系统保�
 
 `BUILD · INTEGRATE · AUTOMATE · OBSERVE · PROTECT · IMPROVE`
 
-[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/profile) · [Evidence](evidence/README.md)
+[Website](https://crohnozlabs.cl) · [Profile](https://crohnozlabs.cl/enrique-flores) · [Evidence](evidence/README.md)
 
 </div>
